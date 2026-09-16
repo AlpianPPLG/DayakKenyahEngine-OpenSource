@@ -1,0 +1,3983 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+Dyk-Knyh-engine-main/
+  src/
+    dict/
+      dictionary_alt.json
+    docs/
+      comparison-tables.md
+      requirements.txt
+      system-requirements.md
+    elements/
+      animated-tiles.svg
+      bg.jpg
+    engines/
+      engine_ADV.py
+      engine_ALT.py
+      engine_ATI.py
+      engine_ZS.py
+  LICENSE
+  README.md
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="Dyk-Knyh-engine-main/src/dict/dictionary_alt.json">
+{
+  "apa": "inu",
+  "kemana": "kenpi",
+  "dimana": "kenpi",
+  "siapa": "ahe",
+  "kapan": "mi'an",
+  "bagaimana": "kumpin",
+  "putih": "putek",
+  "hitam": "saleng",
+  "merah": "bala",
+  "1": "ca'",
+  "2": "dua",
+  "3": "telu",
+  "4": "pat",
+  "5": "lema",
+  "6": "nem",
+  "7": "tujuk",
+  "8": "aya",
+  "9": "pe'en",
+  "10": "puluk",
+  "11": "ca' elas",
+  "12": "dua elas",
+  "13": "telu elas",
+  "14": "pat elas",
+  "15": "lema elas",
+  "16": "nem elas",
+  "17": "tujuk elas",
+  "18": "aya elas",
+  "19": "pe'en elas",
+  "20": "dua puluk",
+  "30": "telu puluk",
+  "40": "pat puluk",
+  "50": "lema puluk",
+  "60": "nem puluk",
+  "70": "tujuk puluk",
+  "80": "aya puluk",
+  "90": "pe'en puluk",
+  "100": "ca' ato",
+  "1000": "ca' ibu",
+  "1000000": "ca' juta",
+  "satu": "ca'",
+  "dua": "dua",
+  "tiga": "telu",
+  "empat": "pat",
+  "lima": "lema",
+  "enam": "nem",
+  "tujuh": "tujuk",
+  "delapan": "aya",
+  "sembilan": "pe'en",
+  "sepuluh": "puluk",
+  "sebelas": "ca' elas",
+  "dua belas": "dua elas",
+  "tiga belas": "telu elas",
+  "empat belas": "pat elas",
+  "lima belas": "lema elas",
+  "enam belas": "nem elas",
+  "tujuh belas": "tujuk elas",
+  "delapan belas": "aya elas",
+  "sembilan belas": "pe'en elas",
+  "dua puluh": "dua puluk",
+  "tiga puluh": "telu puluk",
+  "empat puluh": "pat puluk",
+  "lima puluh": "lema puluk",
+  "enam puluh": "nem puluk",
+  "tujuh puluh": "tujuk puluk",
+  "delapan puluh": "aya puluk",
+  "sembilan puluh": "pe'en puluk",
+  "seratus": "ca' ato",
+  "seribu": "ca' ibu",
+  "sejuta": "ca' juta",
+  "ratus": "ato",
+  "ribu": "ibu",
+  "belas": "elas",
+  "nya": "la",
+  "aku": "ake",
+  "ada": "aun",
+  "anjing": "udut",
+  "ayam": "yap",
+  "babi": "babui",
+  "banteng": "kalasiau",
+  "bebek": "bidik",
+  "belalang": "kade",
+  "beruang": "buang",
+  "biawak": "kabuk",
+  "buaya": "baya",
+  "burung": "sui",
+  "cicak": "aru",
+  "gajah": "kesun",
+  "harimau": "lenjau",
+  "ikan": "atuk",
+  "lele": "kati",
+  "patin": "selareng",
+  "kambing": "kadeng",
+  "kancil": "pelanuk",
+  "kecoa": "lepa",
+  "kepiting": "yu",
+  "kijang": "payak",
+  "kodok": "sui",
+  "kucing": "sing",
+  "kupu-kupu": "bamper",
+  "lalat": "langau",
+  "cacing": "lati",
+  "macan": "kule",
+  "monyet": "kuyata",
+  "nyamuk": "jamok",
+  "rusa": "uca",
+  "siput": "sik/ulung",
+  "tikus": "belabau",
+  "ular": "tuduk",
+  "bagus": "tia",
+  "baru": "mading",
+  "besar": "bio",
+  "cepat": "sangit",
+  "kelakuan": "puyan",
+  "kosong": "mpi un",
+  "malas": "malat",
+  "nyata": "lan",
+  "pelit": "ma'em",
+  "ringan": "nyian",
+  "sehat": "agat",
+  "pagi": "tading nempam",
+  "siang": "naktau",
+  "malam": "nataup",
+  "sibuk": "lamak",
+  "berbagai": "kado",
+  "atau": "ataw",
+  "dan": "ngan",
+  "dari": "cen",
+  "berasal": "cen",
+  "diantara": "dalau",
+  "juga": "pe",
+  "karena": "uban",
+  "ke": "koq",
+  "mending": "lepa ini",
+  "saat": "sa taup",
+  "sebelum": "ken'a",
+  "tapi": "untepu'o",
+  "tetapi": "untepu'o",
+  "setelah": "lepa kadi",
+  "supaya": "apan",
+  "agar": "apan",
+  "untuk": "un",
+  "yang": "yak",
+  "adalah": "ja ne",
+  "ialah": "ialah",
+  "kalau": "awa'",
+  "badan": "usa",
+  "baju": "sapai",
+  "buah": "buaq",
+  "keledang": "ta'ep",
+  "cempedak": "nakan",
+  "lay": "pakit",
+  "rambutan": "sangit",
+  "desa": "lepo",
+  "gula": "gula'k",
+  "jendela": "sekan",
+  "kamar": "tilung lundo",
+  "kursi": "adan",
+  "lemari": "buan",
+  "lontong": "kanen lema'k",
+  "makanan": "penguman",
+  "memakan": "uman",
+  "dimakan": "uman",
+  "meja": "mejak",
+  "minuman": "nisep ia",
+  "minyak": "lenya",
+  "mobil": "oto",
+  "goreng": "saga",
+  "pasar": "pasen",
+  "piring": "kiyat",
+  "pondok": "lepau",
+  "rumah": "amin",
+  "sungai": "alo",
+  "tas": "bek",
+  "telur": "telo",
+  "kandang": "liwang",
+  "sudah": "lepa",
+  "sampai": "pa",
+  "balik": "liwer",
+  "bangun": "taga",
+  "belajar": "pekalai",
+  "berangkat": "tai te",
+  "bermain": "piat",
+  "berpikir": "pekimet",
+  "bikin": "uyan",
+  "buat": "uyan",
+  "bilang": "kun",
+  "sampaikan": "kun",
+  "bohong": "pala",
+  "bolos": "tai kelap",
+  "jalan": "masat",
+  "jalan-jalan": "masat-masat",
+  "jangan": "ain",
+  "keluar": "kawang",
+  "bekerja": "gayeng",
+  "kerja": "gayeng",
+  "kerjakan": "gayeng",
+  "ketahui": "tisen",
+  "tau": "tisen",
+  "makan": "uman",
+  "mandi": "ndu'",
+  "masak": "pesak",
+  "masuk": "ke dalem",
+  "melihat": "ngeneng",
+  "melihatnya": "ngeneng ia",
+  "membeli": "meli",
+  "mendengar": "ngeninga",
+  "menyanyi": "ngendau",
+  "minum": "nisep",
+  "nyaring": "bia",
+  "singgah": "ngena'k",
+  "tinggal": "ngena'k",
+  "disini": "ki",
+  "terima": "tiga",
+  "kasih": "tawai",
+  "tidur": "lundog",
+  "pindah": "buaw",
+  "berteduh": "ngedingan",
+  "petubo": "pelihara",
+  "adegan": "kaa",
+  "banyak": "kado",
+  "sekali": "ale",
+  "boleh": "kong",
+  "dulu": "ading",
+  "hari": "tau",
+  "ingatan": "kimet",
+  "kemarin": "nya'ep rei",
+  "memang": "adang",
+  "suka": "uba",
+  "cinta": "uba",
+  "sayang": "uba",
+  "melewati": "lapa",
+  "sama": "kuwa",
+  "nama": "ngadan",
+  "namaku": "ngadan keq",
+  "ku": "keq",
+  "oke": "aha",
+  "iya": "aha",
+  "pulang": "ula",
+  "sangat": "ali'",
+  "semua": "mung",
+  "seperti": "kuaq",
+  "suaranya": "isu'a",
+  "tentu": "ina",
+  "saja": "na",
+  "tidak": "nda",
+  "gayeng": "tugas",
+  "sekolah": "sekula",
+  "kabar": "denga",
+  "berita": "denga",
+  "hal": "denga",
+  "kejadian": "denga",
+  "salah": "bep",
+  "datang": "nay",
+  "tersisa": "naung",
+  "bapak": "amai",
+  "bersama": "ilu mung",
+  "hantu": "bali",
+  "ibu": "uweq",
+  "kalian": "ikem",
+  "kami": "ame",
+  "kamu": "ikoq",
+  "kau": "ikoq",
+  "kita": "ilu",
+  "saya": "ake",
+  "teman": "tuyang",
+  "mereka": "ida",
+  "masing": "tengen",
+  "masing-masing": "tengen-tengen",
+  "senin": "keca",
+  "selasa": "kedua",
+  "rabu": "ketelu",
+  "kamis": "tepat",
+  "jumat": "kelema",
+  "sabtu": "kenem",
+  "minggu": "minggu",
+  "adik": "ari'",
+  "angin": "bayu",
+  "air": "sungai",
+  "rumahmu": "lamin engku",
+  "ambil": "alak",
+  "baik": "lemeli",
+  "berenang": "nyatung",
+  "bocor": "tudok",
+  "berak": "lepin",
+  "berdiri": "ngrejeng",
+  "bicara": "petirak",
+  "bintang": "betuen",
+  "besok": "nembam",
+  "banjir": "layap",
+  "berapa": "kudak",
+  "celana": "seluen",
+  "cabe": "lia",
+  "duduk": "adung",
+  "dingin": "nyeng",
+  "gelap": "mendem",
+  "gigi": "jipen",
+  "gemuk": "lembo",
+  "gendong": "bak",
+  "gunung": "mudung",
+  "gundul": "ulok",
+  "garam": "usen",
+  "hidup": "mudip",
+  "hidung": "ndung",
+  "hutan": "a'ut",
+  "haus": "moang laset",
+  "jernih": "litut",
+  "mamak": "tinam",
+  "jatuh": "labok",
+  "jauh": "cok",
+  "jelek": "ja'at",
+  "kencing": "nyengit",
+  "kenyang": "beso",
+  "kepala": "ulu",
+  "keatas": "kempou",
+  "naik": "kempou",
+  "kembali": "ulek",
+  "kemarau": "tagak",
+  "kakek": "pui",
+  "nenek": "pui",
+  "kakak": "seken",
+  "kaki": "taket",
+  "kurus": "mae",
+  "kecil": "ang",
+  "lihat": "maat",
+  "lapar": "lau",
+  "laki": "laki",
+  "lidah": "uma",
+  "alkohol": "jakan",
+  "mabok": "meduk",
+  "madu": "layuk",
+  "orang": "lakeng",
+  "mencari": "mita",
+  "malu": "sa'e",
+  "menyelam": "lemeset",
+  "memanjat": "lemaket",
+  "menanam": "mula",
+  "menari": "kanjet",
+  "mau": "obak",
+  "mata": "mata",
+  "mimpi": "ngenupi",
+  "mencuri": "mengelau",
+  "menangis": "menange",
+  "mana": "mpi",
+  "mati": "matae",
+  "menyeberang": "pelawat",
+  "peluk": "nyekapu",
+  "panen": "maju",
+  "perut": "batek",
+  "pahit": "pait",
+  "pintu": "pamen",
+  "pakaian": "sapai",
+  "perahu": "alut",
+  "parang": "mandau",
+  "panjang": "dadok",
+  "pendek": "bu'et",
+  "pedas": "sanit",
+  "pergi": "tei",
+  "pandai": "encam",
+  "pohon": "puun",
+  "rindu": "menok menawai",
+  "sayur": "lekey",
+  "suami mu": "laki koq",
+  "satu bulan": "ca bulan",
+  "setuju": "aha",
+  "selimut": "kelumah",
+  "benar": "sio",
+  "di": "ka",
+  "sini": "ini",
+  "sana": "ina",
+  "situ": "ina",
+  "berlari": "kasa",
+  "berbaring": "meken",
+  "bersandar": "nyendei",
+  "berkebun": "uyam pula",
+  "nasi": "kenan",
+  "pedagang": "toke",
+  "nangis": "nange",
+  "main": "piat",
+  "ya": "aha",
+  "antara": "aang",
+  "hilir": "aba",
+  "peraturan": "adet",
+  "kenapa": "adi",
+  "mengapa": "adi",
+  "kesatu": "ading",
+  "dahulu": "ading",
+  "terdahulu": "ading",
+  "lalang": "ai'",
+  "pasir": "ait",
+  "tuntun": "ajak",
+  "baris": "ajat",
+  "keberanian": "akang",
+  "memberanikan": "ngakang",
+  "berani": "makang",
+  "ide": "aken",
+  "pikiran": "aken",
+  "kebijaksanaan": "aken",
+  "pinggang": "aking",
+  "rakit": "akit",
+  "kapal": "akit",
+  "meraup": "makup",
+  "cupu": "a'i'",
+  "jantan": "a'ung",
+  "belukar": "ma'ut",
+  "semak": "ma'ut",
+  "bersemak": "ma'ut",
+  "berumput": "ma'ut",
+  "rumput": "ma'ut",
+  "dapat": "ala'",
+  "mendapatkan": "ala'",
+  "bisa": "ala'",
+  "ranting": "alan",
+  "setengah": "alang",
+  "kebiasaan": "alay",
+  "lazim": "alay",
+  "jalur": "ale",
+  "banding": "aliu",
+  "arus": "alo",
+  "mengukur": "alut",
+  "simpan": "mambin",
+  "menyimpan": "mambin",
+  "memegang": "mambin",
+  "pegang": "mambin",
+  "memelihara": "mambim",
+  "tersimpan": "pambin",
+  "rantai": "ambit",
+  "bodoh": "ameng",
+  "bisu": "ameng",
+  "keluarga": "amit",
+  "mungkin": "amu'",
+  "kekanakkanakan": "pekanak",
+  "kembar": "pit",
+  "saudara": "aung",
+  "saudari": "aung",
+  "menatap": "aneng",
+  "tatap": "aneng",
+  "kulit": "anit",
+  "punya": "anun",
+  "milik": "anun",
+  "rintangan": "apat",
+  "aral": "apat",
+  "halangan": "apat",
+  "terlintang": "papat",
+  "tertahan": "papat",
+  "terhalang": "papat",
+  "menara": "apaw",
+  "penara": "apaw",
+  "bukit": "apaw",
+  "tali": "apay",
+  "cacat": "apet",
+  "kapur": "apo",
+  "tertarik": "arep",
+  "berminat": "arep",
+  "keinginan": "arep",
+  "cenderung": "arep",
+  "lahap": "asam",
+  "rakus": "asam",
+  "likut": "mundur",
+  "asal": "asen",
+  "jurang": "asep",
+  "lembah": "asep",
+  "beratus": "ato",
+  "meletakkan": "maung",
+  "menempatkan": "maung",
+  "menaruh": "maung",
+  "andai": "awa'",
+  "basi": "basi",
+  "basa'": "basah",
+  "batu": "batu",
+  "bayar": "bayan",
+  "teriak": "bika'",
+  "kuning": "bila'",
+  "pesawat": "bilun",
+  "racun": "bisa'",
+  "sisir": "bit",
+  "cemas": "bisaw",
+  "buku": "buk",
+  "bersih": "bui'",
+  "bola": "bula",
+  "aneh": "bulen",
+  "gila": "buling",
+  "bom": "bum",
+  "bermusuhan": "pebunu'",
+  "selamat": "bunut",
+  "memar": "buok",
+  "marah": "busi'",
+  "botol": "butun",
+  "lain": "cena'an",
+  "darah": "daa'",
+  "janji": "daji'",
+  "tangkap": "dakep",
+  "ketika": "dalaw",
+  "daerah": "dalé",
+  "sesat": "daru",
+  "alat": "de'buat",
+  "terang": "dema",
+  "hemat": "demun",
+  "lambat": "dena'",
+  "kuat": "denggep",
+  "tahu": "tisen",
+  "lampu": "titiw",
+  "bengkak": "tukuk",
+  "lupa": "turan",
+  "susu": "tusu",
+  "muntah": "tuta'",
+  "dermaga": "tuun",
+  "hujan": "ujan",
+  "tangan": "uju' ",
+  "langsung": "umba",
+  "dada": "usuk",
+  "otak": "utek",
+  "membuat": "uyan"
+}
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/docs/comparison-tables.md">
+---
+
+# ILTE Translation Engine Models Comparison Report
+
+This report provides a detailed side‐by‐side comparison of four ILTE translation engine models:
+
+- **Engine_ADV**
+- **Engine_ALT**
+- **Engine_ATI**
+- **Engine_ZS**
+
+Each model has evolved over time, adding new features and optimizations. The following sections summarize their key differences and strengths.
+
+---
+
+## Summary Table
+
+| **Feature**                    | **Engine_ADV**                                    | **Engine_ALT**                                    | **Engine_ATI**                                    | **Engine_ZS**                                     |
+|--------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
+| **Dictionary Used**            | External ID-DYK dictionary                        | External ID-DYK dictionary                        | External ID-DYK dictionary                        | External ID-DYK dictionary                        |
+| **Malay Dictionary Usage**     | Not used                                          | Not used                                          | Removed                                           | Integrated Malay cognate detection                |
+| **External Translation Pipelines** | Helsinki-NLP for en→id and id→en                  | Helsinki-NLP for en→id and id→en                  | Helsinki-NLP for en→id (for candidate generation) | Helsinki-NLP for en→id; Zero-shot fallback (MBart)  |
+| **Context Window**             | Configurable (default: 3)                         | Minimal; word-by-word matching                    | Broader context (default: 10)                      | Adaptive context processing                       |
+| **Preprocessing Methods**      | Basic stemming (Sastrawi & Snowball)              | Basic stemming (Sastrawi & Snowball)              | Hierarchical normalization using regex & stemming | Unicode normalization and advanced token cleaning |
+| **Similarity Matching**        | SentenceTransformer (MiniLM)                      | Levenshtein distance matching                     | SentenceTransformer-based semantic matching        | SentenceTransformer with zero-shot fallback         |
+| **Batch Processing & Parallelization** | Yes (DataLoader for batching)                   | Limited/None                                      | Yes (Multi-threaded & multi-process)              | Yes (Multi-threaded & multi-process)              |
+| **Zero-shot Translation**      | Not implemented                                   | Not implemented                                   | Not implemented                                   | Implemented (MBart-based zero-shot translation)     |
+| **Caching**                    | Not implemented                                   | Not implemented                                   | JSON-based caching with expiry                    | JSON-based caching with locking                   |
+| **Handling of Unknown Words**  | Context-based similarity matching                 | Levenshtein-based closest match                   | Iterative translation with dynamic candidate generation | Combined RBMT, FST, semantic matching, and zero-shot fallback |
+| **Report Generation**          | Basic DOCX report with overall metrics            | Basic DOCX report                                 | Detailed DOCX report with preserved formatting and metrics | Detailed DOCX report with refined final translations and formatting |
+| **Resource Management**        | Uses GPU for BERT and SentenceTransformer          | CPU-based processing                              | Optimized resource management with caching and batching | Advanced resource management with explicit GPU memory handling |
+
+---
+
+## Detailed Comparison
+
+### Engine_ADV
+- **Overview**:  
+  Uses advanced context encoding with a SentenceTransformer to precompute dictionary embeddings.  
+- **Preprocessing**:  
+  Relies on both Sastrawi and Snowball stemmers.  
+- **Translation Approach**:  
+  Uses Helsinki-NLP pipelines for English-to-Indonesian and Indonesian-to-English translation.  
+- **Batch Processing**:  
+  Implements batching via PyTorch’s DataLoader and processes text in batches.
+- **Limitations**:  
+  Lacks robust candidate generation for unknown words and doesn’t implement caching.
+
+---
+
+### Engine_ALT
+- **Overview**:  
+  A simpler engine that performs direct dictionary lookup and uses Levenshtein distance for finding the closest match.  
+- **Preprocessing**:  
+  Utilizes Snowball and Sastrawi stemmers for normalization.
+- **Translation Approach**:  
+  Processes text word-by-word without a broader context, which may result in less accurate translations.
+- **Limitations**:  
+  Minimal parallel processing and no caching; less context-aware.
+
+---
+
+### Engine_ATI
+- **Overview**:  
+  Improves upon earlier models by incorporating a broader context window and iterative translation.  
+- **Preprocessing**:  
+  Implements hierarchical normalization (lowercasing, regex-based cleaning, and stemming) without hardcoded mappings.  
+- **Translation Approach**:  
+  Dynamically generates candidates (e.g. via the Helsinki-NLP en→id translator) when direct dictionary lookups fail.  
+- **Optimization**:  
+  Uses multi-threading and multi-processing with JSON-based caching.
+- **Report Generation**:  
+  Generates detailed DOCX reports that preserve the original text formatting.
+- **Strengths**:  
+  Iterative processing refines the translation until stabilization.
+
+---
+
+### Engine_ZS
+- **Overview**:  
+  The most advanced version, enhancing the ATI model with rule-based machine translation (RBMT), FST improvements, and a zero-shot fallback.  
+- **Preprocessing**:  
+  Builds upon hierarchical normalization while integrating additional rules for idiomatic expressions.
+- **Translation Approach**:  
+  Combines dictionary lookup, FST rules, semantic matching, and zero-shot translation (using MBart) to handle unknown words robustly.
+- **Optimization**:  
+  Incorporates comprehensive resource management, caching, and parallel processing.
+- **Report Generation**:  
+  Produces a refined DOCX report that includes final translations with preserved paragraph breaks.
+- **Strengths**:  
+  Most robust and context-aware, suitable for production environments with challenging inputs.
+
+---
+
+## Conclusion
+
+- **Engine_ADV** is best for applications requiring context-encoded semantic matching and batch processing, though it lacks fallback mechanisms.
+- **Engine_ALT** offers a straightforward dictionary-based solution with Levenshtein matching but does not leverage context.
+- **Engine_ATI** enhances translation quality through iterative processing, dynamic candidate generation, and robust caching.
+- **Engine_ZS** combines all previous improvements with rule-based refinements and a zero-shot fallback for the most robust, context-aware translation.
+
+This report outlines the evolution of the ILTE engines and provides a clear comparison of each model’s features and performance characteristics.
+
+---
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/docs/requirements.txt">
+# Core ML and Deep Learning
+torch>=2.0.0                # PyTorch for deep learning models
+transformers>=4.30.0        # Hugging Face Transformers for NLP tasks
+sentence-transformers>=2.2.2 # Sentence embeddings for similarity matching
+bitsandbytes>=0.45.2        # Optimized quantization for transformer models
+
+# NLP Libraries
+nltk>=3.8.1                 # Natural Language Toolkit for text processing
+Sastrawi>=1.0.1             # Indonesian language stemming
+python-Levenshtein>=0.21.0  # Levenshtein distance for fuzzy matching
+malaya>=4.9.1               # Bahasa NLP toolkit for semantic matching
+fasttext-wheel>=0.9.2       # FastText embeddings for out-of-vocabulary handling
+
+# Data Processing
+numpy>=1.24.0               # Numerical computations
+chardet>=5.0.0              # Encoding detection for input files
+psutil>=5.9.4               # System resource monitoring
+
+# Document Handling
+python-docx>=0.8.11         # DOCX file handling for reports
+
+# Performance and Progress
+tqdm>=4.65.0                # Progress bars for processing
+
+# Translation Model Dependencies
+sacremoses>=0.0.53          # Preprocessing for tokenization
+sentencepiece>=0.1.99       # Tokenization model
+protobuf>=3.20.0            # Model serialization format
+
+# Parallel Processing and Optimization
+concurrent-log-handler>=0.9.20  # Thread-safe logging
+threadpoolctl>=3.1.0            # Controls parallelization of native libraries
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/docs/system-requirements.md">
+# 🖥️ System Requirements for ILTE Engines
+
+## 🚀 Overview
+This document provides the **minimum and recommended system requirements** for running all four ILTE engine models efficiently. While **ILTE-ALT** is lightweight, **ILTE-ITE (v3.0.0-Alpha.3)** requires higher computational power due to its advanced processing capabilities.
+
+---
+
+## 🏆 **General Requirements**
+| Component   | Minimum Requirement | Recommended Requirement |
+|------------|---------------------|-------------------------|
+| **OS** | Windows 10 / Linux Ubuntu 20.04+ | Windows 11 / Linux Ubuntu 22.04 |
+| **Python Version** | 3.8+ | 3.10+ |
+| **Storage** | 2GB Free Space | 5GB SSD/NVMe |
+| **Network** | Stable internet for model downloads | High-speed internet (Fiber) |
+
+---
+
+## 🌱 **ILTE-ALT v2.1.0-Beta.2 (Dictionary-Based Engine)**
+| Component   | Minimum Requirement | Recommended Requirement |
+|------------|---------------------|-------------------------|
+| **CPU** | Intel Core i3 / AMD Ryzen 3 | Intel Core i5 / AMD Ryzen 5 |
+| **RAM** | 4GB | 8GB |
+| **GPU** | Not required | NVIDIA GTX 1050+ for acceleration |
+| **Dependencies** | `torch`, `transformers`, `nltk`, `Sastrawi`, `python-docx` |
+| **Processing Threads** | 2 | 4 |
+| **Batch Processing** | No | Yes |
+
+✅ **Ideal for:** Fast translations with minimal hardware and direct dictionary-based translation.
+
+---
+
+## 🧠 **ILTE-ZS v2.1.2-Beta.3 (Hybrid Engine with RBMT & FST)**
+| Component   | Minimum Requirement | Recommended Requirement |
+|------------|---------------------|-------------------------|
+| **CPU** | Intel Core i5 / AMD Ryzen 5 | Intel Core i7 / AMD Ryzen 7 |
+| **RAM** | 8GB | 16GB |
+| **GPU** | NVIDIA GTX 1050+ | NVIDIA RTX 2060+ |
+| **Dependencies** | `sentence-transformers`, `Levenshtein`, `malaya`, `fasttext-wheel`, `protobuf` |
+| **Processing Threads** | 4 | 8 |
+| **Batch Processing** | Yes | Yes (Optimized with multi-threading) |
+| **Parallelization** | Partial | Yes (Thread + Process Pool) |
+
+✅ **Ideal for:** Efficient batch translation with **multi-processing, dictionary fallback, and semantic matching**.
+
+---
+
+## 🔍 **ILTE-ADV v2.1.1-Alpha.2 (AI-Powered, Context-Aware Engine)**
+| Component   | Minimum Requirement | Recommended Requirement |
+|------------|---------------------|-------------------------|
+| **CPU** | Intel Core i7 / AMD Ryzen 7 | Intel Core i9 / AMD Ryzen 9 |
+| **RAM** | 16GB | 32GB |
+| **GPU** | NVIDIA RTX 2060+ | NVIDIA RTX 3090 / A100 |
+| **Dependencies** | `sentence-transformers`, `transformers`, `bitsandbytes`, `fasttext`, `scipy`, `numpy` |
+| **Processing Threads** | 8 | 12 |
+| **Batch Processing** | Yes | Yes (Optimized with DataLoader) |
+| **Parallelization** | Yes (Thread & Process Pool) | Yes (CUDA Acceleration) |
+
+✅ **Ideal for:** **Context-aware, AI-driven translations with BERT-based embedding models**.
+
+---
+
+## ✨ **ILTE-ATI v3.0.0-Alpha.3 (Iterative Attention-Based Engine)**
+| Component   | Minimum Requirement | Recommended Requirement |
+|------------|---------------------|-------------------------|
+| **CPU** | Intel Core i5 / AMD Ryzen 5 | AMD Ryzen 7 / Intel Core i7 |
+| **RAM** | 16GB | 32GB |
+| **GPU** | NVIDIA RTX 3050+ | NVIDIA RTX 4050+ |
+| **Dependencies** | `transformers`, `sentence-transformers`, `malaya`, `protobuf`, `torch`, `threadpoolctl`, `chardet` |
+| **Processing Threads** | 8 | 12+ |
+| **Batch Processing** | Yes (Optimized with adaptive batching) | Yes (Efficient multi-level parallelization) |
+| **Parallelization** | Yes (Hybrid multi-threading & CUDA) | Yes (Full CUDA & Multi-GPU Scaling) |
+| **Cache Optimization** | JSON-based caching | JSON + Memory-based caching with locking |
+
+✅ **Ideal for:** **High-accuracy translations with iterative refinement, deep contextual understanding, and scalable processing.**
+
+---
+
+## ⚡ **Performance Optimization Tips**
+- **Enable CUDA:** If using a compatible NVIDIA GPU, install `torch` with CUDA support (`pip install torch --extra-index-url https://download.pytorch.org/whl/cu118`).
+- **Use SSD/NVMe:** Reduces data load time for models.
+- **Run in Multi-Process Mode:** Use `threadpoolctl` for efficient parallel execution.
+- **Use Adaptive Batching:** Allows efficient handling of large documents without excessive memory consumption.
+
+---
+
+## 📌 Conclusion
+- **ILTE-ALT** 🟢 runs on most basic setups with dictionary-based translation.
+- **ILTE-ZS** 🔵 is optimized for **batch processing and hybrid translation techniques**.
+- **ILTE-ADV** 🟠 requires **AI-powered hardware with semantic understanding**.
+- **ILTE-ATI** 🔴 is the most demanding but provides **the highest translation accuracy through iterative refinement and attention mechanisms**.
+
+Choose the right version based on your **hardware capability** and **translation needs**! 🚀
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/elements/animated-tiles.svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 256">
+  <style>
+    /* The animation:
+       - 0%: tile is off (black, no glow)
+       - 0%-20%: quick fade‑in to full brightness (peak color, no glow)
+       - 20%-50%: holds full brightness (peak color, no glow)
+       - 50%: glow is applied (full drop-shadow to left)
+       - 50%-90%: gradual fade‑out while glow remains, then starts to reduce
+       - 90%-100%: glow is reduced to nothing and the tile becomes black */
+    @keyframes fadeInOutGlow {
+      0% {
+        fill: #000000;
+        filter: none;
+      }
+      20% {
+        fill: var(--peak-color);
+        filter: none;
+      }
+      50% {
+        fill: var(--peak-color);
+        filter: drop-shadow(-2px 0 5px var(--peak-color));
+      }
+      90% {
+        fill: var(--peak-color);
+        filter: drop-shadow(-2px 0 2px var(--peak-color));
+      }
+      100% {
+        fill: #000000;
+        filter: none;
+      }
+    }
+    .tile {
+      animation: fadeInOutGlow 3.2s ease-in-out infinite;
+    }
+    /* Dark background to match GitHub theme */
+    .background {
+      fill: #0d1117;
+    }
+  </style>
+  
+  <!-- Background -->
+  <rect class="background" width="1280" height="256" />
+  
+  <!-- 4 rows of 20 tiles (each 64×64) with randomized delays -->
+  <g>
+    <!-- Row 1 (y = 0) -->
+    <rect class="tile" x="0"    y="0"   width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.73s"/>
+    <rect class="tile" x="64"   y="0"   width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.12s"/>
+    <rect class="tile" x="128"  y="0"   width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.45s"/>
+    <rect class="tile" x="192"  y="0"   width="64" height="64" style="--peak-color: #3CB371; animation-delay: 2.13s"/>
+    <rect class="tile" x="256"  y="0"   width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.89s"/>
+    <rect class="tile" x="320"  y="0"   width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.67s"/>
+    <rect class="tile" x="384"  y="0"   width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.23s"/>
+    <rect class="tile" x="448"  y="0"   width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.95s"/>
+    <rect class="tile" x="512"  y="0"   width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.55s"/>
+    <rect class="tile" x="576"  y="0"   width="64" height="64" style="--peak-color: #32CD32; animation-delay: 2.03s"/>
+    <rect class="tile" x="640"  y="0"   width="64" height="64" style="--peak-color: #98FB98; animation-delay: 1.37s"/>
+    <rect class="tile" x="704"  y="0"   width="64" height="64" style="--peak-color: #3CB371; animation-delay: 0.84s"/>
+    <rect class="tile" x="768"  y="0"   width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 1.50s"/>
+    <rect class="tile" x="832"  y="0"   width="64" height="64" style="--peak-color: #32CD32; animation-delay: 2.24s"/>
+    <rect class="tile" x="896"  y="0"   width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.64s"/>
+    <rect class="tile" x="960"  y="0"   width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.82s"/>
+    <rect class="tile" x="1024" y="0"   width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.40s"/>
+    <rect class="tile" x="1088" y="0"   width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.10s"/>
+    <rect class="tile" x="1152" y="0"   width="64" height="64" style="--peak-color: #98FB98; animation-delay: 1.76s"/>
+    <rect class="tile" x="1216" y="0"   width="64" height="64" style="--peak-color: #3CB371; animation-delay: 0.95s"/>
+    
+    <!-- Row 2 (y = 64) -->
+    <rect class="tile" x="0"    y="64"  width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.05s"/>
+    <rect class="tile" x="64"   y="64"  width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.67s"/>
+    <rect class="tile" x="128"  y="64"  width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.89s"/>
+    <rect class="tile" x="192"  y="64"  width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.52s"/>
+    <rect class="tile" x="256"  y="64"  width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.33s"/>
+    <rect class="tile" x="320"  y="64"  width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.77s"/>
+    <rect class="tile" x="384"  y="64"  width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.56s"/>
+    <rect class="tile" x="448"  y="64"  width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 2.17s"/>
+    <rect class="tile" x="512"  y="64"  width="64" height="64" style="--peak-color: #3CB371; animation-delay: 0.88s"/>
+    <rect class="tile" x="576"  y="64"  width="64" height="64" style="--peak-color: #98FB98; animation-delay: 1.42s"/>
+    <rect class="tile" x="640"  y="64"  width="64" height="64" style="--peak-color: #32CD32; animation-delay: 0.39s"/>
+    <rect class="tile" x="704"  y="64"  width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 1.98s"/>
+    <rect class="tile" x="768"  y="64"  width="64" height="64" style="--peak-color: #3CB371; animation-delay: 0.83s"/>
+    <rect class="tile" x="832"  y="64"  width="64" height="64" style="--peak-color: #98FB98; animation-delay: 1.27s"/>
+    <rect class="tile" x="896"  y="64"  width="64" height="64" style="--peak-color: #32CD32; animation-delay: 0.61s"/>
+    <rect class="tile" x="960"  y="64"  width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 1.74s"/>
+    <rect class="tile" x="1024" y="64"  width="64" height="64" style="--peak-color: #3CB371; animation-delay: 0.48s"/>
+    <rect class="tile" x="1088" y="64"  width="64" height="64" style="--peak-color: #98FB98; animation-delay: 1.31s"/>
+    <rect class="tile" x="1152" y="64"  width="64" height="64" style="--peak-color: #32CD32; animation-delay: 0.93s"/>
+    <rect class="tile" x="1216" y="64"  width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 1.58s"/>
+    
+    <!-- Row 3 (y = 128) -->
+    <rect class="tile" x="0"    y="128" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.91s"/>
+    <rect class="tile" x="64"   y="128" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.34s"/>
+    <rect class="tile" x="128"  y="128" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.56s"/>
+    <rect class="tile" x="192"  y="128" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.88s"/>
+    <rect class="tile" x="256"  y="128" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.62s"/>
+    <rect class="tile" x="320"  y="128" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.47s"/>
+    <rect class="tile" x="384"  y="128" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.79s"/>
+    <rect class="tile" x="448"  y="128" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.23s"/>
+    <rect class="tile" x="512"  y="128" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.67s"/>
+    <rect class="tile" x="576"  y="128" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.91s"/>
+    <rect class="tile" x="640"  y="128" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.49s"/>
+    <rect class="tile" x="704"  y="128" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.65s"/>
+    <rect class="tile" x="768"  y="128" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.88s"/>
+    <rect class="tile" x="832"  y="128" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.29s"/>
+    <rect class="tile" x="896"  y="128" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.72s"/>
+    <rect class="tile" x="960"  y="128" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.54s"/>
+    <rect class="tile" x="1024" y="128" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.85s"/>
+    <rect class="tile" x="1088" y="128" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.12s"/>
+    <rect class="tile" x="1152" y="128" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.65s"/>
+    <rect class="tile" x="1216" y="128" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.47s"/>
+    
+    <!-- Row 4 (y = 192) -->
+    <rect class="tile" x="0"    y="192" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.02s"/>
+    <rect class="tile" x="64"   y="192" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.58s"/>
+    <rect class="tile" x="128"  y="192" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.66s"/>
+    <rect class="tile" x="192"  y="192" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.74s"/>
+    <rect class="tile" x="256"  y="192" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.37s"/>
+    <rect class="tile" x="320"  y="192" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.92s"/>
+    <rect class="tile" x="384"  y="192" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.84s"/>
+    <rect class="tile" x="448"  y="192" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.66s"/>
+    <rect class="tile" x="512"  y="192" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.49s"/>
+    <rect class="tile" x="576"  y="192" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.83s"/>
+    <rect class="tile" x="640"  y="192" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.25s"/>
+    <rect class="tile" x="704"  y="192" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.57s"/>
+    <rect class="tile" x="768"  y="192" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.73s"/>
+    <rect class="tile" x="832"  y="192" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.81s"/>
+    <rect class="tile" x="896"  y="192" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.35s"/>
+    <rect class="tile" x="960"  y="192" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.68s"/>
+    <rect class="tile" x="1024" y="192" width="64" height="64" style="--peak-color: #3CB371; animation-delay: 1.47s"/>
+    <rect class="tile" x="1088" y="192" width="64" height="64" style="--peak-color: #00FF7F; animation-delay: 0.89s"/>
+    <rect class="tile" x="1152" y="192" width="64" height="64" style="--peak-color: #32CD32; animation-delay: 1.68s"/>
+    <rect class="tile" x="1216" y="192" width="64" height="64" style="--peak-color: #98FB98; animation-delay: 0.74s"/>
+  </g>
+</svg>
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/engines/engine_ADV.py">
+import json
+import gc
+import numpy as np
+import chardet
+import re
+from Levenshtein import distance as lev_distance
+from nltk.stem import SnowballStemmer
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from transformers import (
+    pipeline,
+    AutoTokenizer,
+    AutoModelForMaskedLM
+)
+from sentence_transformers import SentenceTransformer
+import torch
+from torch.utils.data import DataLoader, Dataset
+from docx import Document
+import os
+from collections import defaultdict
+from tqdm import tqdm
+from typing import List, Tuple, Dict
+
+def sanitize_text(text: str) -> str:
+    """
+    Remove control characters and other XML-incompatible characters.
+    """
+    # Remove characters in ranges: U+0000-U+0008, U+000B-U+000C, U+000E-U+001F
+    return re.sub(r'[\x00-\x08\x0B-\x0C\x0E-\x1F]', '', text)
+
+class TextBatchDataset(Dataset):
+    def __init__(self, texts: List[str], window_size: int = 3):
+        self.texts = texts
+        self.window_size = window_size
+        self.windows = self._create_windows()
+        
+    def _create_windows(self):
+        windows = []
+        for text in self.texts:
+            words = text.split()
+            for i in range(len(words)):
+                window = words[max(0, i-self.window_size):min(len(words), i+self.window_size+1)]
+                windows.append((" ".join(window), words[i]))
+        return windows
+    
+    def __len__(self):
+        return len(self.windows)
+        
+    def __getitem__(self, idx):
+        return self.windows[idx]
+
+class OptimizedIndigenousTranslator:
+    def __init__(self, json_path, batch_size=32):
+        # Load dictionary and initialize stemmers
+        self.dictionary = self.load_json(json_path)
+        self.batch_size = batch_size
+        factory = StemmerFactory()
+        self.id_stemmer = factory.create_stemmer()
+        self.en_stemmer = SnowballStemmer("english")
+        
+        # Optimization config for translation pipelines
+        self.optimization_config_translation = {
+            "torch_dtype": torch.float16,
+            "load_in_8bit": True,
+            "max_memory": {"cuda:0": "3.5GB"}
+        }
+        
+        # General optimization config for other models (excluding zero-shot classifier)
+        self.optimization_config = {
+            "torch_dtype": torch.float16,
+            "device_map": "auto",
+            "load_in_8bit": True,
+            "max_memory": {"cuda:0": "3.5GB"}
+        }
+        
+        # Separate optimization config for zero-shot classifier (without device_map)
+        self.optimization_config_zero_shot = {
+            "torch_dtype": torch.float16,
+            "load_in_8bit": True,
+            "max_memory": {"cuda:0": "3.5GB"}
+        }
+        
+        # Initialize translation pipelines
+        print("Loading translation models...")
+        self.en_id_translator = pipeline(
+            "translation_en_to_id",
+            model="Helsinki-NLP/opus-mt-en-id",
+            tokenizer="Helsinki-NLP/opus-mt-en-id",
+            **self.optimization_config_translation
+        )
+        self.id_en_translator = pipeline(
+            "translation_id_to_en",
+            model="Helsinki-NLP/opus-mt-id-en",
+            tokenizer="Helsinki-NLP/opus-mt-id-en",
+            **self.optimization_config_translation
+        )
+        
+        # Load Indonesian BERT without extra device_map (use as is)
+        print("Loading BERT model...")
+        self.tokenizer = AutoTokenizer.from_pretrained("cahya/bert-base-indonesian-1.5G")
+        self.context_model = AutoModelForMaskedLM.from_pretrained(
+            "cahya/bert-base-indonesian-1.5G",
+            torch_dtype=torch.float16
+        )
+        if torch.cuda.is_available():
+            self.context_model.to("cuda")
+        
+        # Initialize SentenceTransformer
+        print("Loading SentenceTransformer...")
+        self.sentence_model = SentenceTransformer(
+            'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2',
+            device='cuda' if torch.cuda.is_available() else 'cpu'
+        )
+        
+        # Precompute dictionary embeddings
+        print("Computing dictionary embeddings...")
+        self.dict_words = list(self.dictionary.keys())
+        if self.dict_words:
+            self.dict_embeddings = self.sentence_model.encode(
+                self.dict_words,
+                batch_size=self.batch_size,
+                convert_to_numpy=True,
+                show_progress_bar=True
+            )
+        else:
+            self.dict_embeddings = np.array([])
+        
+        # Initialize zero-shot classifier
+        print("Loading zero-shot classifier...")
+        self.zero_shot = pipeline(
+            "zero-shot-classification",
+            model="typeform/distilbert-base-uncased-mnli",
+            tokenizer="typeform/distilbert-base-uncased-mnli",
+            **self.optimization_config_zero_shot
+        )
+        
+        # Translation tracking
+        self.translations = []
+        self.pattern_memory = defaultdict(dict)
+        self.context_cache = {}
+        print("Initialization complete!")
+        
+    @staticmethod
+    def detect_encoding(file_path):
+        """Detect file encoding using chardet."""
+        with open(file_path, "rb") as f:
+            raw_data = f.read(1024)
+        result = chardet.detect(raw_data)
+        return result.get("encoding")
+        
+    def load_json(self, path):
+        with open(path, "r") as f:
+            return json.load(f)
+            
+    @torch.no_grad()
+    def batch_encode_contexts(self, contexts: List[str]) -> torch.Tensor:
+        """Encode multiple contexts in a single batch."""
+        inputs = self.tokenizer(contexts, return_tensors="pt", padding=True, truncation=True)
+        inputs = {k: v.to(self.context_model.device) for k, v in inputs.items()}
+        outputs = self.context_model(**inputs, output_hidden_states=True)
+        return outputs.hidden_states[-1].mean(dim=1)
+    
+    @torch.no_grad()
+    def batch_semantic_similarity(self, words: List[str], contexts: List[str]) -> List[Tuple[str, float]]:
+        """Compute semantic similarity for multiple words and contexts in parallel."""
+        # Encode words and contexts
+        word_embeddings = self.sentence_model.encode(words, batch_size=self.batch_size, convert_to_numpy=True)
+        context_embeddings = self.sentence_model.encode(contexts, batch_size=self.batch_size, convert_to_numpy=True)
+        # Normalize embeddings
+        word_embeddings = word_embeddings / np.linalg.norm(word_embeddings, axis=1, keepdims=True)
+        context_embeddings = context_embeddings / np.linalg.norm(context_embeddings, axis=1, keepdims=True)
+        # Compute cosine similarities
+        word_similarities = np.dot(word_embeddings, self.dict_embeddings.T)
+        context_similarities = np.dot(context_embeddings, self.dict_embeddings.T)
+        # Combine scores
+        combined_scores = 0.7 * word_similarities + 0.3 * context_similarities
+        best_indices = np.argmax(combined_scores, axis=1)
+        best_scores = combined_scores[np.arange(len(best_indices)), best_indices]
+        return [(self.dict_words[idx], score) for idx, score in zip(best_indices, best_scores)]
+    
+    def analyze_patterns_batch(self, texts: List[str], window_size=3) -> Dict[str, Dict]:
+        """Analyze text patterns in batch."""
+        patterns = defaultdict(dict)
+        dataset = TextBatchDataset(texts, window_size)
+        dataloader = DataLoader(dataset, batch_size=self.batch_size, shuffle=False)
+        for batch_contexts, batch_words in dataloader:
+            context_embeddings = self.batch_encode_contexts(batch_contexts)
+            for context, word, embedding in zip(batch_contexts, batch_words, context_embeddings):
+                pattern_key = tuple(context.split())
+                if pattern_key in self.pattern_memory:
+                    patterns[word].update(self.pattern_memory[pattern_key])
+        return patterns
+    
+    def preprocess_text(self, text: str, lang: str) -> Tuple[str, Dict[str, str]]:
+        """Enhanced preprocessing with context preservation."""
+        text = text.lower()
+        words = text.split()
+        if lang == "id":
+            processed = [self.id_stemmer.stem(word) for word in words]
+        elif lang == "en":
+            processed = [self.en_stemmer.stem(word) for word in words]
+        else:
+            processed = words
+        mapping = dict(zip(words, processed))
+        return " ".join(processed), mapping
+    
+    def translate_text(self, text: str, source_lang: str, target_lang: str) -> str:
+        """Optimized text translation using batched processing."""
+        print(f"Translating from {source_lang} to {target_lang}...")
+        
+        if source_lang == "en" and target_lang == "dyk":
+            text = self.en_id_translator(text, max_length=512)[0]["translation_text"]
+        elif source_lang == "dyk" and target_lang == "en":
+            text = self.translate_text(text, "dyk", "id")
+            text = self.id_en_translator(text, max_length=512)[0]["translation_text"]
+            return text
+            
+        processed_text, word_mapping = self.preprocess_text(text, source_lang)
+        words = processed_text.split()
+        
+        # Create dataset and dataloader for batch processing
+        dataset = TextBatchDataset(words)
+        dataloader = DataLoader(dataset, batch_size=self.batch_size, shuffle=False)
+        
+        translated_words = []
+        confidence_list = []
+        
+        print("Processing translation in batches...")
+        for batch_contexts, batch_words in tqdm(dataloader, desc="Translating"):
+            semantic_matches = self.batch_semantic_similarity(batch_words, batch_contexts)
+            for word, (match, confidence) in zip(batch_words, semantic_matches):
+                if confidence > 0.8:
+                    translation = self.dictionary.get(match, word)
+                    translated_words.append(translation)
+                    confidence_list.append(confidence)
+                else:
+                    translation = self.dictionary.get(word, word)
+                    translated_words.append(translation)
+                    confidence_list.append(1.0 if word in self.dictionary else 0.0)
+        
+        self.confidence = np.mean(confidence_list)
+        self.match_rate = len([c for c in confidence_list if c > 0]) / len(confidence_list)
+        
+        translation = " ".join(translated_words)
+        self.translations.append((
+            text,
+            translation,
+            self.confidence,
+            len(words),
+            len(translated_words)
+        ))
+        
+        print(f"Translation complete! Confidence: {self.confidence:.2%}")
+        return translation
+    
+    def create_report(self, filename: str):
+        """Enhanced report creation with additional metrics."""
+        doc = Document()
+        doc.add_heading("Translation Report", 0)
+        
+        avg_confidence = sum(conf for _, _, conf, _, _ in self.translations) / len(self.translations)
+        total_words = sum(orig_count for _, _, _, orig_count, _ in self.translations)
+        total_translations = sum(trans_count for _, _, _, _, trans_count in self.translations)
+        
+        header = doc.sections[0].header
+        header_paragraph = header.paragraphs[0] if header.paragraphs else header.add_paragraph()
+        header_paragraph.text = (
+            f"Performance Score: {avg_confidence:.1%} | "
+            f"Translation Rate: {self.match_rate:.1%} | "
+            f"Pattern Matches: {len(self.pattern_memory)}"
+        )
+        
+        for original, translated, confidence, original_word_count, target_word_count in self.translations:
+            doc.add_paragraph(f"Original: {sanitize_text(original)}")
+            doc.add_paragraph(f"Translated: {sanitize_text(translated)}")
+            doc.add_paragraph(f"Confidence: {confidence:.1%}")
+            doc.add_paragraph("\n")
+        
+        footer = doc.sections[0].footer
+        footer_paragraph = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+        footer_paragraph.text = (
+            f"Total Words Processed: {total_words} | "
+            f"Total Translations: {total_translations} | "
+            f"Average Confidence: {avg_confidence:.1%}"
+        )
+        
+        doc.add_page_break()
+        doc.save(filename)
+        print(f"Report saved to {filename}")
+
+def main():
+    try:
+        translator = OptimizedIndigenousTranslator("dictionary_alt.json")
+        
+        while True:
+            choice = input("\n\nEnter 'file' to load from file or 'text' to input manually: ")
+            
+            if choice.lower() == 'file':
+                file_path = input("Enter file path: ")
+                if os.path.exists(file_path):
+                    encoding = OptimizedIndigenousTranslator.detect_encoding(file_path)
+                    if not encoding:
+                        print("Encoding could not be detected. Trying fallback encoding 'latin-1'...")
+                        encoding = "latin-1"
+                    try:
+                        with open(file_path, "r", encoding=encoding) as file:
+                            text = file.read()
+                    except UnicodeDecodeError:
+                        print(f"Error decoding file with {encoding}. Trying fallback encoding 'latin-1'...")
+                        with open(file_path, "r", encoding="latin-1") as file:
+                            text = file.read()
+                else:
+                    print("File not found.")
+                    continue
+            else:
+                text = input("Enter text to translate: ")
+            
+            source_lang = input("Enter source language (id/en/dyk): ").lower()
+            target_lang = input("Enter target language (id/en/dyk): ").lower()
+            print("-" * 50)
+            print("\n")
+            
+            if source_lang not in ['id', 'en', 'dyk'] or target_lang not in ['id', 'en', 'dyk']:
+                print("Invalid language selection. Please try again.")
+                continue
+            
+            translation = translator.translate_text(text, source_lang, target_lang)
+            translator.create_report("translation_report.docx")
+            
+            print("\nTranslation Results:")
+            print("-" * 50)
+            print(f"Translation: {translation}")
+            print(f"Confidence: {translator.confidence:.1%}")
+            print(f"Match Rate: {translator.match_rate:.1%}")
+            print("-" * 50)
+            
+            continue_translation = input("\nWould you like to translate another text? (y/n): ")
+            if continue_translation.lower() != 'y':
+                break
+                
+    except KeyboardInterrupt:
+        print("\nTranslation process interrupted.")
+    finally:
+        print("\nCleaning up resources...")
+        torch.cuda.empty_cache()
+        gc.collect()
+        print("Goodbye!")
+
+if __name__ == "__main__":
+    main()
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/engines/engine_ALT.py">
+import json
+import chardet
+import numpy as np
+import re
+from Levenshtein import distance as lev_distance
+from nltk.stem import SnowballStemmer
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from transformers import pipeline
+from docx import Document
+import os
+import torch
+
+class IndigenousTranslator:
+    def __init__(self, json_path):
+        self.dictionary = self.load_json(json_path)
+        factory = StemmerFactory()
+        self.id_stemmer = factory.create_stemmer()
+        self.en_stemmer = SnowballStemmer("english")
+        
+        # Set device for CUDA acceleration
+        self.device = 0 if torch.cuda.is_available() else -1
+        # Optimization configuration without device_map to avoid conflicts
+        self.optimization_config = {
+            "torch_dtype": torch.float16,
+            "load_in_8bit": True,
+            "max_memory": {"cuda:0": "3.5GB"}
+        }
+        
+        # Use optimized translation pipelines for dyk translation
+        self.en_id_translator = pipeline(
+            "translation_en_to_id",
+            model="Helsinki-NLP/opus-mt-en-id",
+            tokenizer="Helsinki-NLP/opus-mt-en-id",
+            device=self.device,
+            **self.optimization_config
+        )
+        self.id_en_translator = pipeline(
+            "translation_id_to_en",
+            model="Helsinki-NLP/opus-mt-id-en",
+            tokenizer="Helsinki-NLP/opus-mt-id-en",
+            device=self.device,
+            **self.optimization_config
+        )
+        self.confidence = 1.0
+        self.translations = []
+    
+    def load_json(self, path):
+        with open(path, "r") as f:
+            return json.load(f)
+    
+    @staticmethod
+    def detect_encoding(file_path):
+        """Detect file encoding to avoid UnicodeDecodeError."""
+        with open(file_path, "rb") as f:
+            raw_data = f.read(1024)  # Read a small portion to detect encoding
+            result = chardet.detect(raw_data)
+        return result.get("encoding")
+    
+    @staticmethod
+    def sanitize_text(text):
+        """Remove control characters not compatible with XML."""
+        return re.sub(r'[\x00-\x08\x0B-\x0C\x0E-\x1F]', '', text)
+    
+    def preprocess_text(self, text, lang):
+        text = text.lower()
+        if lang == "id":
+            return self.id_stemmer.stem(text)
+        elif lang == "en":
+            return " ".join([self.en_stemmer.stem(word) for word in text.split()])
+        return text
+    
+    def find_closest_match(self, word):
+        candidates = list(self.dictionary.keys())
+        if not candidates:
+            return word, 0.0
+        
+        distances = [(c, lev_distance(word, c)) for c in candidates]
+        closest = min(distances, key=lambda x: x[1])
+        max_len = max(len(word), len(closest[0]))
+        return closest[0], 1 - (closest[1] / max_len)
+    
+    def translate_word(self, word):
+        if word in self.dictionary:
+            return self.dictionary[word], 1.0
+        else:
+            closest, confidence = self.find_closest_match(word)
+            if confidence > 0.6:
+                return self.dictionary.get(closest, word), confidence
+            return word, 0.0
+    
+    def translate_text(self, text, source_lang, target_lang):
+        self.confidence = 1.0
+        
+        # For dyk translation, use the optimized translation pipelines
+        if source_lang == "en" and target_lang == "dyk":
+            text = self.en_id_translator(text, max_length=512)[0]["translation_text"]
+        elif source_lang == "dyk" and target_lang == "en":
+            # For dyk→en, first translate dyk to id using dictionary-based approach, then use pipeline for id→en
+            text = self.translate_text(text, "dyk", "id")
+            text = self.id_en_translator(text, max_length=512)[0]["translation_text"]
+            return text
+        
+        # For core translation (en↔id), perform efficient word-by-word dictionary translation
+        words = text.split()
+        translated = []
+        total_words = len(words)
+        matched_words = 0
+        
+        for word in words:
+            trans, conf = self.translate_word(word)
+            translated.append(trans)
+            self.confidence *= conf
+            if conf > 0:
+                matched_words += 1
+        
+        self.translations.append((text, " ".join(translated), self.confidence, total_words, len(translated)))
+        self.match_rate = matched_words / total_words if total_words > 0 else 0
+        return " ".join(translated)
+    
+    def create_report(self, filename):
+        doc = Document()
+        doc.add_heading("Translation Report", 0)
+        
+        avg_confidence = sum(conf for _, _, conf, _, _ in self.translations) / len(self.translations)
+        
+        header = doc.sections[0].header
+        header_paragraph = header.paragraphs[0] if header.paragraphs else header.add_paragraph()
+        header_paragraph.text = f"Performance Score: {avg_confidence:.1%} | Translation Rate: {self.match_rate:.1%}"
+        
+        for original, translated, confidence, original_word_count, target_word_count in self.translations:
+            # Sanitize text to remove any XML-incompatible characters
+            original = self.sanitize_text(original)
+            translated = self.sanitize_text(translated)
+            doc.add_paragraph(f"Original: {original}")
+            doc.add_paragraph(f"Translated: {translated}")
+            doc.add_paragraph(f"Confidence: {confidence:.1%}")
+            doc.add_paragraph("\n")
+        
+        footer = doc.sections[0].footer
+        footer_paragraph = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+        footer_paragraph.text = f"Translation Origin: {original_word_count} words | Target: {target_word_count} words"
+        
+        doc.add_page_break()
+        doc.save(filename)
+
+if __name__ == "__main__":
+    translator = IndigenousTranslator("dictionary_alt.json")
+    
+    while True:
+        choice = input("\nEnter 'file' to load from file, 'text' for manual input, or 'exit' to quit: ").strip().lower()
+        
+        if choice == "exit":
+            print("Exiting translator... Goodbye!")
+            break
+        
+        if choice == "file":
+            file_path = input("Enter file path: ").strip()
+            if not os.path.exists(file_path):
+                print("File not found. Try again.")
+                continue
+            
+            # If the file is a DOCX, use python-docx to extract text
+            if file_path.lower().endswith(".docx"):
+                try:
+                    doc = Document(file_path)
+                    text = "\n".join([para.text for para in doc.paragraphs])
+                except Exception as e:
+                    print(f"Error reading DOCX file: {e}")
+                    continue
+            else:
+                encoding = IndigenousTranslator.detect_encoding(file_path)
+                if not encoding:
+                    print("Encoding could not be detected. Trying fallback encoding 'latin-1'...")
+                    encoding = "latin-1"
+                try:
+                    with open(file_path, "r", encoding=encoding) as file:
+                        text = file.read()
+                except UnicodeDecodeError:
+                    print(f"Error decoding file with {encoding}. Trying fallback encoding 'latin-1'...")
+                    with open(file_path, "r", encoding="latin-1") as file:
+                        text = file.read()
+        else:
+            text = input("Enter text to translate: ").strip()
+        
+        source_lang = input("Enter source language (id/en/dyk): ").strip().lower()
+        target_lang = input("Enter target language (id/en/dyk): ").strip().lower()
+        
+        translation = translator.translate_text(text, source_lang, target_lang)
+        translator.create_report("translation_report.docx")
+        
+        print(f"\nTranslation: {translation}")
+        print(f"Confidence: {translator.confidence:.1%}")
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/engines/engine_ATI.py">
+#!/usr/bin/env python3
+"""
+Production‐Ready ILTE–ATI Translation Engine (id ↔ dyk)
+Configurable Version with Iterative Translation, Dynamic Candidate Generation, and Improved Report Output
+• Loads engine settings from a JSON configuration file (if available) so that parameters aren’t hardcoded.
+• Uses a broader, configurable context window for improved semantic attention.
+• Relies solely on the external alt dictionary (ID → DYK) for id-dyk translation.
+• For tokens not found in the alt dictionary, the engine dynamically generates candidate translations using an external
+  Helsinki‑Opus‑MT en→id translator (to handle possible English words) and context‐based semantic candidate generation.
+• Hierarchical normalization is performed dynamically (without hardcoded mappings) using lowercasing, regex rules, and stemming.
+• Iterative translation chains processing until the output stabilizes.
+• The DOCX report now includes detailed statistics and the final translated text with preserved paragraph breaks.
+• Device configurations are passed to the translation pipeline.
+"""
+
+import os
+import re
+import json
+import time
+import gc
+import hashlib
+import logging
+import psutil
+import unicodedata
+import numpy as np
+import signal
+import sys
+from typing import Dict, List, Optional, Tuple, Any
+from dataclasses import dataclass
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed, TimeoutError
+from itertools import islice
+from pathlib import Path
+from threading import Event, Lock
+
+import chardet
+from docx import Document
+from docx.shared import Pt
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from Levenshtein import distance as lev_distance
+
+# External model libraries
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from sentence_transformers import SentenceTransformer
+from transformers import MBartForConditionalGeneration, MBart50TokenizerFast, pipeline
+import malaya
+
+try:
+    import torch
+except ImportError:
+    torch = None
+
+# ----------------------------
+# Logging configuration
+# ----------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s | %(levelname)s | %(name)s | %(message)s'
+)
+logger = logging.getLogger("ILTE_ATI_Configurable")
+
+# ----------------------------
+# Configuration Loading
+# ----------------------------
+def load_config(config_path: str = "engine_config.json") -> dict:
+    default_config = {
+        "window_size": 10,
+        "timeout": 30,
+        "cache_max_age": 3600,
+        "batch_size": 32,
+        "thread_count": min(os.cpu_count() or 4, 8),
+        "process_count": max(min((os.cpu_count() or 4) - 1, 4), 2)
+    }
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                config = json.load(f)
+            logger.info("Configuration loaded from %s", config_path)
+            default_config.update(config)
+        except Exception as e:
+            logger.error("Error loading configuration, using defaults.", exc_info=True)
+    else:
+        logger.info("Configuration file not found, using default settings.")
+    return default_config
+
+CONFIG = load_config()
+
+# ----------------------------
+# Resource and Cache Classes
+# ----------------------------
+@dataclass
+class ResourceLimits:
+    max_ram_gb: float = 20.0
+    max_vram_gb: float = 3.8
+    max_cache_gb: float = 50.0
+    batch_size: int = CONFIG.get("batch_size", 32)
+    thread_count: int = CONFIG.get("thread_count", min(os.cpu_count() or 4, 8))
+    process_count: int = CONFIG.get("process_count", max(min((os.cpu_count() or 4) - 1, 4), 2))
+    chunk_size: int = 2000
+    cache_max_age: float = CONFIG.get("cache_max_age", 3600)
+
+class CacheManager:
+    """
+    Caches translation results with keys including token, context, and formatting.
+    """
+    def __init__(self, cache_dir: Path, max_cache_gb: float, cache_filename: str = "translation_cache.json"):
+        self.cache_dir = cache_dir
+        self.cache_dir.mkdir(exist_ok=True)
+        self.cache_file = self.cache_dir / cache_filename
+        self.max_cache_gb = max_cache_gb
+        self.cache: Dict[str, Dict[str, Any]] = {}
+        self.lock = Lock()
+        self._load_cache()
+
+    def _load_cache(self) -> None:
+        if self.cache_file.exists():
+            try:
+                with self.cache_file.open('r', encoding='utf-8') as f:
+                    self.cache = json.load(f)
+                logger.info("Cache loaded successfully.")
+            except Exception as e:
+                logger.error("Failed to load cache; starting with an empty cache.", exc_info=True)
+                self.cache = {}
+        else:
+            self.cache = {}
+
+    def _save_cache(self) -> None:
+        try:
+            with self.cache_file.open('w', encoding='utf-8') as f:
+                json.dump(self.cache, f, ensure_ascii=False, indent=2)
+            logger.info("Cache saved successfully.")
+        except Exception as e:
+            logger.error("Cache saving error.", exc_info=True)
+
+    def get(self, key: str) -> Optional[Dict[str, Any]]:
+        with self.lock:
+            entry = self.cache.get(key)
+            if entry and (time.time() - entry.get("timestamp", 0) < ResourceLimits().cache_max_age):
+                return entry
+            elif key in self.cache:
+                del self.cache[key]
+            return None
+
+    def set(self, key: str, value: Dict[str, Any]) -> None:
+        with self.lock:
+            value["timestamp"] = time.time()
+            self.cache[key] = value
+
+    def clean_cache(self) -> None:
+        total_size = sum(f.stat().st_size for f in self.cache_dir.glob('**/*') if f.is_file())
+        while (total_size / (1024**3)) > self.max_cache_gb and self.cache:
+            oldest_key = min(self.cache.items(), key=lambda x: x[1].get("timestamp", time.time()))[0]
+            del self.cache[oldest_key]
+            total_size = sum(f.stat().st_size for f in self.cache_dir.glob('**/*') if f.is_file())
+        self._save_cache()
+
+    def save(self) -> None:
+        with self.lock:
+            self._save_cache()
+
+class ResourceManager:
+    """Manages system resources and cache."""
+    def __init__(self, limits: ResourceLimits):
+        self.limits = limits
+        self.cache_manager = CacheManager(Path("translation_cache"), limits.max_cache_gb)
+
+    def check_memory(self) -> bool:
+        memory = psutil.virtual_memory()
+        used_ram_gb = memory.used / (1024**3)
+        logger.debug(f"Memory used: {used_ram_gb:.2f} GB; Limit: {self.limits.max_ram_gb} GB")
+        return used_ram_gb < self.limits.max_ram_gb
+
+    def check_cache_size(self) -> bool:
+        total_size = sum(f.stat().st_size for f in self.cache_manager.cache_dir.glob('**/*') if f.is_file())
+        cache_size_gb = total_size / (1024**3)
+        logger.debug(f"Cache size: {cache_size_gb:.2f} GB; Limit: {self.limits.max_cache_gb} GB")
+        return cache_size_gb < self.limits.max_cache_gb
+
+    def clean_cache(self) -> None:
+        self.cache_manager.clean_cache()
+
+    def release_gpu_memory(self) -> None:
+        if torch is not None and torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            logger.info("Emptied GPU cache.")
+
+# ----------------------------
+# Batching and Parallel Processing
+# ----------------------------
+class ContentBatcher:
+    """Splits text into batches while preserving newlines and indentations."""
+    def __init__(self, resource_limits):
+        self.resource_limits = resource_limits
+
+    def create_batches(self, content: str) -> List[str]:
+        return content.splitlines(keepends=True)
+
+class ParallelProcessor:
+    """Handles multi-threaded and multi-process batch processing."""
+    def __init__(self, resource_limits: ResourceLimits):
+        self.limits = resource_limits
+        self.thread_executor = ThreadPoolExecutor(max_workers=resource_limits.thread_count)
+        self.process_executor = ProcessPoolExecutor(max_workers=resource_limits.process_count)
+
+    def chunk_data(self, data: List[Any], chunk_size: Optional[int] = None) -> List[List[Any]]:
+        chunk_size = chunk_size or self.limits.chunk_size
+        return [list(islice(data, i, i + chunk_size)) for i in range(0, len(data), chunk_size)]
+
+    def process_in_parallel(self, func, data: List[Any], use_processes: bool = False, timeout: int = 60) -> List[Any]:
+        chunks = self.chunk_data(data)
+        executor = self.process_executor if use_processes else self.thread_executor
+        futures = [executor.submit(func, chunk) for chunk in chunks]
+        results = []
+        for future in as_completed(futures, timeout=timeout):
+            try:
+                results.extend(future.result(timeout=timeout))
+            except Exception as e:
+                logger.error("Parallel processing error.", exc_info=True)
+        return results
+
+    def shutdown(self) -> None:
+        self.thread_executor.shutdown(wait=True)
+        self.process_executor.shutdown(wait=True)
+        logger.info("Parallel processors shutdown.")
+
+# ----------------------------
+# Scoring and Text Processing
+# ----------------------------
+class WeightedScorer:
+    """Computes confidence scores using method weights and context factors."""
+    def __init__(self):
+        self.method_weights = {
+            'dictionary': 1.0,
+            'fst': 0.85,
+            'rbmt': 0.9,
+            'semantic': 0.7,
+            'zero_shot': 0.5,
+            'levenshtein': 0.65,
+            'candidate_selection': 1.0
+        }
+        self.context_weights = {
+            'context_window': 0.2
+        }
+
+    def calculate_confidence(self, method: str, base_score: float, context: Dict[str, float]) -> float:
+        method_weight = self.method_weights.get(method, 0.5)
+        context_score = sum(self.context_weights.get(k, 0) * v for k, v in context.items())
+        final_score = (method_weight * base_score) + context_score
+        return min(max(final_score, 0.0), 1.0)
+
+class EnhancedTextProcessor:
+    """Normalizes text, splits into sentences, and preserves formatting."""
+    def __init__(self, window_size: int = CONFIG.get("window_size", 10)):
+        self.window_size = window_size
+        self.punctuation_pattern = re.compile(r'([.!?])')
+        self.whitespace_pattern = re.compile(r'\s+')
+
+    def normalize_text(self, text: str) -> str:
+        return unicodedata.normalize('NFKC', text)
+
+    def split_sentences(self, text: str) -> List[str]:
+        normalized = self.normalize_text(text)
+        lines = normalized.splitlines()
+        sentences = []
+        for line in lines:
+            line = line.strip()
+            if line:
+                sentences.extend(re.split(r'(?<=[.!?])\s+', line))
+        return sentences
+
+    def get_token_context(self, tokens: List[str], idx: int) -> Dict[str, float]:
+        start = max(0, idx - self.window_size)
+        end = min(len(tokens), idx + self.window_size + 1)
+        context_tokens = tokens[start:idx] + tokens[idx+1:end]
+        return {'context_window': len(context_tokens) / (2 * self.window_size)}
+
+# ----------------------------
+# Hierarchical Normalization (Dynamic, No Hardcoded Mappings)
+# ----------------------------
+def hierarchical_normalize(token: str) -> str:
+    """
+    Dynamically normalizes a token using a hierarchy of steps:
+    1. Lowercase and trim whitespace.
+    2. Remove repeated characters.
+    3. Apply Indonesian stemming.
+    """
+    token = token.lower().strip()
+    token = re.sub(r'(.)\1+', r'\1', token)
+    try:
+        factory = StemmerFactory()
+        stemmer = factory.create_stemmer()
+        token = stemmer.stem(token)
+    except Exception:
+        pass
+    return token
+
+# ----------------------------
+# Cache Key Utility
+# ----------------------------
+def generate_cache_key(token: str, context: Dict[str, float], formatting: str = "") -> str:
+    context_str = json.dumps(context, sort_keys=True)
+    key_raw = f"{token}_{context_str}_{formatting}"
+    return hashlib.md5(key_raw.encode('utf-8')).hexdigest()
+
+# ----------------------------
+# External Candidate Generation for English
+# ----------------------------
+en_to_id_translator = pipeline(
+    "translation_en_to_id",
+    model="Helsinki-NLP/opus-mt-en-id",
+    device=0 if torch and torch.cuda.is_available() else -1
+)
+
+def candidate_from_english(token: str) -> Optional[str]:
+    if token.isalpha() and len(token) <= 5:
+        try:
+            result = en_to_id_translator(token)[0]["translation_text"]
+            return result.lower().strip()
+        except Exception as e:
+            logger.warning(f"English candidate generation failed for token {token}: {e}")
+    return None
+
+# ----------------------------
+# Translation Result Data Class
+# ----------------------------
+@dataclass
+class TranslationResult:
+    original: str
+    translated: str
+    confidence: float
+    method: str
+    processing_time: float
+
+# ----------------------------
+# Core Engine Implementation
+# ----------------------------
+class EnhancedILTETranslationEngine:
+    """
+    Advanced ILTE–ATI engine (id ↔ dyk) with refined attention, hierarchical normalization, and iterative translation.
+    • Input is assumed to be in Indonesian (id) or DYK.
+    • For id→dyk translation, if tokens are not found in the alt dictionary, dynamic candidate generation is used:
+         - An external Helsinki MT en→id translator converts possible English words into standard Indonesian.
+         - Context-based semantic candidate generation is also applied.
+    • Iterative translation is applied until the output stabilizes.
+    • Detailed statistics are recorded and output in a DOCX report, which now also includes the final translated text.
+    """
+    def __init__(self, dict_alt_path: str, source_lang: str = 'id', target_lang: str = 'dyk',
+                 resource_limits: Optional[ResourceLimits] = None, lazy_load: bool = False):
+        if source_lang not in ['id', 'dyk'] or target_lang not in ['id', 'dyk']:
+            raise ValueError("Only 'id' and 'dyk' languages are supported.")
+        self.shutdown_event = Event()
+        self.timeout = CONFIG.get("timeout", 30)
+        self.source_lang = source_lang
+        self.target_lang = target_lang
+        self.resource_limits = resource_limits or ResourceLimits()
+        self.resource_manager = ResourceManager(self.resource_limits)
+        self.parallel_processor = ParallelProcessor(self.resource_limits)
+        self.text_processor = EnhancedTextProcessor()
+        self.scorer = WeightedScorer()
+        self.content_batcher = ContentBatcher(self.resource_limits)
+        # Load alt dictionary (ID → DYK) from external JSON.
+        try:
+            with open(dict_alt_path, 'r', encoding='utf-8') as f:
+                self.alt_dictionary = json.load(f)
+            self.alt_dictionary = {str(k).strip().lower(): str(v).strip() for k, v in self.alt_dictionary.items()}
+            logger.info("Alt dictionary loaded.")
+        except Exception as e:
+            logger.error("Error loading alt dictionary.", exc_info=True)
+            raise
+        self.lazy_load = lazy_load
+        self._stemmer = None
+        self._semantic_model = None
+        self._zero_shot_model = None
+        self._zero_shot_tokenizer = None
+        self.semantic_embeddings: Dict[str, np.ndarray] = {}
+        # Statistics tracking
+        self.method_usage: Dict[str, int] = {}
+        self.total_tokens: int = 0
+        if not self.lazy_load:
+            self._safe_initialize_models()
+
+    def _safe_initialize_models(self) -> None:
+        try:
+            with ThreadPoolExecutor(max_workers=1) as executor:
+                future = executor.submit(self._initialize_models)
+                future.result(timeout=self.timeout)
+        except TimeoutError:
+            logger.error("Model initialization timed out")
+            raise
+        except Exception as e:
+            logger.error("Model initialization failed", exc_info=True)
+            raise
+
+    def _initialize_models(self) -> None:
+        self._load_stemmer()
+        self._load_semantic_model()
+        self._compute_semantic_embeddings()
+        self._load_zero_shot_model()
+
+    def _load_stemmer(self) -> None:
+        try:
+            factory = StemmerFactory()
+            self._stemmer = factory.create_stemmer()
+            logger.info("Stemmer loaded.")
+        except Exception as e:
+            logger.error("Failed to load stemmer.", exc_info=True)
+            raise
+
+    def _load_semantic_model(self) -> None:
+        try:
+            device = 'cuda' if (self.resource_limits.max_vram_gb > 0 and torch is not None and torch.cuda.is_available()) else 'cpu'
+            self._semantic_model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2', device=device)
+            logger.info(f"Semantic model loaded on {device}.")
+        except Exception as e:
+            logger.error("Failed to load semantic model.", exc_info=True)
+            raise
+
+    def _compute_semantic_embeddings(self) -> None:
+        try:
+            words = list(self.alt_dictionary.keys())
+            chunks = self.parallel_processor.chunk_data(words)
+            embeddings: Dict[str, np.ndarray] = {}
+            futures = []
+            for chunk in chunks:
+                future = self.parallel_processor.thread_executor.submit(
+                    self._semantic_model.encode,
+                    chunk,
+                    batch_size=self.resource_limits.batch_size,
+                    show_progress_bar=False
+                )
+                futures.append((chunk, future))
+            for chunk, future in futures:
+                try:
+                    batch_embeddings = future.result(timeout=120)
+                    for word, emb in zip(chunk, batch_embeddings):
+                        embeddings[word] = emb
+                except Exception as e:
+                    logger.error("Error computing embeddings for a chunk.", exc_info=True)
+            self.semantic_embeddings = embeddings
+            logger.info("Semantic embeddings computed.")
+        except Exception as e:
+            logger.error("Failed to compute semantic embeddings.", exc_info=True)
+
+    def _load_zero_shot_model(self) -> None:
+        try:
+            self._zero_shot_model = MBartForConditionalGeneration.from_pretrained(
+                'facebook/mbart-large-50-many-to-many-mmt',
+                low_cpu_mem_usage=True
+            )
+            self._zero_shot_tokenizer = MBart50TokenizerFast.from_pretrained(
+                'facebook/mbart-large-50-many-to-many-mmt'
+            )
+            logger.info("Zero-shot model and tokenizer loaded.")
+        except Exception as e:
+            logger.error("Failed to load zero-shot model.", exc_info=True)
+            raise
+
+    @property
+    def stemmer(self):
+        if self._stemmer is None:
+            self._load_stemmer()
+        return self._stemmer
+
+    @property
+    def semantic_model(self):
+        if self._semantic_model is None:
+            self._load_semantic_model()
+        return self._semantic_model
+
+    @property
+    def zero_shot_model(self):
+        if self._zero_shot_model is None:
+            self._load_zero_shot_model()
+        return self._zero_shot_model
+
+    @property
+    def zero_shot_tokenizer(self):
+        if self._zero_shot_tokenizer is None:
+            self._load_zero_shot_model()
+        return self._zero_shot_tokenizer
+
+    def _translate_core(self, core: str, context: Dict[str, float], formatting: str, start_time: float) -> TranslationResult:
+        cache_key = generate_cache_key(core, context, formatting)
+        cached = self.resource_manager.cache_manager.get(cache_key)
+        if cached:
+            return TranslationResult(core, cached["translated"], cached["confidence"], cached["method"], time.time() - start_time)
+        self.total_tokens += 1
+        norm_core = hierarchical_normalize(core)
+        if norm_core in self.alt_dictionary:
+            conf = self.scorer.calculate_confidence('dictionary', 1.0, context)
+            result = TranslationResult(norm_core, self.alt_dictionary[norm_core], conf, 'dictionary', time.time() - start_time)
+            self.method_usage['dictionary'] = self.method_usage.get('dictionary', 0) + 1
+            self.resource_manager.cache_manager.set(cache_key, {
+                "translated": result.translated,
+                "confidence": result.confidence,
+                "method": result.method
+            })
+            return result
+        
+        # Dynamic candidate generation for possible English words
+        en_candidate = candidate_from_english(norm_core)
+        if en_candidate and en_candidate in self.alt_dictionary:
+            conf = self.scorer.calculate_confidence('candidate_selection', 1.0, context)
+            result = TranslationResult(norm_core, self.alt_dictionary[en_candidate], conf, 'candidate_selection', time.time() - start_time)
+            self.method_usage['candidate_selection'] = self.method_usage.get('candidate_selection', 0) + 1
+            self.resource_manager.cache_manager.set(cache_key, {
+                "translated": result.translated,
+                "confidence": result.confidence,
+                "method": result.method
+            })
+            return result
+        
+        # Fallback: use complex translation module
+        try:
+            with ThreadPoolExecutor(max_workers=1) as executor:
+                future = executor.submit(self._complex_translation, norm_core, norm_core, context, formatting, start_time)
+                result = future.result(timeout=self.timeout)
+                self.resource_manager.cache_manager.set(cache_key, {
+                    "translated": result.translated,
+                    "confidence": result.confidence,
+                    "method": result.method
+                })
+                self.method_usage[result.method] = self.method_usage.get(result.method, 0) + 1
+                return result
+        except TimeoutError:
+            logger.warning(f"Translation timed out for token: {norm_core}")
+            self.method_usage['timeout_fallback'] = self.method_usage.get('timeout_fallback', 0) + 1
+            return TranslationResult(norm_core, norm_core, 0.1, 'timeout_fallback', time.time() - start_time)
+        except Exception as e:
+            logger.error(f"Translation failed for token: {norm_core}", exc_info=True)
+            self.method_usage['error_fallback'] = self.method_usage.get('error_fallback', 0) + 1
+            return TranslationResult(norm_core, norm_core, 0.1, 'error_fallback', time.time() - start_time)
+
+    def translate_token(self, token: str, tokens: List[str], idx: int, formatting: str = "") -> TranslationResult:
+        if re.fullmatch(r'\W+', token):
+            return TranslationResult(token, token, 1.0, 'punctuation', 0.0)
+        prefix_match = re.match(r'^(\s+)', token)
+        suffix_match = re.search(r'(\s+)$', token)
+        pre = prefix_match.group(1) if prefix_match else ""
+        suf = suffix_match.group(1) if suffix_match else ""
+        core = token[len(pre):len(token)-len(suf)] if suf else token[len(pre):]
+        core_clean = core.strip().lower()
+        context = self.text_processor.get_token_context(tokens, idx)
+        result = self._translate_core(core_clean, context, formatting, start_time=time.time())
+        translated = pre + result.translated + suf
+        return TranslationResult(token, translated, result.confidence, result.method, result.processing_time)
+
+    def _complex_translation(self, word: str, processed: str, context: Dict[str, float], formatting: str, start_time: float) -> TranslationResult:
+        try:
+            fst_candidate, fst_conf = self.apply_fst_rules(processed)
+            if fst_candidate:
+                conf = self.scorer.calculate_confidence('fst', fst_conf, context)
+                return TranslationResult(word, fst_candidate, conf, 'fst', time.time() - start_time)
+            rbmt_candidate, rbmt_conf = self.apply_rbmt_rules(processed)
+            if rbmt_candidate:
+                conf = self.scorer.calculate_confidence('rbmt', rbmt_conf, context)
+                return TranslationResult(word, rbmt_candidate, conf, 'rbmt', time.time() - start_time)
+            try:
+                word_emb = self.semantic_model.encode([processed])[0]
+                candidate_scores = []
+                for dict_word, emb in self.semantic_embeddings.items():
+                    norm_product = np.linalg.norm(word_emb) * np.linalg.norm(emb)
+                    if norm_product == 0:
+                        continue
+                    cos_sim = np.dot(word_emb, emb) / norm_product
+                    lev_sim = 1 - (lev_distance(processed, dict_word) / max(len(processed), len(dict_word)))
+                    combined = 0.6 * cos_sim + 0.4 * lev_sim
+                    candidate_scores.append((dict_word, combined))
+                candidate_scores.sort(key=lambda x: x[1], reverse=True)
+                top_candidates = [cand for cand in candidate_scores if cand[1] > 0.7][:3]
+                if top_candidates:
+                    best_candidate, best_score = top_candidates[0]
+                    conf = self.scorer.calculate_confidence('semantic', best_score, context)
+                    return TranslationResult(word, self.alt_dictionary.get(best_candidate, best_candidate), conf, 'semantic', time.time() - start_time)
+            except Exception as e:
+                logger.warning(f"Semantic translation failed for '{word}': {e}", exc_info=True)
+            try:
+                inputs = self.zero_shot_tokenizer(processed, return_tensors="pt", padding=True)
+                forced_lang = "id_ID"
+                self.zero_shot_tokenizer.src_lang = "id_ID"
+                generated = self.zero_shot_model.generate(
+                    **inputs,
+                    forced_bos_token_id=self.zero_shot_tokenizer.lang_code_to_id[forced_lang],
+                    max_length=128,
+                    num_beams=8,
+                    length_penalty=0.6,
+                    max_time=10.0
+                )
+                zs_trans = self.zero_shot_tokenizer.batch_decode(generated, skip_special_tokens=True)[0]
+                conf = self.scorer.calculate_confidence('zero_shot', 0.5, context)
+                return TranslationResult(word, zs_trans, conf, 'zero_shot', time.time() - start_time)
+            except Exception as e:
+                logger.warning(f"Zero-shot translation failed for '{word}': {e}", exc_info=True)
+            return TranslationResult(word, word, 0.1, 'fallback', time.time() - start_time)
+        finally:
+            if torch is not None and torch.cuda.is_available():
+                torch.cuda.empty_cache()
+
+    def apply_fst_rules(self, word: str) -> Tuple[Optional[str], float]:
+        rules = [
+            (r"([a-zA-Z]+)s$", r"\1", 0.85),
+            (r"([a-zA-Z]+)(an|wan)$", r"\1", 0.85),
+            (r"([a-zA-Z]+)nya$", r"\1", 0.85),
+            (r"^(un|in|ter)([a-zA-Z]+)$", r"\2", 0.85),
+            (r"^di([a-zA-Z]+)$", r"\1", 0.85),
+            (r"^ke([a-zA-Z]+)$", r"\1", 0.85),
+            (r"^me([a-zA-Z]+)$", r"\1", 0.85),
+            (r"^pe([a-zA-Z]+)$", r"\1", 0.85)
+        ]
+        for pattern, replacement, confidence in rules:
+            candidate = re.sub(pattern, replacement, word, flags=re.IGNORECASE)
+            if candidate != word and candidate in self.alt_dictionary:
+                return candidate, confidence
+        return None, 0.0
+
+    def apply_rbmt_rules(self, word: str) -> Tuple[Optional[str], float]:
+        rbmt_rules = [
+            (r"\bselamat pagi\b", "selamat pagi", 0.9),
+            (r"\bapa kabar\b", "apa kabar", 0.9)
+        ]
+        for pattern, replacement, conf in rbmt_rules:
+            if re.search(pattern, word, re.IGNORECASE):
+                return replacement, conf
+        if word.endswith("ing"):
+            candidate = word[:-3]
+            if candidate in self.alt_dictionary:
+                return self.alt_dictionary[candidate], 0.8
+        return None, 0.0
+
+    def translate_sentence(self, sentence: str) -> str:
+        tokens = re.findall(r'\s+|\S+', sentence)
+        results = [None] * len(tokens)
+        with ThreadPoolExecutor(max_workers=self.resource_limits.thread_count) as executor:
+            futures = {executor.submit(self.translate_token, token, tokens, idx, ""): idx for idx, token in enumerate(tokens)}
+            for future in as_completed(futures, timeout=60):
+                idx = futures[future]
+                try:
+                    res = future.result(timeout=60)
+                    results[idx] = res.translated
+                except Exception as e:
+                    logger.error("Token translation error.", exc_info=True)
+                    results[idx] = tokens[idx]
+        return "".join(results)
+
+    def translate_text(self, text: str, source_lang: str, target_lang: str) -> str:
+        logger.info(f"Translating text from {source_lang} to {target_lang}.")
+        lines = text.splitlines(keepends=True)
+        translated_lines = []
+        for line in lines:
+            if line.strip():
+                translated_line = self.translate_sentence(line)
+            else:
+                translated_line = line
+            translated_lines.append(translated_line)
+        overall_translation = "".join(translated_lines)
+        gc.collect()
+        return overall_translation
+
+    def iterative_translate_text(self, text: str, source_lang: str, target_lang: str, max_iterations: int = 3) -> str:
+        prev = text
+        for i in range(max_iterations):
+            new_text = self.translate_text(prev, source_lang, target_lang)
+            if new_text.strip() == prev.strip():
+                break
+            prev = new_text
+        return prev
+
+    def create_report(self, translation_text: str, filename: str) -> None:
+        doc = Document()
+        doc.add_heading("ILTE–ATI Translation Report", 0)
+        # Statistics header
+        avg_confidence = 0.0  # Placeholder
+        method_counts = self.method_usage.copy()
+        total = self.total_tokens if self.total_tokens > 0 else 1
+        for method, count in method_counts.items():
+            method_counts[method] = (count / total) * 100
+        p = doc.add_paragraph()
+        p.add_run("Average Confidence Score: ").bold = True
+        p.add_run(f"{avg_confidence:.2f}")
+        p = doc.add_paragraph()
+        p.add_run("Total Tokens Processed: ").bold = True
+        p.add_run(f"{self.total_tokens}")
+        p = doc.add_paragraph()
+        p.add_run("Method Usage Rates (%):").bold = True
+        for method, usage in method_counts.items():
+            doc.add_paragraph(f"{method}: {usage:.1f}%", style='List Bullet')
+        non_fallback = self.total_tokens - self.method_usage.get('fallback', 0) - \
+                       self.method_usage.get('timeout_fallback', 0) - self.method_usage.get('error_fallback', 0)
+        translation_rate = (non_fallback / total) * 100
+        p = doc.add_paragraph()
+        p.add_run("Translation Rate: ").bold = True
+        p.add_run(f"{translation_rate:.1f}%")
+        doc.add_page_break()
+        # Append the final translated text preserving paragraph breaks
+        paragraphs = translation_text.splitlines()
+        for para in paragraphs:
+            doc.add_paragraph(para)
+        doc.save(filename)
+        logger.info(f"Report saved to {filename}")
+
+    def cleanup(self) -> None:
+        self.parallel_processor.shutdown()
+        self.resource_manager.cache_manager.save()
+        self.resource_manager.clean_cache()
+        self.resource_manager.release_gpu_memory()
+        gc.collect()
+
+# ----------------------------
+# Helper: File Encoding Detection
+# ----------------------------
+def detect_encoding(file_path: str, read_bytes: int = 100000) -> str:
+    try:
+        with open(file_path, "rb") as f:
+            raw_data = f.read(read_bytes)
+        detected = chardet.detect(raw_data)
+        encoding = detected.get("encoding", "utf-8")
+        logger.info(f"Detected encoding: {encoding}")
+        return encoding
+    except Exception as e:
+        logger.error("Encoding detection error.", exc_info=True)
+        return "utf-8"
+
+# ----------------------------
+# Engine Runner: Interactive/File Modes
+# ----------------------------
+class ILTEEngineRunner:
+    """
+    Main interface for the refined ILTE–ATI engine.
+    Supports interactive and file input while preserving formatting.
+    The DOCX report includes detailed statistics and the final translated text.
+    Iterative translation is applied so that inputs like "Hi" yield "Halo" then "denga".
+    """
+    def __init__(self, engine: EnhancedILTETranslationEngine):
+        self.engine = engine
+        signal.signal(signal.SIGINT, self._handle_interrupt)
+        signal.signal(signal.SIGTERM, self._handle_interrupt)
+
+    def _handle_interrupt(self, signum, frame):
+        print("\nReceived interrupt signal. Cleaning up...")
+        self.engine.shutdown_event.set()
+        self.engine.cleanup()
+        print("Cleanup complete. Exiting...")
+        sys.exit(0)
+
+    def process_text(self, text: str) -> List[str]:
+        lines = text.splitlines()
+        results = []
+        for line in lines:
+            result = self.engine.iterative_translate_text(line, self.engine.source_lang, self.engine.target_lang)
+            results.append(result)
+        return results
+
+    def process_file(self, file_path: str) -> List[str]:
+        try:
+            safe_path = Path(file_path).resolve()
+            if not safe_path.exists():
+                logger.error("File not found.")
+                return []
+            encoding = detect_encoding(str(safe_path))
+            if safe_path.suffix.lower() == ".docx":
+                doc = Document(str(safe_path))
+                text = "\n".join([para.text for para in doc.paragraphs])
+            else:
+                with safe_path.open('r', encoding=encoding, errors='replace') as file:
+                    text = file.read()
+            return self.process_text(text)
+        except Exception as e:
+            logger.error("File processing error.", exc_info=True)
+            return []
+
+    def generate_report(self, translation_text: str, filename: str = "translation_report.docx") -> None:
+        self.engine.create_report(translation_text, filename)
+
+    def interactive_mode(self) -> None:
+        print("\n--- Interactive Translation Mode (id ↔ dyk) ---")
+        while not self.engine.shutdown_event.is_set():
+            try:
+                text = input("\nEnter text to translate (or type 'exit' to quit): ")
+                if text.lower().strip() == "exit":
+                    break
+                print("Translating...")
+                results = self.process_text(text)
+                final_translation = "\n".join(results)
+                print("\n--- Translation Results ---")
+                print(final_translation)
+                self.generate_report(final_translation)
+            except KeyboardInterrupt:
+                print("\nTranslation interrupted by user.")
+                break
+            except Exception as e:
+                print(f"\nError occurred: {str(e)}")
+                logger.error("Interactive mode error", exc_info=True)
+                break
+
+    def file_mode(self) -> None:
+        file_path = input("\nEnter file path: ").strip()
+        if not os.path.exists(file_path):
+            print("File not found.")
+            return
+        print("\nDetecting file encoding...")
+        encoding = detect_encoding(file_path)
+        print(f"Detected encoding: {encoding}")
+        print("Processing file...")
+        results = self.process_file(file_path)
+        final_translation = "\n".join(results)
+        print("\n--- Preview (first 5 lines) ---")
+        for line in final_translation.splitlines()[:5]:
+            print(line)
+        self.generate_report(final_translation)
+
+    def main(self) -> None:
+        print("\n=== Welcome to the Refined ILTE–ATI Translation Engine ===")
+        while True:
+            mode = input("\nChoose mode: [1] Direct Input  [2] File Input  [3] Exit: ").strip()
+            if mode == "1":
+                self.interactive_mode()
+            elif mode == "2":
+                self.file_mode()
+            elif mode == "3":
+                print("Exiting translation engine...")
+                break
+            else:
+                print("Invalid choice. Try again.")
+
+# ----------------------------
+# Main Execution
+# ----------------------------
+if __name__ == "__main__":
+    engine = None
+    try:
+        dict_alt_path = "dictionary_alt.json"
+        # For id→dyk translation, we only need one dictionary file.
+        engine = EnhancedILTETranslationEngine(dict_alt_path, source_lang='id', target_lang='dyk')
+        runner = ILTEEngineRunner(engine)
+        runner.main()
+    except Exception as main_exc:
+        logger.critical("Fatal error in ILTE–ATI engine execution.", exc_info=True)
+    finally:
+        if engine is not None:
+            engine.cleanup()
+            logger.info("ILTE–ATI engine cleanup complete.")
+        sys.exit(0)
+</file>
+
+<file path="Dyk-Knyh-engine-main/src/engines/engine_ZS.py">
+#!/usr/bin/env python3
+"""
+Refactored ILTE-ZS Translation Engine with RBMT & FST Improvements
+
+Key improvements:
+  • Resource management: Executors are shutdown via explicit cleanup; GPU memory is released if available.
+  • Error handling & logging: Detailed, structured logging with timeouts and shutdown control.
+  • Model loading: Heavy models are loaded via a safe initialization method with timeout protection.
+  • Translation quality: Enhanced pipeline now uses dictionary lookup, FST rules, RBMT rules, Malay cognate detection,
+    semantic similarity (with Levenshtein), and zero-shot translation.
+  • Cache management: Uses a thread-safe CacheManager with JSON serialization and robust cache key generation.
+  • Concurrency: Thread locks, timeouts, and shutdown events protect shared resources and prevent stuck progress.
+  • I/O enhancements: Expanded encoding detection, Unicode normalization, and safe file handling.
+  • Input sanitation: Text is normalized (including proper splitting of punctuation) and each word is cleaned of extraneous punctuation before translation. 
+  • Security: JSON is used for caching (avoiding pickle risks), and input sanitization is performed.
+"""
+
+import os
+import re
+import json
+import time
+import gc
+import hashlib
+import logging
+import psutil
+import unicodedata
+import numpy as np
+import signal
+import sys
+from typing import Dict, List, Optional, Tuple, Any
+from dataclasses import dataclass
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed, TimeoutError
+from itertools import islice
+from pathlib import Path
+from threading import Event
+
+import chardet
+from docx import Document
+from Levenshtein import distance as lev_distance
+
+# External model libraries
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+from sentence_transformers import SentenceTransformer
+from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
+import malaya
+
+# If torch is available, we will use it for GPU memory cleanup.
+try:
+    import torch
+except ImportError:
+    torch = None
+
+# Configure structured logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s | %(levelname)s | %(name)s | %(message)s'
+)
+logger = logging.getLogger("ILTE_ZS")
+
+@dataclass
+class ResourceLimits:
+    """Resource management configuration."""
+    max_ram_gb: float = 12.0
+    max_vram_gb: float = 3.5
+    max_cache_gb: float = 30.0
+    batch_size: int = 32
+    thread_count: int = min(os.cpu_count() or 4, 8)
+    process_count: int = max(min((os.cpu_count() or 4) - 1, 4), 2)
+    chunk_size: int = 1000
+    cache_max_age: float = 3600.0  # seconds
+
+class CacheManager:
+    """
+    Manages caching of translation results using JSON serialization.
+    Uses a lock for thread-safe operations.
+    """
+    def __init__(self, cache_dir: Path, max_cache_gb: float, cache_filename: str = "translation_cache.json"):
+        self.cache_dir = cache_dir
+        self.cache_dir.mkdir(exist_ok=True)
+        self.cache_file = self.cache_dir / cache_filename
+        self.max_cache_gb = max_cache_gb
+        self.cache: Dict[str, Dict[str, Any]] = {}
+        self.lock = __import__("threading").Lock()
+        self._load_cache()
+
+    def _load_cache(self) -> None:
+        if self.cache_file.exists():
+            try:
+                with self.cache_file.open('r', encoding='utf-8') as f:
+                    self.cache = json.load(f)
+                logger.info("Cache loaded successfully.")
+            except Exception as e:
+                logger.error("Failed to load cache; starting with an empty cache.", exc_info=True)
+                self.cache = {}
+        else:
+            self.cache = {}
+
+    def _save_cache(self) -> None:
+        try:
+            with self.cache_file.open('w', encoding='utf-8') as f:
+                json.dump(self.cache, f, ensure_ascii=False, indent=2)
+            logger.info("Cache saved successfully.")
+        except Exception as e:
+            logger.error("Cache saving error.", exc_info=True)
+
+    def get(self, key: str) -> Optional[Dict[str, Any]]:
+        with self.lock:
+            entry = self.cache.get(key)
+            if entry and (time.time() - entry.get("timestamp", 0) < ResourceLimits().cache_max_age):
+                return entry
+            else:
+                if key in self.cache:
+                    del self.cache[key]
+                return None
+
+    def set(self, key: str, value: Dict[str, Any]) -> None:
+        with self.lock:
+            value["timestamp"] = time.time()
+            self.cache[key] = value
+
+    def clean_cache(self) -> None:
+        total_size = sum(f.stat().st_size for f in self.cache_dir.glob('**/*') if f.is_file())
+        while (total_size / (1024**3)) > self.max_cache_gb and self.cache:
+            oldest_key = min(self.cache.items(), key=lambda x: x[1].get("timestamp", time.time()))[0]
+            del self.cache[oldest_key]
+            total_size = sum(f.stat().st_size for f in self.cache_dir.glob('**/*') if f.is_file())
+        self._save_cache()
+
+    def save(self) -> None:
+        with self.lock:
+            self._save_cache()
+
+def generate_cache_key(word: str, context: Dict[str, float]) -> str:
+    """
+    Generate a robust cache key using md5 hash.
+    """
+    context_str = json.dumps(context, sort_keys=True)
+    key_raw = f"{word}_{context_str}"
+    return hashlib.md5(key_raw.encode('utf-8')).hexdigest()
+
+class ResourceManager:
+    """Manages system resources and constraints."""
+    def __init__(self, limits: ResourceLimits):
+        self.limits = limits
+        self.cache_manager = CacheManager(Path("translation_cache"), limits.max_cache_gb)
+
+    def check_memory(self) -> bool:
+        memory = psutil.virtual_memory()
+        used_ram_gb = memory.used / (1024**3)
+        logger.debug(f"Memory used: {used_ram_gb:.2f} GB; Limit: {self.limits.max_ram_gb} GB")
+        return used_ram_gb < self.limits.max_ram_gb
+
+    def check_cache_size(self) -> bool:
+        total_size = sum(f.stat().st_size for f in self.cache_manager.cache_dir.glob('**/*') if f.is_file())
+        cache_size_gb = total_size / (1024**3)
+        logger.debug(f"Cache size: {cache_size_gb:.2f} GB; Limit: {self.limits.max_cache_gb} GB")
+        return cache_size_gb < self.limits.max_cache_gb
+
+    def clean_cache(self) -> None:
+        self.cache_manager.clean_cache()
+
+    def release_gpu_memory(self) -> None:
+        """Attempt to free GPU memory if using CUDA."""
+        if torch is not None and torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            logger.info("Emptied GPU cache.")
+
+class ContentBatcher:
+    """Handles batching of large text content."""
+    def __init__(self, resource_limits: ResourceLimits):
+        self.limits = resource_limits
+
+    def estimate_optimal_batch_size(self, total_content_size: int) -> int:
+        available_memory_gb = psutil.virtual_memory().available / (1024**3)
+        cpu_count = self.limits.process_count
+        memory_based_size = int((available_memory_gb * (1024**3)) / (cpu_count * 2))
+        return min(max(memory_based_size // 100, 500), 5000)
+
+    def create_batches(self, content: str) -> List[str]:
+        sentences = re.split(r'(?<=[.!?])\s+', content)
+        return sentences
+
+class ParallelProcessor:
+    """Handles parallel processing using threads or processes."""
+    def __init__(self, resource_limits: ResourceLimits):
+        self.limits = resource_limits
+        self.thread_executor = ThreadPoolExecutor(max_workers=resource_limits.thread_count)
+        self.process_executor = ProcessPoolExecutor(max_workers=resource_limits.process_count)
+
+    def chunk_data(self, data: List[Any], chunk_size: Optional[int] = None) -> List[List[Any]]:
+        chunk_size = chunk_size or self.limits.chunk_size
+        return [list(islice(data, i, i + chunk_size)) for i in range(0, len(data), chunk_size)]
+
+    def process_in_parallel(self, func, data: List[Any], use_processes: bool = False, timeout: int = 60) -> List[Any]:
+        chunks = self.chunk_data(data)
+        executor = self.process_executor if use_processes else self.thread_executor
+        futures = [executor.submit(func, chunk) for chunk in chunks]
+        results = []
+        for future in as_completed(futures, timeout=timeout):
+            try:
+                results.extend(future.result(timeout=timeout))
+            except Exception as e:
+                logger.error("Parallel processing error.", exc_info=True)
+        return results
+
+    def shutdown(self) -> None:
+        """Gracefully shutdown both thread and process executors."""
+        self.thread_executor.shutdown(wait=True)
+        self.process_executor.shutdown(wait=True)
+        logger.info("Parallel processors shutdown.")
+
+class WeightedScorer:
+    """Calculates weighted confidence scores based on method and context."""
+    def __init__(self):
+        self.method_weights = {
+            'dictionary': 1.0,
+            'fst': 0.85,
+            'rbmt': 0.9,
+            'malay_cognate': 0.75,
+            'semantic': 0.7,
+            'zero_shot': 0.5,
+            'levenshtein': 0.65
+        }
+        self.context_weights = {
+            'sentence_position': 0.1,
+            'surrounding_words': 0.15,
+            'grammar_structure': 0.2
+        }
+
+    def calculate_confidence(self, method: str, base_score: float, context: Dict[str, float]) -> float:
+        method_weight = self.method_weights.get(method, 0.5)
+        context_score = sum(self.context_weights.get(k, 0) * v for k, v in context.items())
+        final_score = (method_weight * base_score) + context_score
+        return min(max(final_score, 0.0), 1.0)
+
+class EnhancedTextProcessor:
+    """Provides text normalization, Unicode sanitization, and sentence splitting."""
+    def __init__(self, parallel_processor: ParallelProcessor):
+        self.parallel_processor = parallel_processor
+        self.punctuation_pattern = re.compile(r'([.!?])')
+        self.whitespace_pattern = re.compile(r'\s+')
+
+    def normalize_text(self, text: str) -> str:
+        text = unicodedata.normalize('NFKC', text)
+        # Insert spaces around punctuation so they can be separated later.
+        text = self.punctuation_pattern.sub(r' \1 ', text)
+        text = self.whitespace_pattern.sub(' ', text)
+        return text.strip().lower()
+
+    def split_sentences(self, text: str) -> List[str]:
+        # First normalize the entire text.
+        normalized = self.normalize_text(text)
+        # Then split on punctuation that ends a sentence.
+        sentences = re.split(r'(?<=[.!?])\s+', normalized)
+        return sentences
+
+@dataclass
+class TranslationResult:
+    """Translation result structure."""
+    original: str
+    translated: str
+    confidence: float
+    method: str
+    processing_time: float
+
+class EnhancedILTEZSTranslationEngine:
+    """
+    Core translation engine with multiple layers, lazy model loading,
+    resource-optimized processing, and a robust pipeline (including RBMT and FST rules).
+    """
+    def __init__(self, dictionary_path: str, source_lang: str = 'id', target_lang: str = 'dyk',
+                 resource_limits: Optional[ResourceLimits] = None, lazy_load: bool = False):
+        self.shutdown_event = Event()
+        self.timeout = 30  # seconds timeout for operations
+        self.source_lang = source_lang
+        self.target_lang = target_lang
+        self.resource_limits = resource_limits or ResourceLimits()
+        self.resource_manager = ResourceManager(self.resource_limits)
+        self.parallel_processor = ParallelProcessor(self.resource_limits)
+        self.text_processor = EnhancedTextProcessor(self.parallel_processor)
+        self.scorer = WeightedScorer()
+        self.content_batcher = ContentBatcher(self.resource_limits)
+        self.dictionary = self._load_dictionary(dictionary_path)
+        self.lazy_load = lazy_load
+        # Placeholders for heavy models.
+        self._stemmer = None
+        self._semantic_model = None
+        self._zero_shot_model = None
+        self._zero_shot_tokenizer = None
+        self._malay_model = None
+        self.semantic_embeddings: Dict[str, np.ndarray] = {}
+        if not self.lazy_load:
+            self._safe_initialize_models()
+
+    def _load_dictionary(self, path: str) -> Dict[str, str]:
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                dictionary = json.load(f)
+            validated = {str(k).strip().lower(): str(v).strip() for k, v in dictionary.items() if isinstance(k, str) and isinstance(v, str)}
+            if self.source_lang == 'dyk' and self.target_lang == 'id':
+                validated = {v: k for k, v in validated.items()}
+            return validated
+        except Exception as e:
+            logger.error("Dictionary loading error.", exc_info=True)
+            raise
+
+    def _safe_initialize_models(self) -> None:
+        """Initialize models with timeout protection."""
+        try:
+            with ThreadPoolExecutor(max_workers=1) as executor:
+                future = executor.submit(self._initialize_models)
+                future.result(timeout=self.timeout)
+        except TimeoutError:
+            logger.error("Model initialization timed out")
+            raise
+        except Exception as e:
+            logger.error("Model initialization failed", exc_info=True)
+            raise
+
+    def _initialize_models(self) -> None:
+        try:
+            self._load_stemmer()
+            self._load_semantic_model()
+            self._compute_semantic_embeddings()
+            self._load_zero_shot_model()
+            self._load_malay_model()
+        except Exception as e:
+            logger.error("Model initialization error.", exc_info=True)
+            raise
+
+    def _load_stemmer(self) -> None:
+        try:
+            factory = StemmerFactory()
+            self._stemmer = factory.create_stemmer()
+            logger.info("Stemmer loaded.")
+        except Exception as e:
+            logger.error("Failed to load stemmer.", exc_info=True)
+            raise
+
+    def _load_semantic_model(self) -> None:
+        try:
+            device = 'cuda' if (self.resource_limits.max_vram_gb > 0 and torch is not None and torch.cuda.is_available()) else 'cpu'
+            self._semantic_model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2', device=device)
+            logger.info(f"Semantic model loaded on {device}.")
+        except Exception as e:
+            logger.error("Failed to load semantic model.", exc_info=True)
+            raise
+
+    def _compute_semantic_embeddings(self) -> None:
+        try:
+            words = list(self.dictionary.keys())
+            chunks = self.parallel_processor.chunk_data(words)
+            embeddings: Dict[str, np.ndarray] = {}
+            futures = []
+            for chunk in chunks:
+                future = self.parallel_processor.thread_executor.submit(
+                    self._semantic_model.encode,
+                    chunk,
+                    batch_size=self.resource_limits.batch_size,
+                    show_progress_bar=False
+                )
+                futures.append((chunk, future))
+            for chunk, future in futures:
+                try:
+                    batch_embeddings = future.result(timeout=120)
+                    for word, emb in zip(chunk, batch_embeddings):
+                        embeddings[word] = emb
+                except Exception as e:
+                    logger.error("Error computing embeddings for a chunk.", exc_info=True)
+            self.semantic_embeddings = embeddings
+            logger.info("Semantic embeddings computed.")
+        except Exception as e:
+            logger.error("Failed to compute semantic embeddings.", exc_info=True)
+
+    def _load_zero_shot_model(self) -> None:
+        try:
+            self._zero_shot_model = MBartForConditionalGeneration.from_pretrained(
+                'facebook/mbart-large-50-many-to-many-mmt',
+                low_cpu_mem_usage=True
+            )
+            self._zero_shot_tokenizer = MBart50TokenizerFast.from_pretrained(
+                'facebook/mbart-large-50-many-to-many-mmt'
+            )
+            logger.info("Zero-shot model and tokenizer loaded.")
+        except Exception as e:
+            logger.error("Failed to load zero-shot model.", exc_info=True)
+            raise
+
+    def _load_malay_model(self) -> None:
+        try:
+            self._malay_model = malaya.language_detection.fasttext()
+            logger.info("Malay language detection model loaded.")
+        except Exception as e:
+            logger.error("Failed to load Malay model.", exc_info=True)
+
+    @property
+    def stemmer(self):
+        if self._stemmer is None:
+            self._load_stemmer()
+        return self._stemmer
+
+    @property
+    def semantic_model(self):
+        if self._semantic_model is None:
+            self._load_semantic_model()
+        return self._semantic_model
+
+    @property
+    def zero_shot_model(self):
+        if self._zero_shot_model is None:
+            self._load_zero_shot_model()
+        return self._zero_shot_model
+
+    @property
+    def zero_shot_tokenizer(self):
+        if self._zero_shot_tokenizer is None:
+            self._load_zero_shot_model()
+        return self._zero_shot_tokenizer
+
+    @property
+    def malay_model(self):
+        if self._malay_model is None:
+            self._load_malay_model()
+        return self._malay_model
+
+    def _translate_core(self, core: str, context: Optional[Dict[str, float]], start_time: float) -> TranslationResult:
+        context = context or {}
+        cache_key = generate_cache_key(core, context)
+        cached = self.resource_manager.cache_manager.get(cache_key)
+        if cached:
+            return TranslationResult(core, cached["translated"], cached["confidence"], cached["method"], 0.0)
+        if core in self.dictionary:
+            conf = self.scorer.calculate_confidence('dictionary', 1.0, context)
+            result = TranslationResult(core, self.dictionary[core], conf, 'dictionary', time.time() - start_time)
+            self.resource_manager.cache_manager.set(cache_key, {
+                "translated": result.translated,
+                "confidence": result.confidence,
+                "method": result.method
+            })
+            return result
+        try:
+            with ThreadPoolExecutor(max_workers=1) as executor:
+                future = executor.submit(self._complex_translation, core, core, context, start_time)
+                result = future.result(timeout=self.timeout)
+                self.resource_manager.cache_manager.set(cache_key, {
+                    "translated": result.translated,
+                    "confidence": result.confidence,
+                    "method": result.method
+                })
+                return result
+        except TimeoutError:
+            logger.warning(f"Translation timed out for word: {core}")
+            return TranslationResult(core, core, 0.1, 'timeout_fallback', time.time() - start_time)
+        except Exception as e:
+            logger.error(f"Translation failed for word: {core}", exc_info=True)
+            return TranslationResult(core, core, 0.1, 'error_fallback', time.time() - start_time)
+
+    def translate_word(self, word: str, context: Optional[Dict[str, float]] = None) -> TranslationResult:
+        """
+        Translate a word with proper cleaning: remove any leading/trailing punctuation,
+        process the core token, and then reattach punctuation.
+        """
+        if re.fullmatch(r'\W+', word):
+            return TranslationResult(word, word, 1.0, 'punctuation', 0.0)
+        prefix_match = re.match(r'^(\W+)', word)
+        suffix_match = re.search(r'(\W+)$', word)
+        pre = prefix_match.group(1) if prefix_match else ""
+        suf = suffix_match.group(1) if suffix_match else ""
+        core = word[len(pre):len(word)-len(suf)] if suf else word[len(pre):]
+        # Normalize and clean the core token.
+        core_clean = self.text_processor.normalize_text(core).strip()
+        result = self._translate_core(core_clean, context, start_time=time.time())
+        translated = pre + result.translated + suf
+        return TranslationResult(word, translated, result.confidence, result.method, result.processing_time)
+
+    def _complex_translation(self, word: str, processed: str, context: Dict[str, float], start_time: float) -> TranslationResult:
+        """Handle complex translation methods with proper resource cleanup."""
+        try:
+            # 1. Apply FST rules
+            fst_candidate, fst_conf = self.apply_fst_rules(processed)
+            if fst_candidate:
+                conf = self.scorer.calculate_confidence('fst', fst_conf, context)
+                return TranslationResult(word, fst_candidate, conf, 'fst', time.time() - start_time)
+            # 2. Apply RBMT rules
+            rbmt_candidate, rbmt_conf = self.apply_rbmt_rules(processed)
+            if rbmt_candidate:
+                conf = self.scorer.calculate_confidence('rbmt', rbmt_conf, context)
+                return TranslationResult(word, rbmt_candidate, conf, 'rbmt', time.time() - start_time)
+            # 3. Malay cognate detection
+            try:
+                if self.malay_model is not None:
+                    malay_pred = self.malay_model.predict_proba([processed])
+                    if "malay" in malay_pred[0] and malay_pred[0]["malay"] > 0.8:
+                        stemmed = self.stemmer.stem(processed)
+                        if stemmed in self.dictionary:
+                            conf = self.scorer.calculate_confidence('malay_cognate', malay_pred[0]["malay"], context)
+                            return TranslationResult(word, self.dictionary[stemmed], conf, 'malay_cognate', time.time() - start_time)
+            except Exception as e:
+                logger.warning(f"Malay cognate detection failed for '{word}': {e}", exc_info=True)
+            # 4. Semantic similarity with Levenshtein fallback
+            try:
+                word_emb = self.semantic_model.encode([processed])[0]
+                best_score = -1.0
+                best_candidate = None
+                for dict_word, emb in self.semantic_embeddings.items():
+                    norm_product = np.linalg.norm(word_emb) * np.linalg.norm(emb)
+                    if norm_product == 0:
+                        continue
+                    cos_sim = np.dot(word_emb, emb) / norm_product
+                    lev_sim = 1 - (lev_distance(processed, dict_word) / max(len(processed), len(dict_word)))
+                    combined = 0.6 * cos_sim + 0.4 * lev_sim
+                    if combined > best_score:
+                        best_score = combined
+                        best_candidate = dict_word
+                if best_score > 0.7 and best_candidate is not None:
+                    conf = self.scorer.calculate_confidence('semantic', best_score, context)
+                    return TranslationResult(word, self.dictionary[best_candidate], conf, 'semantic', time.time() - start_time)
+            except Exception as e:
+                logger.warning(f"Semantic translation failed for '{word}': {e}", exc_info=True)
+            # 5. Zero-shot translation as last resort
+            try:
+                inputs = self.zero_shot_tokenizer(processed, return_tensors="pt", padding=True)
+                src_lang_map = {
+                    'id': 'id_ID',
+                    'dyk': 'id_ID',  # Map Dayak to Indonesian
+                    'ms': 'id_ID'
+                }
+                self.zero_shot_tokenizer.src_lang = src_lang_map.get(self.source_lang, "id_ID")
+                target_lang_map = {
+                    'id': 'id_ID',
+                    'dyk': 'id_ID',
+                    'ms': 'id_ID'
+                }
+                forced_lang = target_lang_map.get(self.target_lang, self.target_lang)
+                generated = self.zero_shot_model.generate(
+                    **inputs,
+                    forced_bos_token_id=self.zero_shot_tokenizer.lang_code_to_id[forced_lang],
+                    max_length=128,
+                    num_beams=4,
+                    length_penalty=0.6,
+                    max_time=10.0
+                )
+                zs_trans = self.zero_shot_tokenizer.batch_decode(generated, skip_special_tokens=True)[0]
+                conf = self.scorer.calculate_confidence('zero_shot', 0.5, context)
+                return TranslationResult(word, zs_trans, conf, 'zero_shot', time.time() - start_time)
+            except Exception as e:
+                logger.warning(f"Zero-shot translation failed for '{word}': {e}", exc_info=True)
+            # 6. Fallback to original word with very low confidence.
+            return TranslationResult(word, word, 0.1, 'fallback', time.time() - start_time)
+        finally:
+            if torch is not None and torch.cuda.is_available():
+                torch.cuda.empty_cache()
+
+    def apply_fst_rules(self, word: str) -> Tuple[Optional[str], float]:
+        """
+        Apply regex-based FST rules with extended patterns.
+        """
+        rules = [
+            (r'([a-zA-Z]+)s$', r'\1'),
+            (r'([a-zA-Z]+)an$', r'\1'),
+            (r'([a-zA-Z]+)nya$', r'\1'),
+            (r'^(un|in)([a-zA-Z]+)$', r'\2')
+        ]
+        for pattern, repl in rules:
+            candidate = re.sub(pattern, repl, word)
+            if candidate in self.dictionary:
+                return candidate, 0.85
+        return None, 0.0
+
+    def apply_rbmt_rules(self, word: str) -> Tuple[Optional[str], float]:
+        """
+        Apply Rule-Based Machine Translation (RBMT) rules.
+        This includes handling common idiomatic expressions and morphological patterns.
+        """
+        rbmt_rules = [
+            (r'\bselamat pagi\b', 'good morning', 0.9),
+            (r'\bapa kabar\b', 'how are you', 0.9)
+        ]
+        for pattern, replacement, conf in rbmt_rules:
+            if re.search(pattern, word):
+                return replacement, conf
+        if word.endswith("ing"):
+            candidate = word[:-3]
+            if candidate in self.dictionary:
+                return self.dictionary[candidate], 0.8
+        return None, 0.0
+
+    def translate_sentence(self, sentence: str) -> str:
+        """
+        Translate a sentence while preserving word order.
+        """
+        tokens = sentence.split()
+        results = [None] * len(tokens)
+        with ThreadPoolExecutor(max_workers=self.resource_limits.thread_count) as executor:
+            futures = {executor.submit(self.translate_word, token): i for i, token in enumerate(tokens)}
+            try:
+                for future in as_completed(futures, timeout=60):
+                    idx = futures[future]
+                    try:
+                        res = future.result(timeout=60)
+                        results[idx] = res.translated
+                    except Exception as e:
+                        logger.error("Token translation error.", exc_info=True)
+                        results[idx] = tokens[idx]
+            except Exception as e:
+                logger.error("Sentence translation timeout or error.", exc_info=True)
+        results = [token if token is None else token for token in results]
+        return " ".join(results)
+
+    def translate_text(self, text: str, source_lang: str, target_lang: str) -> str:
+        logger.info(f"Translating text from {source_lang} to {target_lang}.")
+        # Normalize the entire text before splitting into sentences.
+        normalized_text = self.text_processor.normalize_text(text)
+        sentences = self.text_processor.split_sentences(normalized_text)
+        translated_sentences: List[str] = []
+        for sentence in sentences:
+            word_translations = [self.translate_word(token) for token in sentence.split()]
+            avg_conf = np.mean([res.confidence for res in word_translations]) if word_translations else 0.0
+            if avg_conf < 0.4:
+                try:
+                    inputs = self.zero_shot_tokenizer(sentence, return_tensors="pt", padding=True)
+                    target_lang_map = {
+                        'id': 'id_ID',
+                        'dyk': 'id_ID',
+                        'ms': 'id_ID'
+                    }
+                    forced_lang = target_lang_map.get(target_lang, target_lang)
+                    self.zero_shot_tokenizer.src_lang = source_lang
+                    generated = self.zero_shot_model.generate(
+                        **inputs,
+                        forced_bos_token_id=self.zero_shot_tokenizer.lang_code_to_id[forced_lang],
+                        max_length=128,
+                        num_beams=4,
+                        length_penalty=0.6
+                    )
+                    sentence_trans = self.zero_shot_tokenizer.batch_decode(generated, skip_special_tokens=True)[0]
+                    translated_sentences.append(sentence_trans)
+                    continue
+                except Exception as e:
+                    logger.warning("Sentence-level zero-shot translation failed.", exc_info=True)
+            translated_sentences.append(" ".join([res.translated for res in word_translations]))
+        overall_translation = " ".join(translated_sentences)
+        gc.collect()
+        return overall_translation
+
+    def create_report(self, filename: str) -> None:
+        doc = Document()
+        doc.add_heading("ILTE-ZS Translation Report", 0)
+        total_conf = []
+        total_words = 0
+        for original, translated, conf, orig_count, _ in getattr(self, 'translations', []):
+            doc.add_paragraph(f"Original: {original}")
+            doc.add_paragraph(f"Translated: {translated}")
+            doc.add_paragraph(f"Confidence: {conf:.1%}")
+            doc.add_paragraph("")
+            total_conf.append(conf)
+            total_words += orig_count
+        avg_conf = np.mean(total_conf) if total_conf else 0.0
+        footer_text = f"Total Words Processed: {total_words} | Average Confidence: {avg_conf:.1%}"
+        section = doc.sections[0]
+        if section.footer.paragraphs:
+            section.footer.paragraphs[0].text = footer_text
+        else:
+            section.footer.add_paragraph(footer_text)
+        doc.add_page_break()
+        doc.save(filename)
+        logger.info(f"Report saved to {filename}")
+
+    def cleanup(self) -> None:
+        """Cleanup resources: shutdown executors, save cache, and release GPU memory."""
+        self.parallel_processor.shutdown()
+        self.resource_manager.cache_manager.save()
+        self.resource_manager.clean_cache()
+        self.resource_manager.release_gpu_memory()
+        gc.collect()
+
+class ILTEZSEngineRunner:
+    """
+    Main interface and execution workflow for the ILTE-ZS engine.
+    Supports interactive mode and file input.
+    """
+    def __init__(self, engine: EnhancedILTEZSTranslationEngine):
+        self.engine = engine
+        signal.signal(signal.SIGINT, self._handle_interrupt)
+        signal.signal(signal.SIGTERM, self._handle_interrupt)
+
+    def _handle_interrupt(self, signum, frame):
+        """Handle interrupt signals gracefully."""
+        print("\nReceived interrupt signal. Cleaning up...")
+        self.engine.shutdown_event.set()
+        self.engine.cleanup()
+        print("Cleanup complete. Exiting...")
+        sys.exit(0)
+
+    def process_text(self, text: str) -> List[str]:
+        sentences = self.engine.text_processor.split_sentences(text)
+        results: List[str] = []
+        with ThreadPoolExecutor(max_workers=self.engine.resource_limits.thread_count) as executor:
+            futures = {executor.submit(self.engine.translate_sentence, s): s for s in sentences}
+            for future in as_completed(futures, timeout=120):
+                try:
+                    results.append(future.result(timeout=60))
+                except Exception as e:
+                    logger.error("Sentence translation error.", exc_info=True)
+        return results
+
+    def process_file(self, file_path: str) -> List[str]:
+        try:
+            safe_path = Path(file_path).resolve()
+            if not safe_path.exists():
+                logger.error("File not found.")
+                return []
+            encoding = detect_encoding(str(safe_path))
+            if safe_path.suffix.lower() == ".docx":
+                doc = Document(str(safe_path))
+                text = "\n".join([para.text for para in doc.paragraphs])
+            else:
+                with safe_path.open('r', encoding=encoding, errors='replace') as file:
+                    text = file.read()
+            return self.process_text(text)
+        except Exception as e:
+            logger.error("File processing error.", exc_info=True)
+            return []
+
+    def generate_report(self, results: List[str], filename: str = "translation_report.docx") -> None:
+        doc = Document()
+        doc.add_heading("ILTE-ZS Translation Report", 0)
+        for sentence in results:
+            doc.add_paragraph(sentence)
+        doc.save(filename)
+        logger.info(f"Report saved as {filename}")
+
+    def interactive_mode(self) -> None:
+        print("\n--- Interactive Translation Mode ---")
+        while not self.engine.shutdown_event.is_set():
+            try:
+                text = input("\nEnter text to translate (or type 'exit' to quit): ").strip()
+                if text.lower() == "exit":
+                    break
+                print("Translating...")
+                results = self.process_text(text)
+                print("\n--- Translation Results ---")
+                for res in results:
+                    print(f"→ {res}")
+            except KeyboardInterrupt:
+                print("\nTranslation interrupted by user.")
+                break
+            except Exception as e:
+                print(f"\nError occurred: {str(e)}")
+                logger.error("Interactive mode error", exc_info=True)
+                break
+
+    def file_mode(self) -> None:
+        file_path = input("\nEnter file path: ").strip()
+        if not os.path.exists(file_path):
+            print("File not found.")
+            return
+        print("\nDetecting file encoding...")
+        encoding = detect_encoding(file_path)
+        print(f"Detected encoding: {encoding}")
+        print("Processing file...")
+        results = self.process_file(file_path)
+        print("\n--- Preview (first 5 sentences) ---")
+        for res in results[:5]:
+            print(f"→ {res}")
+        self.generate_report(results)
+
+    def main(self) -> None:
+        print("\n=== Welcome to ILTE-ZS Translation Engine ===")
+        while True:
+            mode = input("\nChoose mode: [1] Direct Input  [2] File Input  [3] Exit: ").strip()
+            if mode == "1":
+                self.interactive_mode()
+            elif mode == "2":
+                self.file_mode()
+            elif mode == "3":
+                print("Exiting translation engine...")
+                break
+            else:
+                print("Invalid choice. Try again.")
+
+def detect_encoding(file_path: str, read_bytes: int = 100000) -> str:
+    """
+    Detect file encoding by reading up to `read_bytes` from the file.
+    """
+    try:
+        with open(file_path, "rb") as f:
+            raw_data = f.read(read_bytes)
+        detected = chardet.detect(raw_data)
+        encoding = detected.get("encoding", "utf-8")
+        logger.info(f"Detected encoding: {encoding}")
+        return encoding
+    except Exception as e:
+        logger.error("Encoding detection error.", exc_info=True)
+        return "utf-8"
+
+if __name__ == "__main__":
+    try:
+        dictionary_path = "dictionary_alt.json"
+        engine = EnhancedILTEZSTranslationEngine(dictionary_path)
+        runner = ILTEZSEngineRunner(engine)
+        runner.main()
+    except Exception as main_exc:
+        logger.critical("Fatal error in ILTE-ZS engine execution.", exc_info=True)
+    finally:
+        engine.cleanup()
+        logger.info("ILTE-ZS engine cleanup complete.")
+        sys.exit(0)
+</file>
+
+<file path="Dyk-Knyh-engine-main/LICENSE">
+GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+  The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.  By contrast,
+the GNU General Public License is intended to guarantee your freedom to
+share and change all versions of a program--to make sure it remains free
+software for all its users.  We, the Free Software Foundation, use the
+GNU General Public License for most of our software; it applies also to
+any other work released this way by its authors.  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+them if you wish), that you receive source code or can get it if you
+want it, that you can change the software or use pieces of it in new
+free programs, and that you know you can do these things.
+
+  To protect your rights, we need to prevent others from denying you
+these rights or asking you to surrender the rights.  Therefore, you have
+certain responsibilities if you distribute copies of the software, or if
+you modify it: responsibilities to respect the freedom of others.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must pass on to the recipients the same
+freedoms that you received.  You must make sure that they, too, receive
+or can get the source code.  And you must show them these terms so they
+know their rights.
+
+  Developers that use the GNU GPL protect your rights with two steps:
+(1) assert copyright on the software, and (2) offer you this License
+giving you legal permission to copy, distribute and/or modify it.
+
+  For the developers' and authors' protection, the GPL clearly explains
+that there is no warranty for this free software.  For both users' and
+authors' sake, the GPL requires that modified versions be marked as
+changed, so that their problems will not be attributed erroneously to
+authors of previous versions.
+
+  Some devices are designed to deny users access to install or run
+modified versions of the software inside them, although the manufacturer
+can do so.  This is fundamentally incompatible with the aim of
+protecting users' freedom to change the software.  The systematic
+pattern of such abuse occurs in the area of products for individuals to
+use, which is precisely where it is most unacceptable.  Therefore, we
+have designed this version of the GPL to prohibit the practice for those
+products.  If such problems arise substantially in other domains, we
+stand ready to extend this provision to those domains in future versions
+of the GPL, as needed to protect the freedom of users.
+
+  Finally, every program is threatened constantly by software patents.
+States should not allow patents to restrict development and use of
+software on general-purpose computers, but in those that do, we wish to
+avoid the special danger that patents applied to a free program could
+make it effectively proprietary.  To prevent this, the GPL assures that
+patents cannot be used to render the program non-free.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                       TERMS AND CONDITIONS
+
+  0. Definitions.
+
+  "This License" refers to version 3 of the GNU General Public License.
+
+  "Copyright" also means copyright-like laws that apply to other kinds of
+works, such as semiconductor masks.
+
+  "The Program" refers to any copyrightable work licensed under this
+License.  Each licensee is addressed as "you".  "Licensees" and
+"recipients" may be individuals or organizations.
+
+  To "modify" a work means to copy from or adapt all or part of the work
+in a fashion requiring copyright permission, other than the making of an
+exact copy.  The resulting work is called a "modified version" of the
+earlier work or a work "based on" the earlier work.
+
+  A "covered work" means either the unmodified Program or a work based
+on the Program.
+
+  To "propagate" a work means to do anything with it that, without
+permission, would make you directly or secondarily liable for
+infringement under applicable copyright law, except executing it on a
+computer or modifying a private copy.  Propagation includes copying,
+distribution (with or without modification), making available to the
+public, and in some countries other activities as well.
+
+  To "convey" a work means any kind of propagation that enables other
+parties to make or receive copies.  Mere interaction with a user through
+a computer network, with no transfer of a copy, is not conveying.
+
+  An interactive user interface displays "Appropriate Legal Notices"
+to the extent that it includes a convenient and prominently visible
+feature that (1) displays an appropriate copyright notice, and (2)
+tells the user that there is no warranty for the work (except to the
+extent that warranties are provided), that licensees may convey the
+work under this License, and how to view a copy of this License.  If
+the interface presents a list of user commands or options, such as a
+menu, a prominent item in the list meets this criterion.
+
+  1. Source Code.
+
+  The "source code" for a work means the preferred form of the work
+for making modifications to it.  "Object code" means any non-source
+form of a work.
+
+  A "Standard Interface" means an interface that either is an official
+standard defined by a recognized standards body, or, in the case of
+interfaces specified for a particular programming language, one that
+is widely used among developers working in that language.
+
+  The "System Libraries" of an executable work include anything, other
+than the work as a whole, that (a) is included in the normal form of
+packaging a Major Component, but which is not part of that Major
+Component, and (b) serves only to enable use of the work with that
+Major Component, or to implement a Standard Interface for which an
+implementation is available to the public in source code form.  A
+"Major Component", in this context, means a major essential component
+(kernel, window system, and so on) of the specific operating system
+(if any) on which the executable work runs, or a compiler used to
+produce the work, or an object code interpreter used to run it.
+
+  The "Corresponding Source" for a work in object code form means all
+the source code needed to generate, install, and (for an executable
+work) run the object code and to modify the work, including scripts to
+control those activities.  However, it does not include the work's
+System Libraries, or general-purpose tools or generally available free
+programs which are used unmodified in performing those activities but
+which are not part of the work.  For example, Corresponding Source
+includes interface definition files associated with source files for
+the work, and the source code for shared libraries and dynamically
+linked subprograms that the work is specifically designed to require,
+such as by intimate data communication or control flow between those
+subprograms and other parts of the work.
+
+  The Corresponding Source need not include anything that users
+can regenerate automatically from other parts of the Corresponding
+Source.
+
+  The Corresponding Source for a work in source code form is that
+same work.
+
+  2. Basic Permissions.
+
+  All rights granted under this License are granted for the term of
+copyright on the Program, and are irrevocable provided the stated
+conditions are met.  This License explicitly affirms your unlimited
+permission to run the unmodified Program.  The output from running a
+covered work is covered by this License only if the output, given its
+content, constitutes a covered work.  This License acknowledges your
+rights of fair use or other equivalent, as provided by copyright law.
+
+  You may make, run and propagate covered works that you do not
+convey, without conditions so long as your license otherwise remains
+in force.  You may convey covered works to others for the sole purpose
+of having them make modifications exclusively for you, or provide you
+with facilities for running those works, provided that you comply with
+the terms of this License in conveying all material for which you do
+not control copyright.  Those thus making or running the covered works
+for you must do so exclusively on your behalf, under your direction
+and control, on terms that prohibit them from making any copies of
+your copyrighted material outside their relationship with you.
+
+  Conveying under any other circumstances is permitted solely under
+the conditions stated below.  Sublicensing is not allowed; section 10
+makes it unnecessary.
+
+  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+
+  No covered work shall be deemed part of an effective technological
+measure under any applicable law fulfilling obligations under article
+11 of the WIPO copyright treaty adopted on 20 December 1996, or
+similar laws prohibiting or restricting circumvention of such
+measures.
+
+  When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circumvention
+is effected by exercising rights under this License with respect to
+the covered work, and you disclaim any intention to limit operation or
+modification of the work as a means of enforcing, against the work's
+users, your or third parties' legal rights to forbid circumvention of
+technological measures.
+
+  4. Conveying Verbatim Copies.
+
+  You may convey verbatim copies of the Program's source code as you
+receive it, in any medium, provided that you conspicuously and
+appropriately publish on each copy an appropriate copyright notice;
+keep intact all notices stating that this License and any
+non-permissive terms added in accord with section 7 apply to the code;
+keep intact all notices of the absence of any warranty; and give all
+recipients a copy of this License along with the Program.
+
+  You may charge any price or no price for each copy that you convey,
+and you may offer support or warranty protection for a fee.
+
+  5. Conveying Modified Source Versions.
+
+  You may convey a work based on the Program, or the modifications to
+produce it from the Program, in the form of source code under the
+terms of section 4, provided that you also meet all of these conditions:
+
+    a) The work must carry prominent notices stating that you modified
+    it, and giving a relevant date.
+
+    b) The work must carry prominent notices stating that it is
+    released under this License and any conditions added under section
+    7.  This requirement modifies the requirement in section 4 to
+    "keep intact all notices".
+
+    c) You must license the entire work, as a whole, under this
+    License to anyone who comes into possession of a copy.  This
+    License will therefore apply, along with any applicable section 7
+    additional terms, to the whole of the work, and all its parts,
+    regardless of how they are packaged.  This License gives no
+    permission to license the work in any other way, but it does not
+    invalidate such permission if you have separately received it.
+
+    d) If the work has interactive user interfaces, each must display
+    Appropriate Legal Notices; however, if the Program has interactive
+    interfaces that do not display Appropriate Legal Notices, your
+    work need not make them do so.
+
+  A compilation of a covered work with other separate and independent
+works, which are not by their nature extensions of the covered work,
+and which are not combined with it such as to form a larger program,
+in or on a volume of a storage or distribution medium, is called an
+"aggregate" if the compilation and its resulting copyright are not
+used to limit the access or legal rights of the compilation's users
+beyond what the individual works permit.  Inclusion of a covered work
+in an aggregate does not cause this License to apply to the other
+parts of the aggregate.
+
+  6. Conveying Non-Source Forms.
+
+  You may convey a covered work in object code form under the terms
+of sections 4 and 5, provided that you also convey the
+machine-readable Corresponding Source under the terms of this License,
+in one of these ways:
+
+    a) Convey the object code in, or embodied in, a physical product
+    (including a physical distribution medium), accompanied by the
+    Corresponding Source fixed on a durable physical medium
+    customarily used for software interchange.
+
+    b) Convey the object code in, or embodied in, a physical product
+    (including a physical distribution medium), accompanied by a
+    written offer, valid for at least three years and valid for as
+    long as you offer spare parts or customer support for that product
+    model, to give anyone who possesses the object code either (1) a
+    copy of the Corresponding Source for all the software in the
+    product that is covered by this License, on a durable physical
+    medium customarily used for software interchange, for a price no
+    more than your reasonable cost of physically performing this
+    conveying of source, or (2) access to copy the
+    Corresponding Source from a network server at no charge.
+
+    c) Convey individual copies of the object code with a copy of the
+    written offer to provide the Corresponding Source.  This
+    alternative is allowed only occasionally and noncommercially, and
+    only if you received the object code with such an offer, in accord
+    with subsection 6b.
+
+    d) Convey the object code by offering access from a designated
+    place (gratis or for a charge), and offer equivalent access to the
+    Corresponding Source in the same way through the same place at no
+    further charge.  You need not require recipients to copy the
+    Corresponding Source along with the object code.  If the place to
+    copy the object code is a network server, the Corresponding Source
+    may be on a different server (operated by you or a third party)
+    that supports equivalent copying facilities, provided you maintain
+    clear directions next to the object code saying where to find the
+    Corresponding Source.  Regardless of what server hosts the
+    Corresponding Source, you remain obligated to ensure that it is
+    available for as long as needed to satisfy these requirements.
+
+    e) Convey the object code using peer-to-peer transmission, provided
+    you inform other peers where the object code and Corresponding
+    Source of the work are being offered to the general public at no
+    charge under subsection 6d.
+
+  A separable portion of the object code, whose source code is excluded
+from the Corresponding Source as a System Library, need not be
+included in conveying the object code work.
+
+  A "User Product" is either (1) a "consumer product", which means any
+tangible personal property which is normally used for personal, family,
+or household purposes, or (2) anything designed or sold for incorporation
+into a dwelling.  In determining whether a product is a consumer product,
+doubtful cases shall be resolved in favor of coverage.  For a particular
+product received by a particular user, "normally used" refers to a
+typical or common use of that class of product, regardless of the status
+of the particular user or of the way in which the particular user
+actually uses, or expects or is expected to use, the product.  A product
+is a consumer product regardless of whether the product has substantial
+commercial, industrial or non-consumer uses, unless such uses represent
+the only significant mode of use of the product.
+
+  "Installation Information" for a User Product means any methods,
+procedures, authorization keys, or other information required to install
+and execute modified versions of a covered work in that User Product from
+a modified version of its Corresponding Source.  The information must
+suffice to ensure that the continued functioning of the modified object
+code is in no case prevented or interfered with solely because
+modification has been made.
+
+  If you convey an object code work under this section in, or with, or
+specifically for use in, a User Product, and the conveying occurs as
+part of a transaction in which the right of possession and use of the
+User Product is transferred to the recipient in perpetuity or for a
+fixed term (regardless of how the transaction is characterized), the
+Corresponding Source conveyed under this section must be accompanied
+by the Installation Information.  But this requirement does not apply
+if neither you nor any third party retains the ability to install
+modified object code on the User Product (for example, the work has
+been installed in ROM).
+
+  The requirement to provide Installation Information does not include a
+requirement to continue to provide support service, warranty, or updates
+for a work that has been modified or installed by the recipient, or for
+the User Product in which it has been modified or installed.  Access to a
+network may be denied when the modification itself materially and
+adversely affects the operation of the network or violates the rules and
+protocols for communication across the network.
+
+  Corresponding Source conveyed, and Installation Information provided,
+in accord with this section must be in a format that is publicly
+documented (and with an implementation available to the public in
+source code form), and must require no special password or key for
+unpacking, reading or copying.
+
+  7. Additional Terms.
+
+  "Additional permissions" are terms that supplement the terms of this
+License by making exceptions from one or more of its conditions.
+Additional permissions that are applicable to the entire Program shall
+be treated as though they were included in this License, to the extent
+that they are valid under applicable law.  If additional permissions
+apply only to part of the Program, that part may be used separately
+under those permissions, but the entire Program remains governed by
+this License without regard to the additional permissions.
+
+  When you convey a copy of a covered work, you may at your option
+remove any additional permissions from that copy, or from any part of
+it.  (Additional permissions may be written to require their own
+removal in certain cases when you modify the work.)  You may place
+additional permissions on material, added by you to a covered work,
+for which you have or can give appropriate copyright permission.
+
+  Notwithstanding any other provision of this License, for material you
+add to a covered work, you may (if authorized by the copyright holders of
+that material) supplement the terms of this License with terms:
+
+    a) Disclaiming warranty or limiting liability differently from the
+    terms of sections 15 and 16 of this License; or
+
+    b) Requiring preservation of specified reasonable legal notices or
+    author attributions in that material or in the Appropriate Legal
+    Notices displayed by works containing it; or
+
+    c) Prohibiting misrepresentation of the origin of that material, or
+    requiring that modified versions of such material be marked in
+    reasonable ways as different from the original version; or
+
+    d) Limiting the use for publicity purposes of names of licensors or
+    authors of the material; or
+
+    e) Declining to grant rights under trademark law for use of some
+    trade names, trademarks, or service marks; or
+
+    f) Requiring indemnification of licensors and authors of that
+    material by anyone who conveys the material (or modified versions of
+    it) with contractual assumptions of liability to the recipient, for
+    any liability that these contractual assumptions directly impose on
+    those licensors and authors.
+
+  All other non-permissive additional terms are considered "further
+restrictions" within the meaning of section 10.  If the Program as you
+received it, or any part of it, contains a notice stating that it is
+governed by this License along with a term that is a further
+restriction, you may remove that term.  If a license document contains
+a further restriction but permits relicensing or conveying under this
+License, you may add to a covered work material governed by the terms
+of that license document, provided that the further restriction does
+not survive such relicensing or conveying.
+
+  If you add terms to a covered work in accord with this section, you
+must place, in the relevant source files, a statement of the
+additional terms that apply to those files, or a notice indicating
+where to find the applicable terms.
+
+  Additional terms, permissive or non-permissive, may be stated in the
+form of a separately written license, or stated as exceptions;
+the above requirements apply either way.
+
+  8. Termination.
+
+  You may not propagate or modify a covered work except as expressly
+provided under this License.  Any attempt otherwise to propagate or
+modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+
+  However, if you cease all violation of this License, then your
+license from a particular copyright holder is reinstated (a)
+provisionally, unless and until the copyright holder explicitly and
+finally terminates your license, and (b) permanently, if the copyright
+holder fails to notify you of the violation by some reasonable means
+prior to 60 days after the cessation.
+
+  Moreover, your license from a particular copyright holder is
+reinstated permanently if the copyright holder notifies you of the
+violation by some reasonable means, this is the first time you have
+received notice of violation of this License (for any work) from that
+copyright holder, and you cure the violation prior to 30 days after
+your receipt of the notice.
+
+  Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License.  If your rights have been terminated and not permanently
+reinstated, you do not qualify to receive new licenses for the same
+material under section 10.
+
+  9. Acceptance Not Required for Having Copies.
+
+  You are not required to accept this License in order to receive or
+run a copy of the Program.  Ancillary propagation of a covered work
+occurring solely as a consequence of using peer-to-peer transmission
+to receive a copy likewise does not require acceptance.  However,
+nothing other than this License grants you permission to propagate or
+modify any covered work.  These actions infringe copyright if you do
+not accept this License.  Therefore, by modifying or propagating a
+covered work, you indicate your acceptance of this License to do so.
+
+  10. Automatic Licensing of Downstream Recipients.
+
+  Each time you convey a covered work, the recipient automatically
+receives a license from the original licensors, to run, modify and
+propagate that work, subject to this License.  You are not responsible
+for enforcing compliance by third parties with this License.
+
+  An "entity transaction" is a transaction transferring control of an
+organization, or substantially all assets of one, or subdividing an
+organization, or merging organizations.  If propagation of a covered
+work results from an entity transaction, each party to that
+transaction who receives a copy of the work also receives whatever
+licenses to the work the party's predecessor in interest had or could
+give under the previous paragraph, plus a right to possession of the
+Corresponding Source of the work from the predecessor in interest, if
+the predecessor has it or can get it with reasonable efforts.
+
+  You may not impose any further restrictions on the exercise of the
+rights granted or affirmed under this License.  For example, you may
+not impose a license fee, royalty, or other charge for exercise of
+rights granted under this License, and you may not initiate litigation
+(including a cross-claim or counterclaim in a lawsuit) alleging that
+any patent claim is infringed by making, using, selling, offering for
+sale, or importing the Program or any portion of it.
+
+  11. Patents.
+
+  A "contributor" is a copyright holder who authorizes use under this
+License of the Program or a work on which the Program is based.  The
+work thus licensed is called the contributor's "contributor version".
+
+  A contributor's "essential patent claims" are all patent claims
+owned or controlled by the contributor, whether already acquired or
+hereafter acquired, that would be infringed by some manner, permitted
+by this License, of making, using, or selling its contributor version,
+but do not include claims that would be infringed only as a
+consequence of further modification of the contributor version.  For
+purposes of this definition, "control" includes the right to grant
+patent sublicenses in a manner consistent with the requirements of
+this License.
+
+  Each contributor grants you a non-exclusive, worldwide, royalty-free
+patent license under the contributor's essential patent claims, to
+make, use, sell, offer for sale, import and otherwise run, modify and
+propagate the contents of its contributor version.
+
+  In the following three paragraphs, a "patent license" is any express
+agreement or commitment, however denominated, not to enforce a patent
+(such as an express permission to practice a patent or covenant not to
+sue for patent infringement).  To "grant" such a patent license to a
+party means to make such an agreement or commitment not to enforce a
+patent against the party.
+
+  If you convey a covered work, knowingly relying on a patent license,
+and the Corresponding Source of the work is not available for anyone
+to copy, free of charge and under the terms of this License, through a
+publicly available network server or other readily accessible means,
+then you must either (1) cause the Corresponding Source to be so
+available, or (2) arrange to deprive yourself of the benefit of the
+patent license for this particular work, or (3) arrange, in a manner
+consistent with the requirements of this License, to extend the patent
+license to downstream recipients.  "Knowingly relying" means you have
+actual knowledge that, but for the patent license, your conveying the
+covered work in a country, or your recipient's use of the covered work
+in a country, would infringe one or more identifiable patents in that
+country that you have reason to believe are valid.
+
+  If, pursuant to or in connection with a single transaction or
+arrangement, you convey, or propagate by procuring conveyance of, a
+covered work, and grant a patent license to some of the parties
+receiving the covered work authorizing them to use, propagate, modify
+or convey a specific copy of the covered work, then the patent license
+you grant is automatically extended to all recipients of the covered
+work and works based on it.
+
+  A patent license is "discriminatory" if it does not include within
+the scope of its coverage, prohibits the exercise of, or is
+conditioned on the non-exercise of one or more of the rights that are
+specifically granted under this License.  You may not convey a covered
+work if you are a party to an arrangement with a third party that is
+in the business of distributing software, under which you make payment
+to the third party based on the extent of your activity of conveying
+the work, and under which the third party grants, to any of the
+parties who would receive the covered work from you, a discriminatory
+patent license (a) in connection with copies of the covered work
+conveyed by you (or copies made from those copies), or (b) primarily
+for and in connection with specific products or compilations that
+contain the covered work, unless you entered into that arrangement,
+or that patent license was granted, prior to 28 March 2007.
+
+  Nothing in this License shall be construed as excluding or limiting
+any implied license or other defenses to infringement that may
+otherwise be available to you under applicable patent law.
+
+  12. No Surrender of Others' Freedom.
+
+  If conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot convey a
+covered work so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you may
+not convey it at all.  For example, if you agree to terms that obligate you
+to collect a royalty for further conveying from those to whom you convey
+the Program, the only way you could satisfy both those terms and this
+License would be to refrain entirely from conveying the Program.
+
+  13. Use with the GNU Affero General Public License.
+
+  Notwithstanding any other provision of this License, you have
+permission to link or combine any covered work with a work licensed
+under version 3 of the GNU Affero General Public License into a single
+combined work, and to convey the resulting work.  The terms of this
+License will continue to apply to the part which is the covered work,
+but the special requirements of the GNU Affero General Public License,
+section 13, concerning interaction through a network will apply to the
+combination as such.
+
+  14. Revised Versions of this License.
+
+  The Free Software Foundation may publish revised and/or new versions of
+the GNU General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+  Each version is given a distinguishing version number.  If the
+Program specifies that a certain numbered version of the GNU General
+Public License "or any later version" applies to it, you have the
+option of following the terms and conditions either of that numbered
+version or of any later version published by the Free Software
+Foundation.  If the Program does not specify a version number of the
+GNU General Public License, you may choose any version ever published
+by the Free Software Foundation.
+
+  If the Program specifies that a proxy can decide which future
+versions of the GNU General Public License can be used, that proxy's
+public statement of acceptance of a version permanently authorizes you
+to choose that version for the Program.
+
+  Later license versions may give you additional or different
+permissions.  However, no additional obligations are imposed on any
+author or copyright holder as a result of your choosing to follow a
+later version.
+
+  15. Disclaimer of Warranty.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+  16. Limitation of Liability.
+
+  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+  17. Interpretation of Sections 15 and 16.
+
+  If the disclaimer of warranty and limitation of liability provided
+above cannot be given local legal effect according to their terms,
+reviewing courts shall apply local law that most closely approximates
+an absolute waiver of all civil liability in connection with the
+Program, unless a warranty or assumption of liability accompanies a
+copy of the Program in return for a fee.
+
+                     END OF TERMS AND CONDITIONS
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these terms.
+
+  To do so, attach the following notices to the program.  It is safest
+to attach them to the start of each source file to most effectively
+state the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Also add information on how to contact you by electronic and paper mail.
+
+  If the program does terminal interaction, make it output a short
+notice like this when it starts in an interactive mode:
+
+    <program>  Copyright (C) <year>  <name of author>
+    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, your program's commands
+might be different; for a GUI interface, you would use an "about box".
+
+  You should also get your employer (if you work as a programmer) or school,
+if any, to sign a "copyright disclaimer" for the program, if necessary.
+For more information on this, and how to apply and follow the GNU GPL, see
+<https://www.gnu.org/licenses/>.
+
+  The GNU General Public License does not permit incorporating your program
+into proprietary programs.  If your program is a subroutine library, you
+may consider it more useful to permit linking proprietary applications with
+the library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.  But first, please read
+<https://www.gnu.org/licenses/why-not-lgpl.html>.
+</file>
+
+<file path="Dyk-Knyh-engine-main/README.md">
+# 🌍 Indigenous Language Translator Engine (ILTE) 🌿
+
+<div align="center">
+  <img src="https://github.com/Protostarship/Dyk-Knyh-engine/blob/main/src/elements/animated-tiles.svg" width="100%" alt="banner"/>
+</div>
+
+##### 📌 Developed by XI TJKT 2 | 2024/2025 | ❗ Any commercial use or unauthorized exploitation is prohibited
+---
+
+Release:
+- [v2.1.0-Beta.2 ALT](https://github.com/Protostarship/Dyk-Knyh-engine/releases/tag/v2.1.0)
+- [v2.1.1-Alpha.2 ADV](https://github.com/Protostarship/Dyk-Knyh-engine/releases/tag/v2.1.0)
+- [v2.1.2-Beta.3 ZS](https://github.com/Protostarship/Dyk-Knyh-engine/releases/tag/v2.1.2-Beta.3)
+- [v3.0.0-Alpha.3 ATI](https://github.com/Protostarship/Dyk-Knyh-engine/releases/tag/v3.0.0-Alpha.3)
+  
+---
+```
+ ██╗  ██╗     ████████╗ ███████╗
+ ██║  ██║     ╚══██╔══╝ ██╔════╝
+ ██║  ██║        ██║    ███████╗  
+ ██║  ██║        ██║    ██╔════╝  
+ ██║  ███████╗   ██║    ███████╗
+ ╚═╝  ╚══════╝   ╚═╝    ╚══════╝
+ -------------------------------
+ ILTE - Indigenous Language Translator Engine
+```
+
+## 📌 Overview
+The **Indigenous Language Translator Engine (ILTE)** now offers **four distinct versions**, each tailored to different translation needs:
+
+- **🌱 ILTE-ALT (Optimized for Speed)** – A lightweight, dictionary-based translator optimized for **fast, low-resource translations**.
+- **🧠 ILTE-ZS (Hybrid, Multi-Processing)** – Combines **dictionary-based rules, RBMT, FST, semantic matching, and zero-shot translation** while efficiently handling **large text files**.
+- **🧐 ILTE-ADV (AI-Powered, Context-Aware)** – An advanced, AI-driven translation engine that integrates **context awareness, semantic similarity, and zero-shot learning**.
+- **🔮 ILTE-ATI (Advanced Attention & Iterative Processing)** – The most sophisticated version with **hierarchical normalization, iterative refinement, attention-based translation, and multi-level candidate selection**.
+
+## ✨ Key Features
+### **ILTE-ALT - Simple, Fast & Efficient**
+- ✅ **Dictionary-Based Lookup** for direct translations.
+- ✅ **Basic Stemming for Indonesian (ID) & English (EN)**.
+- ✅ **Levenshtein Distance Matching** for closest word lookup.
+- ✅ **Automated Confidence Scoring** for accuracy estimation.
+- ✅ **Structured DOCX Report Generation**.
+- ✅ **Low Memory Usage** – Optimized for lower-end machines.
+
+### **ILTE-ZS - Hybrid, Large-Scale Processing & Efficient**
+- ⚡ **Dictionary + RBMT + FST + Semantic Matching + Zero-Shot Translation**.
+- ⚖️ **Handles Large Files Efficiently** via **chunking & batch multi-processing**.
+- 🛠️ **Optimized Resource Management**, cleans memory and GPU after processing.
+- 🔄 **Auto-Parallelized Translation Pipeline**.
+- ⏳ **Faster Preprocessing, No Unnecessary Computation**.
+
+### **ILTE-ADV - AI-Powered, Context-Aware & Smarter**
+- 🧠 **Contextual Translation using IndoBERT & Sentence Transformers**.
+- 🔍 **Zero-Shot Learning for Handling Unknown Words**.
+- 📚 **Pattern-Based Learning & Semantic Matching**.
+- 🛠️ **Enhanced Translation Confidence Metrics**.
+- ⚡ **Leverages GPU Acceleration for Faster Processing**.
+
+### **ILTE-ATI - Attention-Based, Iterative & Highly Adaptive**
+- ✨ **Hierarchical Normalization for Better Preprocessing**.
+- 🔄 **Iterative Translation for Context Awareness**.
+- 📚 **Attention-Based Translation for Multi-Level Candidate Generation**.
+- ⚖️ **Refined Confidence Scoring & Adaptive Refinement**.
+- ✅ **Full Formatting Preservation in DOCX Reports**.
+- 🚀 **Optimized for Dynamic, Multi-Stage Translation Processes**.
+
+## ⚛ Models Used in Each Version
+
+### **🌱 ILTE-ALT (Dictionary-Based)**
+| Feature | Model Used |
+|---------|-----------|
+| **Translation (ID-EN, EN-ID)** | `Helsinki-NLP/opus-mt-id-en`, `Helsinki-NLP/opus-mt-en-id` |
+| **Stemming** | `Sastrawi` (Indonesian), `SnowballStemmer` (English) |
+| **Fuzzy Matching** | `Levenshtein Distance` |
+
+### **🧠 ILTE-ZS (Hybrid Processing)**
+| Feature | Model Used |
+|---------|-----------|
+| **Dictionary-Based Lookup** | JSON-based dictionary |
+| **Rule-Based Translation (RBMT, FST)** | Custom FST Rules |
+| **Semantic Similarity** | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` |
+| **Zero-Shot Translation** | `facebook/mbart-large-50-many-to-many-mmt` |
+
+### **🧐 ILTE-ADV (AI-Powered)**
+| Feature | Model Used |
+|---------|-----------|
+| **Contextual Embeddings** | `cahya/bert-base-indonesian-1.5G` |
+| **Semantic Matching** | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` |
+| **Zero-Shot Classification** | `typeform/distilbert-base-uncased-mnli` |
+| **Translation (ID-EN, EN-ID)** | `Helsinki-NLP/opus-mt-id-en`, `Helsinki-NLP/opus-mt-en-id` |
+
+### **🔮 ILTE-ATI v3-Alpha.3 (Attention-Based & Iterative Processing)**
+| Feature | Model Used |
+|---------|-----------|
+| **Hierarchical Normalization** | Regex + Dynamic Stemming |
+| **Contextual Translation** | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` |
+| **Iterative Processing** | Multi-Level Candidate Refinement |
+| **Translation (ID-DYK, DYK-ID)** | Enhanced Dictionary Lookup + Semantic Matching |
+
+## 📊 Comparison Table
+| Feature | ILTE-ALT | ILTE-ZS | ILTE-ADV | ILTE-ATI |
+|---------|---------|---------|---------|---------------------|
+| **Translation Approach** | Dictionary | Hybrid | AI-Based | Attention-Based + Iterative |
+| **Processing Speed** | Fast | Moderate | Slower | Balanced |
+| **Handling Large Files** | Struggles | Efficient Chunking | Slower | Optimized Processing |
+| **Memory Usage** | Low | Moderate | High | Optimized |
+| **Context Awareness** | None | Partial | Strong | 🔮 Very Strong |
+| **Idiomatic Expressions** | Limited | Rule-Based | AI-Based | AI + Attention |
+| **Parallelization** | Minimal | Yes | DataLoader | Thread + Process Pool |
+| **Zero-Shot Capability** | No | Yes | Yes | Yes |
+| **Best Use Case** | Fast translation | Large text processing | Context-Aware | High-Accuracy, AI-Powered |
+
+## 📚 How to Use
+### **Running ILTE-ALT (Simple Mode)**
+```sh
+python engine_ALT.py
+```
+### **Running ILTE-ZS (Hybrid & Efficient Mode)**
+```sh
+python engine_ZS.py
+```
+### **Running ILTE-ADV (AI-Powered Mode)**
+```sh
+python engine_ADV.py
+```
+### **Running ILTE-ATI (Advanced Iterative Attention Engine)**
+```sh
+python engine_ATI.py
+```
+
+---
+## 🎯 Conclusion
+Choose the version that best suits your needs and contribute to **indigenous language preservation**. 🚀  
+- ✅ **ALT:** For lightweight, dictionary-based translations.
+- ✅ **ZS:** For handling large files efficiently with hybrid translation techniques.
+- ✅ **ADV:** For AI-powered, context-aware translations.
+- ✅ **ATI** For advanced attention towards content and context.
+
+#### 🔗 **Developed for Indigenous Language Preservation** 🌍💡  
+#### 📚 **Licensed under GPL v3** – Any commercial use is strictly prohibited.
+
+<div align="center">
+    <img src="https://github.com/Protostarship/Dyk-Knyh-engine/blob/main/src/elements/bg.jpg" style="width: 100%; height: 90px; object-fit: cover;" alt="Profile Banner">
+</div>
+</file>
+
+</files>

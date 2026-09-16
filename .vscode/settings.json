@@ -1,0 +1,44 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/Dyk-Knyh-engine-main/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/Dyk-Knyh-engine-main/src",
+    "${workspaceFolder}/Dyk-Knyh-engine-main/src/engines"
+  ],
+  "repomix.exclude": [
+    "**/Dyk-Knyh-engine-main/.venv",
+    "**/Dyk-Knyh-engine-main/__pycache__"
+  ],
+  "python.analysis.ignore": [
+    "**/.venv",
+    "**/*/__pycache__"
+  ],
+  "python.analysis.exclude": [
+    "**/.venv",
+    "**/*/__pycache__"
+  ],
+  "python.analysis.include": [
+    "**/*.py",
+    "**/*.pyi"
+  ],
+  "python.defaultInterpreterPath": "${workspaceFolder}/Dyk-Knyh-engine-main/.venv/Scripts/python.exe",
+  "repomix.exclude": [
+    "Dyk-Knyh-engine-main/.venv",
+    "Dyk-Knyh-engine-main/__pycache__"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+    "files.associations": {
+      "*.pyi": "python"
+    }
+  },
+}
