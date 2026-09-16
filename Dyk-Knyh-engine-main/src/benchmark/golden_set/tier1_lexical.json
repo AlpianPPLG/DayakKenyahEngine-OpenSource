@@ -1,0 +1,6880 @@
+{
+  "meta": {
+    "tier": 1,
+    "name": "lexical",
+    "stats": {
+      "dictionary_entries": 512,
+      "numeric_skipped": 30,
+      "identical_skipped": 7,
+      "test_cases": 858,
+      "id_to_dyk": 429,
+      "dyk_to_id": 429
+    }
+  },
+  "entries": [
+    {
+      "source": "aun",
+      "reference": "ada",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ada",
+      "tier": 1
+    },
+    {
+      "source": "kaa",
+      "reference": "adegan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "adegan",
+      "tier": 1
+    },
+    {
+      "source": "ari'",
+      "reference": "adik",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "adik",
+      "tier": 1
+    },
+    {
+      "source": "apan",
+      "reference": "agar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "agar",
+      "tier": 1
+    },
+    {
+      "source": "sungai",
+      "reference": "air",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "air",
+      "tier": 1
+    },
+    {
+      "source": "ake",
+      "reference": "aku",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "aku",
+      "tier": 1
+    },
+    {
+      "source": "de'buat",
+      "reference": "alat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "alat",
+      "tier": 1
+    },
+    {
+      "source": "jakan",
+      "reference": "alkohol",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "alkohol",
+      "tier": 1
+    },
+    {
+      "source": "alak",
+      "reference": "ambil",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ambil",
+      "tier": 1
+    },
+    {
+      "source": "awa'",
+      "reference": "andai",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "andai",
+      "tier": 1
+    },
+    {
+      "source": "bulen",
+      "reference": "aneh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "aneh",
+      "tier": 1
+    },
+    {
+      "source": "bayu",
+      "reference": "angin",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "angin",
+      "tier": 1
+    },
+    {
+      "source": "udut",
+      "reference": "anjing",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "anjing",
+      "tier": 1
+    },
+    {
+      "source": "aang",
+      "reference": "antara",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "antara",
+      "tier": 1
+    },
+    {
+      "source": "inu",
+      "reference": "apa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "apa",
+      "tier": 1
+    },
+    {
+      "source": "apat",
+      "reference": "aral",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "aral",
+      "tier": 1
+    },
+    {
+      "source": "alo",
+      "reference": "arus",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "arus",
+      "tier": 1
+    },
+    {
+      "source": "asen",
+      "reference": "asal",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "asal",
+      "tier": 1
+    },
+    {
+      "source": "ataw",
+      "reference": "atau",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "atau",
+      "tier": 1
+    },
+    {
+      "source": "yap",
+      "reference": "ayam",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ayam",
+      "tier": 1
+    },
+    {
+      "source": "babui",
+      "reference": "babi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "babi",
+      "tier": 1
+    },
+    {
+      "source": "usa",
+      "reference": "badan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "badan",
+      "tier": 1
+    },
+    {
+      "source": "kumpin",
+      "reference": "bagaimana",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bagaimana",
+      "tier": 1
+    },
+    {
+      "source": "tia",
+      "reference": "bagus",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bagus",
+      "tier": 1
+    },
+    {
+      "source": "lemeli",
+      "reference": "baik",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "baik",
+      "tier": 1
+    },
+    {
+      "source": "sapai",
+      "reference": "baju",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "baju",
+      "tier": 1
+    },
+    {
+      "source": "liwer",
+      "reference": "balik",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "balik",
+      "tier": 1
+    },
+    {
+      "source": "aliu",
+      "reference": "banding",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "banding",
+      "tier": 1
+    },
+    {
+      "source": "taga",
+      "reference": "bangun",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bangun",
+      "tier": 1
+    },
+    {
+      "source": "layap",
+      "reference": "banjir",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "banjir",
+      "tier": 1
+    },
+    {
+      "source": "kalasiau",
+      "reference": "banteng",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "banteng",
+      "tier": 1
+    },
+    {
+      "source": "kado",
+      "reference": "banyak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "banyak",
+      "tier": 1
+    },
+    {
+      "source": "amai",
+      "reference": "bapak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bapak",
+      "tier": 1
+    },
+    {
+      "source": "ajat",
+      "reference": "baris",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "baris",
+      "tier": 1
+    },
+    {
+      "source": "mading",
+      "reference": "baru",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "baru",
+      "tier": 1
+    },
+    {
+      "source": "basah",
+      "reference": "basa'",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "basa'",
+      "tier": 1
+    },
+    {
+      "source": "bayan",
+      "reference": "bayar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bayar",
+      "tier": 1
+    },
+    {
+      "source": "bidik",
+      "reference": "bebek",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bebek",
+      "tier": 1
+    },
+    {
+      "source": "gayeng",
+      "reference": "bekerja",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bekerja",
+      "tier": 1
+    },
+    {
+      "source": "pekalai",
+      "reference": "belajar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "belajar",
+      "tier": 1
+    },
+    {
+      "source": "kade",
+      "reference": "belalang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "belalang",
+      "tier": 1
+    },
+    {
+      "source": "elas",
+      "reference": "belas",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "belas",
+      "tier": 1
+    },
+    {
+      "source": "ma'ut",
+      "reference": "belukar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "belukar",
+      "tier": 1
+    },
+    {
+      "source": "sio",
+      "reference": "benar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "benar",
+      "tier": 1
+    },
+    {
+      "source": "tukuk",
+      "reference": "bengkak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bengkak",
+      "tier": 1
+    },
+    {
+      "source": "lepin",
+      "reference": "berak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berak",
+      "tier": 1
+    },
+    {
+      "source": "makang",
+      "reference": "berani",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berani",
+      "tier": 1
+    },
+    {
+      "source": "kudak",
+      "reference": "berapa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berapa",
+      "tier": 1
+    },
+    {
+      "source": "cen",
+      "reference": "berasal",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berasal",
+      "tier": 1
+    },
+    {
+      "source": "ato",
+      "reference": "beratus",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "beratus",
+      "tier": 1
+    },
+    {
+      "source": "kado",
+      "reference": "berbagai",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berbagai",
+      "tier": 1
+    },
+    {
+      "source": "meken",
+      "reference": "berbaring",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berbaring",
+      "tier": 1
+    },
+    {
+      "source": "ngrejeng",
+      "reference": "berdiri",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berdiri",
+      "tier": 1
+    },
+    {
+      "source": "nyatung",
+      "reference": "berenang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berenang",
+      "tier": 1
+    },
+    {
+      "source": "denga",
+      "reference": "berita",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berita",
+      "tier": 1
+    },
+    {
+      "source": "kasa",
+      "reference": "berlari",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berlari",
+      "tier": 1
+    },
+    {
+      "source": "piat",
+      "reference": "bermain",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bermain",
+      "tier": 1
+    },
+    {
+      "source": "arep",
+      "reference": "berminat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berminat",
+      "tier": 1
+    },
+    {
+      "source": "pebunu'",
+      "reference": "bermusuhan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bermusuhan",
+      "tier": 1
+    },
+    {
+      "source": "pekimet",
+      "reference": "berpikir",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berpikir",
+      "tier": 1
+    },
+    {
+      "source": "nyendei",
+      "reference": "bersandar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bersandar",
+      "tier": 1
+    },
+    {
+      "source": "ma'ut",
+      "reference": "bersemak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bersemak",
+      "tier": 1
+    },
+    {
+      "source": "bui'",
+      "reference": "bersih",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bersih",
+      "tier": 1
+    },
+    {
+      "source": "ngedingan",
+      "reference": "berteduh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berteduh",
+      "tier": 1
+    },
+    {
+      "source": "buang",
+      "reference": "beruang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "beruang",
+      "tier": 1
+    },
+    {
+      "source": "ma'ut",
+      "reference": "berumput",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "berumput",
+      "tier": 1
+    },
+    {
+      "source": "bio",
+      "reference": "besar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "besar",
+      "tier": 1
+    },
+    {
+      "source": "nembam",
+      "reference": "besok",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "besok",
+      "tier": 1
+    },
+    {
+      "source": "kabuk",
+      "reference": "biawak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "biawak",
+      "tier": 1
+    },
+    {
+      "source": "petirak",
+      "reference": "bicara",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bicara",
+      "tier": 1
+    },
+    {
+      "source": "uyan",
+      "reference": "bikin",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bikin",
+      "tier": 1
+    },
+    {
+      "source": "kun",
+      "reference": "bilang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bilang",
+      "tier": 1
+    },
+    {
+      "source": "betuen",
+      "reference": "bintang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bintang",
+      "tier": 1
+    },
+    {
+      "source": "ala'",
+      "reference": "bisa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bisa",
+      "tier": 1
+    },
+    {
+      "source": "ameng",
+      "reference": "bisu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bisu",
+      "tier": 1
+    },
+    {
+      "source": "tudok",
+      "reference": "bocor",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bocor",
+      "tier": 1
+    },
+    {
+      "source": "ameng",
+      "reference": "bodoh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bodoh",
+      "tier": 1
+    },
+    {
+      "source": "pala",
+      "reference": "bohong",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bohong",
+      "tier": 1
+    },
+    {
+      "source": "bula",
+      "reference": "bola",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bola",
+      "tier": 1
+    },
+    {
+      "source": "kong",
+      "reference": "boleh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "boleh",
+      "tier": 1
+    },
+    {
+      "source": "bum",
+      "reference": "bom",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bom",
+      "tier": 1
+    },
+    {
+      "source": "butun",
+      "reference": "botol",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "botol",
+      "tier": 1
+    },
+    {
+      "source": "buaq",
+      "reference": "buah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "buah",
+      "tier": 1
+    },
+    {
+      "source": "uyan",
+      "reference": "buat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "buat",
+      "tier": 1
+    },
+    {
+      "source": "baya",
+      "reference": "buaya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "buaya",
+      "tier": 1
+    },
+    {
+      "source": "apaw",
+      "reference": "bukit",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "bukit",
+      "tier": 1
+    },
+    {
+      "source": "buk",
+      "reference": "buku",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "buku",
+      "tier": 1
+    },
+    {
+      "source": "sui",
+      "reference": "burung",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "burung",
+      "tier": 1
+    },
+    {
+      "source": "lia",
+      "reference": "cabe",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cabe",
+      "tier": 1
+    },
+    {
+      "source": "apet",
+      "reference": "cacat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cacat",
+      "tier": 1
+    },
+    {
+      "source": "lati",
+      "reference": "cacing",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cacing",
+      "tier": 1
+    },
+    {
+      "source": "seluen",
+      "reference": "celana",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "celana",
+      "tier": 1
+    },
+    {
+      "source": "bisaw",
+      "reference": "cemas",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cemas",
+      "tier": 1
+    },
+    {
+      "source": "nakan",
+      "reference": "cempedak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cempedak",
+      "tier": 1
+    },
+    {
+      "source": "arep",
+      "reference": "cenderung",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cenderung",
+      "tier": 1
+    },
+    {
+      "source": "sangit",
+      "reference": "cepat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cepat",
+      "tier": 1
+    },
+    {
+      "source": "aru",
+      "reference": "cicak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cicak",
+      "tier": 1
+    },
+    {
+      "source": "uba",
+      "reference": "cinta",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cinta",
+      "tier": 1
+    },
+    {
+      "source": "a'i'",
+      "reference": "cupu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "cupu",
+      "tier": 1
+    },
+    {
+      "source": "usuk",
+      "reference": "dada",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dada",
+      "tier": 1
+    },
+    {
+      "source": "dalé",
+      "reference": "daerah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "daerah",
+      "tier": 1
+    },
+    {
+      "source": "ading",
+      "reference": "dahulu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dahulu",
+      "tier": 1
+    },
+    {
+      "source": "ngan",
+      "reference": "dan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dan",
+      "tier": 1
+    },
+    {
+      "source": "ala'",
+      "reference": "dapat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dapat",
+      "tier": 1
+    },
+    {
+      "source": "daa'",
+      "reference": "darah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "darah",
+      "tier": 1
+    },
+    {
+      "source": "cen",
+      "reference": "dari",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dari",
+      "tier": 1
+    },
+    {
+      "source": "nay",
+      "reference": "datang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "datang",
+      "tier": 1
+    },
+    {
+      "source": "aya",
+      "reference": "delapan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "delapan",
+      "tier": 1
+    },
+    {
+      "source": "tuun",
+      "reference": "dermaga",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dermaga",
+      "tier": 1
+    },
+    {
+      "source": "lepo",
+      "reference": "desa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "desa",
+      "tier": 1
+    },
+    {
+      "source": "ka",
+      "reference": "di",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "di",
+      "tier": 1
+    },
+    {
+      "source": "dalau",
+      "reference": "diantara",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "diantara",
+      "tier": 1
+    },
+    {
+      "source": "uman",
+      "reference": "dimakan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dimakan",
+      "tier": 1
+    },
+    {
+      "source": "kenpi",
+      "reference": "dimana",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dimana",
+      "tier": 1
+    },
+    {
+      "source": "nyeng",
+      "reference": "dingin",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dingin",
+      "tier": 1
+    },
+    {
+      "source": "ki",
+      "reference": "disini",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "disini",
+      "tier": 1
+    },
+    {
+      "source": "adung",
+      "reference": "duduk",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "duduk",
+      "tier": 1
+    },
+    {
+      "source": "ading",
+      "reference": "dulu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "dulu",
+      "tier": 1
+    },
+    {
+      "source": "pat",
+      "reference": "empat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "empat",
+      "tier": 1
+    },
+    {
+      "source": "nem",
+      "reference": "enam",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "enam",
+      "tier": 1
+    },
+    {
+      "source": "kesun",
+      "reference": "gajah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gajah",
+      "tier": 1
+    },
+    {
+      "source": "usen",
+      "reference": "garam",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "garam",
+      "tier": 1
+    },
+    {
+      "source": "tugas",
+      "reference": "gayeng",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gayeng",
+      "tier": 1
+    },
+    {
+      "source": "mendem",
+      "reference": "gelap",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gelap",
+      "tier": 1
+    },
+    {
+      "source": "lembo",
+      "reference": "gemuk",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gemuk",
+      "tier": 1
+    },
+    {
+      "source": "bak",
+      "reference": "gendong",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gendong",
+      "tier": 1
+    },
+    {
+      "source": "jipen",
+      "reference": "gigi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gigi",
+      "tier": 1
+    },
+    {
+      "source": "buling",
+      "reference": "gila",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gila",
+      "tier": 1
+    },
+    {
+      "source": "saga",
+      "reference": "goreng",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "goreng",
+      "tier": 1
+    },
+    {
+      "source": "gula'k",
+      "reference": "gula",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gula",
+      "tier": 1
+    },
+    {
+      "source": "ulok",
+      "reference": "gundul",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gundul",
+      "tier": 1
+    },
+    {
+      "source": "mudung",
+      "reference": "gunung",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "gunung",
+      "tier": 1
+    },
+    {
+      "source": "denga",
+      "reference": "hal",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hal",
+      "tier": 1
+    },
+    {
+      "source": "apat",
+      "reference": "halangan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "halangan",
+      "tier": 1
+    },
+    {
+      "source": "bali",
+      "reference": "hantu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hantu",
+      "tier": 1
+    },
+    {
+      "source": "tau",
+      "reference": "hari",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hari",
+      "tier": 1
+    },
+    {
+      "source": "lenjau",
+      "reference": "harimau",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "harimau",
+      "tier": 1
+    },
+    {
+      "source": "demun",
+      "reference": "hemat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hemat",
+      "tier": 1
+    },
+    {
+      "source": "ndung",
+      "reference": "hidung",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hidung",
+      "tier": 1
+    },
+    {
+      "source": "mudip",
+      "reference": "hidup",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hidup",
+      "tier": 1
+    },
+    {
+      "source": "aba",
+      "reference": "hilir",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hilir",
+      "tier": 1
+    },
+    {
+      "source": "saleng",
+      "reference": "hitam",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hitam",
+      "tier": 1
+    },
+    {
+      "source": "ujan",
+      "reference": "hujan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hujan",
+      "tier": 1
+    },
+    {
+      "source": "a'ut",
+      "reference": "hutan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "hutan",
+      "tier": 1
+    },
+    {
+      "source": "uweq",
+      "reference": "ibu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ibu",
+      "tier": 1
+    },
+    {
+      "source": "aken",
+      "reference": "ide",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ide",
+      "tier": 1
+    },
+    {
+      "source": "atuk",
+      "reference": "ikan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ikan",
+      "tier": 1
+    },
+    {
+      "source": "kimet",
+      "reference": "ingatan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ingatan",
+      "tier": 1
+    },
+    {
+      "source": "aha",
+      "reference": "iya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "iya",
+      "tier": 1
+    },
+    {
+      "source": "masat",
+      "reference": "jalan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jalan",
+      "tier": 1
+    },
+    {
+      "source": "ale",
+      "reference": "jalur",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jalur",
+      "tier": 1
+    },
+    {
+      "source": "ain",
+      "reference": "jangan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jangan",
+      "tier": 1
+    },
+    {
+      "source": "daji'",
+      "reference": "janji",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "janji",
+      "tier": 1
+    },
+    {
+      "source": "a'ung",
+      "reference": "jantan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jantan",
+      "tier": 1
+    },
+    {
+      "source": "labok",
+      "reference": "jatuh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jatuh",
+      "tier": 1
+    },
+    {
+      "source": "cok",
+      "reference": "jauh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jauh",
+      "tier": 1
+    },
+    {
+      "source": "ja'at",
+      "reference": "jelek",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jelek",
+      "tier": 1
+    },
+    {
+      "source": "sekan",
+      "reference": "jendela",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jendela",
+      "tier": 1
+    },
+    {
+      "source": "litut",
+      "reference": "jernih",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jernih",
+      "tier": 1
+    },
+    {
+      "source": "pe",
+      "reference": "juga",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "juga",
+      "tier": 1
+    },
+    {
+      "source": "kelema",
+      "reference": "jumat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jumat",
+      "tier": 1
+    },
+    {
+      "source": "asep",
+      "reference": "jurang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "jurang",
+      "tier": 1
+    },
+    {
+      "source": "denga",
+      "reference": "kabar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kabar",
+      "tier": 1
+    },
+    {
+      "source": "seken",
+      "reference": "kakak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kakak",
+      "tier": 1
+    },
+    {
+      "source": "pui",
+      "reference": "kakek",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kakek",
+      "tier": 1
+    },
+    {
+      "source": "taket",
+      "reference": "kaki",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kaki",
+      "tier": 1
+    },
+    {
+      "source": "awa'",
+      "reference": "kalau",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kalau",
+      "tier": 1
+    },
+    {
+      "source": "ikem",
+      "reference": "kalian",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kalian",
+      "tier": 1
+    },
+    {
+      "source": "kadeng",
+      "reference": "kambing",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kambing",
+      "tier": 1
+    },
+    {
+      "source": "ame",
+      "reference": "kami",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kami",
+      "tier": 1
+    },
+    {
+      "source": "tepat",
+      "reference": "kamis",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kamis",
+      "tier": 1
+    },
+    {
+      "source": "ikoq",
+      "reference": "kamu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kamu",
+      "tier": 1
+    },
+    {
+      "source": "pelanuk",
+      "reference": "kancil",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kancil",
+      "tier": 1
+    },
+    {
+      "source": "liwang",
+      "reference": "kandang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kandang",
+      "tier": 1
+    },
+    {
+      "source": "akit",
+      "reference": "kapal",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kapal",
+      "tier": 1
+    },
+    {
+      "source": "mi'an",
+      "reference": "kapan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kapan",
+      "tier": 1
+    },
+    {
+      "source": "apo",
+      "reference": "kapur",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kapur",
+      "tier": 1
+    },
+    {
+      "source": "uban",
+      "reference": "karena",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "karena",
+      "tier": 1
+    },
+    {
+      "source": "tawai",
+      "reference": "kasih",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kasih",
+      "tier": 1
+    },
+    {
+      "source": "ikoq",
+      "reference": "kau",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kau",
+      "tier": 1
+    },
+    {
+      "source": "koq",
+      "reference": "ke",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ke",
+      "tier": 1
+    },
+    {
+      "source": "kempou",
+      "reference": "keatas",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "keatas",
+      "tier": 1
+    },
+    {
+      "source": "akang",
+      "reference": "keberanian",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "keberanian",
+      "tier": 1
+    },
+    {
+      "source": "alay",
+      "reference": "kebiasaan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kebiasaan",
+      "tier": 1
+    },
+    {
+      "source": "aken",
+      "reference": "kebijaksanaan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kebijaksanaan",
+      "tier": 1
+    },
+    {
+      "source": "ang",
+      "reference": "kecil",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kecil",
+      "tier": 1
+    },
+    {
+      "source": "lepa",
+      "reference": "kecoa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kecoa",
+      "tier": 1
+    },
+    {
+      "source": "arep",
+      "reference": "keinginan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "keinginan",
+      "tier": 1
+    },
+    {
+      "source": "denga",
+      "reference": "kejadian",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kejadian",
+      "tier": 1
+    },
+    {
+      "source": "pekanak",
+      "reference": "kekanakkanakan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kekanakkanakan",
+      "tier": 1
+    },
+    {
+      "source": "puyan",
+      "reference": "kelakuan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kelakuan",
+      "tier": 1
+    },
+    {
+      "source": "ta'ep",
+      "reference": "keledang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "keledang",
+      "tier": 1
+    },
+    {
+      "source": "kawang",
+      "reference": "keluar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "keluar",
+      "tier": 1
+    },
+    {
+      "source": "amit",
+      "reference": "keluarga",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "keluarga",
+      "tier": 1
+    },
+    {
+      "source": "kenpi",
+      "reference": "kemana",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kemana",
+      "tier": 1
+    },
+    {
+      "source": "tagak",
+      "reference": "kemarau",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kemarau",
+      "tier": 1
+    },
+    {
+      "source": "ulek",
+      "reference": "kembali",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kembali",
+      "tier": 1
+    },
+    {
+      "source": "pit",
+      "reference": "kembar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kembar",
+      "tier": 1
+    },
+    {
+      "source": "adi",
+      "reference": "kenapa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kenapa",
+      "tier": 1
+    },
+    {
+      "source": "nyengit",
+      "reference": "kencing",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kencing",
+      "tier": 1
+    },
+    {
+      "source": "beso",
+      "reference": "kenyang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kenyang",
+      "tier": 1
+    },
+    {
+      "source": "ulu",
+      "reference": "kepala",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kepala",
+      "tier": 1
+    },
+    {
+      "source": "yu",
+      "reference": "kepiting",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kepiting",
+      "tier": 1
+    },
+    {
+      "source": "gayeng",
+      "reference": "kerja",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kerja",
+      "tier": 1
+    },
+    {
+      "source": "gayeng",
+      "reference": "kerjakan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kerjakan",
+      "tier": 1
+    },
+    {
+      "source": "ading",
+      "reference": "kesatu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kesatu",
+      "tier": 1
+    },
+    {
+      "source": "tisen",
+      "reference": "ketahui",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ketahui",
+      "tier": 1
+    },
+    {
+      "source": "dalaw",
+      "reference": "ketika",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ketika",
+      "tier": 1
+    },
+    {
+      "source": "payak",
+      "reference": "kijang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kijang",
+      "tier": 1
+    },
+    {
+      "source": "ilu",
+      "reference": "kita",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kita",
+      "tier": 1
+    },
+    {
+      "source": "sui",
+      "reference": "kodok",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kodok",
+      "tier": 1
+    },
+    {
+      "source": "keq",
+      "reference": "ku",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ku",
+      "tier": 1
+    },
+    {
+      "source": "denggep",
+      "reference": "kuat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kuat",
+      "tier": 1
+    },
+    {
+      "source": "sing",
+      "reference": "kucing",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kucing",
+      "tier": 1
+    },
+    {
+      "source": "anit",
+      "reference": "kulit",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kulit",
+      "tier": 1
+    },
+    {
+      "source": "bila'",
+      "reference": "kuning",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kuning",
+      "tier": 1
+    },
+    {
+      "source": "adan",
+      "reference": "kursi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kursi",
+      "tier": 1
+    },
+    {
+      "source": "mae",
+      "reference": "kurus",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "kurus",
+      "tier": 1
+    },
+    {
+      "source": "asam",
+      "reference": "lahap",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lahap",
+      "tier": 1
+    },
+    {
+      "source": "cena'an",
+      "reference": "lain",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lain",
+      "tier": 1
+    },
+    {
+      "source": "ai'",
+      "reference": "lalang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lalang",
+      "tier": 1
+    },
+    {
+      "source": "langau",
+      "reference": "lalat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lalat",
+      "tier": 1
+    },
+    {
+      "source": "dena'",
+      "reference": "lambat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lambat",
+      "tier": 1
+    },
+    {
+      "source": "titiw",
+      "reference": "lampu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lampu",
+      "tier": 1
+    },
+    {
+      "source": "umba",
+      "reference": "langsung",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "langsung",
+      "tier": 1
+    },
+    {
+      "source": "lau",
+      "reference": "lapar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lapar",
+      "tier": 1
+    },
+    {
+      "source": "pakit",
+      "reference": "lay",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lay",
+      "tier": 1
+    },
+    {
+      "source": "alay",
+      "reference": "lazim",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lazim",
+      "tier": 1
+    },
+    {
+      "source": "kati",
+      "reference": "lele",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lele",
+      "tier": 1
+    },
+    {
+      "source": "buan",
+      "reference": "lemari",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lemari",
+      "tier": 1
+    },
+    {
+      "source": "asep",
+      "reference": "lembah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lembah",
+      "tier": 1
+    },
+    {
+      "source": "uma",
+      "reference": "lidah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lidah",
+      "tier": 1
+    },
+    {
+      "source": "maat",
+      "reference": "lihat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lihat",
+      "tier": 1
+    },
+    {
+      "source": "mundur",
+      "reference": "likut",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "likut",
+      "tier": 1
+    },
+    {
+      "source": "lema",
+      "reference": "lima",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lima",
+      "tier": 1
+    },
+    {
+      "source": "turan",
+      "reference": "lupa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "lupa",
+      "tier": 1
+    },
+    {
+      "source": "meduk",
+      "reference": "mabok",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mabok",
+      "tier": 1
+    },
+    {
+      "source": "kule",
+      "reference": "macan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "macan",
+      "tier": 1
+    },
+    {
+      "source": "layuk",
+      "reference": "madu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "madu",
+      "tier": 1
+    },
+    {
+      "source": "piat",
+      "reference": "main",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "main",
+      "tier": 1
+    },
+    {
+      "source": "uman",
+      "reference": "makan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "makan",
+      "tier": 1
+    },
+    {
+      "source": "penguman",
+      "reference": "makanan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "makanan",
+      "tier": 1
+    },
+    {
+      "source": "nataup",
+      "reference": "malam",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "malam",
+      "tier": 1
+    },
+    {
+      "source": "malat",
+      "reference": "malas",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "malas",
+      "tier": 1
+    },
+    {
+      "source": "sa'e",
+      "reference": "malu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "malu",
+      "tier": 1
+    },
+    {
+      "source": "tinam",
+      "reference": "mamak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mamak",
+      "tier": 1
+    },
+    {
+      "source": "mpi",
+      "reference": "mana",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mana",
+      "tier": 1
+    },
+    {
+      "source": "ndu'",
+      "reference": "mandi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mandi",
+      "tier": 1
+    },
+    {
+      "source": "busi'",
+      "reference": "marah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "marah",
+      "tier": 1
+    },
+    {
+      "source": "pesak",
+      "reference": "masak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "masak",
+      "tier": 1
+    },
+    {
+      "source": "tengen",
+      "reference": "masing",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "masing",
+      "tier": 1
+    },
+    {
+      "source": "matae",
+      "reference": "mati",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mati",
+      "tier": 1
+    },
+    {
+      "source": "obak",
+      "reference": "mau",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mau",
+      "tier": 1
+    },
+    {
+      "source": "mejak",
+      "reference": "meja",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "meja",
+      "tier": 1
+    },
+    {
+      "source": "maung",
+      "reference": "meletakkan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "meletakkan",
+      "tier": 1
+    },
+    {
+      "source": "lapa",
+      "reference": "melewati",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "melewati",
+      "tier": 1
+    },
+    {
+      "source": "ngeneng",
+      "reference": "melihat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "melihat",
+      "tier": 1
+    },
+    {
+      "source": "uman",
+      "reference": "memakan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "memakan",
+      "tier": 1
+    },
+    {
+      "source": "adang",
+      "reference": "memang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "memang",
+      "tier": 1
+    },
+    {
+      "source": "lemaket",
+      "reference": "memanjat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "memanjat",
+      "tier": 1
+    },
+    {
+      "source": "buok",
+      "reference": "memar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "memar",
+      "tier": 1
+    },
+    {
+      "source": "meli",
+      "reference": "membeli",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "membeli",
+      "tier": 1
+    },
+    {
+      "source": "ngakang",
+      "reference": "memberanikan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "memberanikan",
+      "tier": 1
+    },
+    {
+      "source": "uyan",
+      "reference": "membuat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "membuat",
+      "tier": 1
+    },
+    {
+      "source": "mambin",
+      "reference": "memegang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "memegang",
+      "tier": 1
+    },
+    {
+      "source": "mambim",
+      "reference": "memelihara",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "memelihara",
+      "tier": 1
+    },
+    {
+      "source": "mula",
+      "reference": "menanam",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menanam",
+      "tier": 1
+    },
+    {
+      "source": "menange",
+      "reference": "menangis",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menangis",
+      "tier": 1
+    },
+    {
+      "source": "apaw",
+      "reference": "menara",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menara",
+      "tier": 1
+    },
+    {
+      "source": "kanjet",
+      "reference": "menari",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menari",
+      "tier": 1
+    },
+    {
+      "source": "maung",
+      "reference": "menaruh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menaruh",
+      "tier": 1
+    },
+    {
+      "source": "aneng",
+      "reference": "menatap",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menatap",
+      "tier": 1
+    },
+    {
+      "source": "mita",
+      "reference": "mencari",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mencari",
+      "tier": 1
+    },
+    {
+      "source": "mengelau",
+      "reference": "mencuri",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mencuri",
+      "tier": 1
+    },
+    {
+      "source": "ala'",
+      "reference": "mendapatkan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mendapatkan",
+      "tier": 1
+    },
+    {
+      "source": "ngeninga",
+      "reference": "mendengar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mendengar",
+      "tier": 1
+    },
+    {
+      "source": "maung",
+      "reference": "menempatkan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menempatkan",
+      "tier": 1
+    },
+    {
+      "source": "adi",
+      "reference": "mengapa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mengapa",
+      "tier": 1
+    },
+    {
+      "source": "alut",
+      "reference": "mengukur",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mengukur",
+      "tier": 1
+    },
+    {
+      "source": "ngendau",
+      "reference": "menyanyi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menyanyi",
+      "tier": 1
+    },
+    {
+      "source": "pelawat",
+      "reference": "menyeberang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menyeberang",
+      "tier": 1
+    },
+    {
+      "source": "lemeset",
+      "reference": "menyelam",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menyelam",
+      "tier": 1
+    },
+    {
+      "source": "mambin",
+      "reference": "menyimpan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "menyimpan",
+      "tier": 1
+    },
+    {
+      "source": "bala",
+      "reference": "merah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "merah",
+      "tier": 1
+    },
+    {
+      "source": "makup",
+      "reference": "meraup",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "meraup",
+      "tier": 1
+    },
+    {
+      "source": "ida",
+      "reference": "mereka",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mereka",
+      "tier": 1
+    },
+    {
+      "source": "anun",
+      "reference": "milik",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "milik",
+      "tier": 1
+    },
+    {
+      "source": "ngenupi",
+      "reference": "mimpi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mimpi",
+      "tier": 1
+    },
+    {
+      "source": "nisep",
+      "reference": "minum",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "minum",
+      "tier": 1
+    },
+    {
+      "source": "lenya",
+      "reference": "minyak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "minyak",
+      "tier": 1
+    },
+    {
+      "source": "oto",
+      "reference": "mobil",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mobil",
+      "tier": 1
+    },
+    {
+      "source": "kuyata",
+      "reference": "monyet",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "monyet",
+      "tier": 1
+    },
+    {
+      "source": "amu'",
+      "reference": "mungkin",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "mungkin",
+      "tier": 1
+    },
+    {
+      "source": "tuta'",
+      "reference": "muntah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "muntah",
+      "tier": 1
+    },
+    {
+      "source": "kempou",
+      "reference": "naik",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "naik",
+      "tier": 1
+    },
+    {
+      "source": "ngadan",
+      "reference": "nama",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nama",
+      "tier": 1
+    },
+    {
+      "source": "nange",
+      "reference": "nangis",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nangis",
+      "tier": 1
+    },
+    {
+      "source": "kenan",
+      "reference": "nasi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nasi",
+      "tier": 1
+    },
+    {
+      "source": "pui",
+      "reference": "nenek",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nenek",
+      "tier": 1
+    },
+    {
+      "source": "la",
+      "reference": "nya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nya",
+      "tier": 1
+    },
+    {
+      "source": "jamok",
+      "reference": "nyamuk",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nyamuk",
+      "tier": 1
+    },
+    {
+      "source": "bia",
+      "reference": "nyaring",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nyaring",
+      "tier": 1
+    },
+    {
+      "source": "lan",
+      "reference": "nyata",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "nyata",
+      "tier": 1
+    },
+    {
+      "source": "aha",
+      "reference": "oke",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "oke",
+      "tier": 1
+    },
+    {
+      "source": "lakeng",
+      "reference": "orang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "orang",
+      "tier": 1
+    },
+    {
+      "source": "utek",
+      "reference": "otak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "otak",
+      "tier": 1
+    },
+    {
+      "source": "pait",
+      "reference": "pahit",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pahit",
+      "tier": 1
+    },
+    {
+      "source": "sapai",
+      "reference": "pakaian",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pakaian",
+      "tier": 1
+    },
+    {
+      "source": "encam",
+      "reference": "pandai",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pandai",
+      "tier": 1
+    },
+    {
+      "source": "maju",
+      "reference": "panen",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "panen",
+      "tier": 1
+    },
+    {
+      "source": "dadok",
+      "reference": "panjang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "panjang",
+      "tier": 1
+    },
+    {
+      "source": "mandau",
+      "reference": "parang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "parang",
+      "tier": 1
+    },
+    {
+      "source": "pasen",
+      "reference": "pasar",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pasar",
+      "tier": 1
+    },
+    {
+      "source": "ait",
+      "reference": "pasir",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pasir",
+      "tier": 1
+    },
+    {
+      "source": "selareng",
+      "reference": "patin",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "patin",
+      "tier": 1
+    },
+    {
+      "source": "toke",
+      "reference": "pedagang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pedagang",
+      "tier": 1
+    },
+    {
+      "source": "sanit",
+      "reference": "pedas",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pedas",
+      "tier": 1
+    },
+    {
+      "source": "mambin",
+      "reference": "pegang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pegang",
+      "tier": 1
+    },
+    {
+      "source": "ma'em",
+      "reference": "pelit",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pelit",
+      "tier": 1
+    },
+    {
+      "source": "nyekapu",
+      "reference": "peluk",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "peluk",
+      "tier": 1
+    },
+    {
+      "source": "apaw",
+      "reference": "penara",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "penara",
+      "tier": 1
+    },
+    {
+      "source": "bu'et",
+      "reference": "pendek",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pendek",
+      "tier": 1
+    },
+    {
+      "source": "alut",
+      "reference": "perahu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "perahu",
+      "tier": 1
+    },
+    {
+      "source": "adet",
+      "reference": "peraturan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "peraturan",
+      "tier": 1
+    },
+    {
+      "source": "tei",
+      "reference": "pergi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pergi",
+      "tier": 1
+    },
+    {
+      "source": "batek",
+      "reference": "perut",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "perut",
+      "tier": 1
+    },
+    {
+      "source": "bilun",
+      "reference": "pesawat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pesawat",
+      "tier": 1
+    },
+    {
+      "source": "pelihara",
+      "reference": "petubo",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "petubo",
+      "tier": 1
+    },
+    {
+      "source": "aken",
+      "reference": "pikiran",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pikiran",
+      "tier": 1
+    },
+    {
+      "source": "buaw",
+      "reference": "pindah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pindah",
+      "tier": 1
+    },
+    {
+      "source": "aking",
+      "reference": "pinggang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pinggang",
+      "tier": 1
+    },
+    {
+      "source": "pamen",
+      "reference": "pintu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pintu",
+      "tier": 1
+    },
+    {
+      "source": "kiyat",
+      "reference": "piring",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "piring",
+      "tier": 1
+    },
+    {
+      "source": "puun",
+      "reference": "pohon",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pohon",
+      "tier": 1
+    },
+    {
+      "source": "lepau",
+      "reference": "pondok",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pondok",
+      "tier": 1
+    },
+    {
+      "source": "ula",
+      "reference": "pulang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "pulang",
+      "tier": 1
+    },
+    {
+      "source": "anun",
+      "reference": "punya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "punya",
+      "tier": 1
+    },
+    {
+      "source": "putek",
+      "reference": "putih",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "putih",
+      "tier": 1
+    },
+    {
+      "source": "ketelu",
+      "reference": "rabu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rabu",
+      "tier": 1
+    },
+    {
+      "source": "bisa'",
+      "reference": "racun",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "racun",
+      "tier": 1
+    },
+    {
+      "source": "akit",
+      "reference": "rakit",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rakit",
+      "tier": 1
+    },
+    {
+      "source": "asam",
+      "reference": "rakus",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rakus",
+      "tier": 1
+    },
+    {
+      "source": "sangit",
+      "reference": "rambutan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rambutan",
+      "tier": 1
+    },
+    {
+      "source": "ambit",
+      "reference": "rantai",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rantai",
+      "tier": 1
+    },
+    {
+      "source": "alan",
+      "reference": "ranting",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ranting",
+      "tier": 1
+    },
+    {
+      "source": "ato",
+      "reference": "ratus",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ratus",
+      "tier": 1
+    },
+    {
+      "source": "ibu",
+      "reference": "ribu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ribu",
+      "tier": 1
+    },
+    {
+      "source": "nyian",
+      "reference": "ringan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ringan",
+      "tier": 1
+    },
+    {
+      "source": "apat",
+      "reference": "rintangan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rintangan",
+      "tier": 1
+    },
+    {
+      "source": "amin",
+      "reference": "rumah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rumah",
+      "tier": 1
+    },
+    {
+      "source": "ma'ut",
+      "reference": "rumput",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rumput",
+      "tier": 1
+    },
+    {
+      "source": "uca",
+      "reference": "rusa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "rusa",
+      "tier": 1
+    },
+    {
+      "source": "kenem",
+      "reference": "sabtu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sabtu",
+      "tier": 1
+    },
+    {
+      "source": "na",
+      "reference": "saja",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "saja",
+      "tier": 1
+    },
+    {
+      "source": "bep",
+      "reference": "salah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "salah",
+      "tier": 1
+    },
+    {
+      "source": "kuwa",
+      "reference": "sama",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sama",
+      "tier": 1
+    },
+    {
+      "source": "pa",
+      "reference": "sampai",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sampai",
+      "tier": 1
+    },
+    {
+      "source": "kun",
+      "reference": "sampaikan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sampaikan",
+      "tier": 1
+    },
+    {
+      "source": "ina",
+      "reference": "sana",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sana",
+      "tier": 1
+    },
+    {
+      "source": "ali'",
+      "reference": "sangat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sangat",
+      "tier": 1
+    },
+    {
+      "source": "ca'",
+      "reference": "satu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "satu",
+      "tier": 1
+    },
+    {
+      "source": "aung",
+      "reference": "saudara",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "saudara",
+      "tier": 1
+    },
+    {
+      "source": "aung",
+      "reference": "saudari",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "saudari",
+      "tier": 1
+    },
+    {
+      "source": "ake",
+      "reference": "saya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "saya",
+      "tier": 1
+    },
+    {
+      "source": "uba",
+      "reference": "sayang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sayang",
+      "tier": 1
+    },
+    {
+      "source": "lekey",
+      "reference": "sayur",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sayur",
+      "tier": 1
+    },
+    {
+      "source": "ken'a",
+      "reference": "sebelum",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sebelum",
+      "tier": 1
+    },
+    {
+      "source": "agat",
+      "reference": "sehat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sehat",
+      "tier": 1
+    },
+    {
+      "source": "ale",
+      "reference": "sekali",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sekali",
+      "tier": 1
+    },
+    {
+      "source": "sekula",
+      "reference": "sekolah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sekolah",
+      "tier": 1
+    },
+    {
+      "source": "bunut",
+      "reference": "selamat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "selamat",
+      "tier": 1
+    },
+    {
+      "source": "kedua",
+      "reference": "selasa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "selasa",
+      "tier": 1
+    },
+    {
+      "source": "kelumah",
+      "reference": "selimut",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "selimut",
+      "tier": 1
+    },
+    {
+      "source": "ma'ut",
+      "reference": "semak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "semak",
+      "tier": 1
+    },
+    {
+      "source": "pe'en",
+      "reference": "sembilan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sembilan",
+      "tier": 1
+    },
+    {
+      "source": "mung",
+      "reference": "semua",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "semua",
+      "tier": 1
+    },
+    {
+      "source": "keca",
+      "reference": "senin",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "senin",
+      "tier": 1
+    },
+    {
+      "source": "kuaq",
+      "reference": "seperti",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "seperti",
+      "tier": 1
+    },
+    {
+      "source": "puluk",
+      "reference": "sepuluh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sepuluh",
+      "tier": 1
+    },
+    {
+      "source": "daru",
+      "reference": "sesat",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sesat",
+      "tier": 1
+    },
+    {
+      "source": "alang",
+      "reference": "setengah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "setengah",
+      "tier": 1
+    },
+    {
+      "source": "aha",
+      "reference": "setuju",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "setuju",
+      "tier": 1
+    },
+    {
+      "source": "naktau",
+      "reference": "siang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "siang",
+      "tier": 1
+    },
+    {
+      "source": "ahe",
+      "reference": "siapa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "siapa",
+      "tier": 1
+    },
+    {
+      "source": "lamak",
+      "reference": "sibuk",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sibuk",
+      "tier": 1
+    },
+    {
+      "source": "mambin",
+      "reference": "simpan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "simpan",
+      "tier": 1
+    },
+    {
+      "source": "ngena'k",
+      "reference": "singgah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "singgah",
+      "tier": 1
+    },
+    {
+      "source": "ini",
+      "reference": "sini",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sini",
+      "tier": 1
+    },
+    {
+      "source": "bit",
+      "reference": "sisir",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sisir",
+      "tier": 1
+    },
+    {
+      "source": "ina",
+      "reference": "situ",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "situ",
+      "tier": 1
+    },
+    {
+      "source": "isu'a",
+      "reference": "suaranya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "suaranya",
+      "tier": 1
+    },
+    {
+      "source": "lepa",
+      "reference": "sudah",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sudah",
+      "tier": 1
+    },
+    {
+      "source": "uba",
+      "reference": "suka",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "suka",
+      "tier": 1
+    },
+    {
+      "source": "alo",
+      "reference": "sungai",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "sungai",
+      "tier": 1
+    },
+    {
+      "source": "apan",
+      "reference": "supaya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "supaya",
+      "tier": 1
+    },
+    {
+      "source": "tusu",
+      "reference": "susu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "susu",
+      "tier": 1
+    },
+    {
+      "source": "tisen",
+      "reference": "tahu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tahu",
+      "tier": 1
+    },
+    {
+      "source": "apay",
+      "reference": "tali",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tali",
+      "tier": 1
+    },
+    {
+      "source": "uju'",
+      "reference": "tangan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tangan",
+      "tier": 1
+    },
+    {
+      "source": "dakep",
+      "reference": "tangkap",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tangkap",
+      "tier": 1
+    },
+    {
+      "source": "untepu'o",
+      "reference": "tapi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tapi",
+      "tier": 1
+    },
+    {
+      "source": "bek",
+      "reference": "tas",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tas",
+      "tier": 1
+    },
+    {
+      "source": "aneng",
+      "reference": "tatap",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tatap",
+      "tier": 1
+    },
+    {
+      "source": "tisen",
+      "reference": "tau",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tau",
+      "tier": 1
+    },
+    {
+      "source": "telo",
+      "reference": "telur",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "telur",
+      "tier": 1
+    },
+    {
+      "source": "tuyang",
+      "reference": "teman",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "teman",
+      "tier": 1
+    },
+    {
+      "source": "ina",
+      "reference": "tentu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tentu",
+      "tier": 1
+    },
+    {
+      "source": "dema",
+      "reference": "terang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "terang",
+      "tier": 1
+    },
+    {
+      "source": "ading",
+      "reference": "terdahulu",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "terdahulu",
+      "tier": 1
+    },
+    {
+      "source": "papat",
+      "reference": "terhalang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "terhalang",
+      "tier": 1
+    },
+    {
+      "source": "bika'",
+      "reference": "teriak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "teriak",
+      "tier": 1
+    },
+    {
+      "source": "tiga",
+      "reference": "terima",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "terima",
+      "tier": 1
+    },
+    {
+      "source": "papat",
+      "reference": "terlintang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "terlintang",
+      "tier": 1
+    },
+    {
+      "source": "pambin",
+      "reference": "tersimpan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tersimpan",
+      "tier": 1
+    },
+    {
+      "source": "naung",
+      "reference": "tersisa",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tersisa",
+      "tier": 1
+    },
+    {
+      "source": "papat",
+      "reference": "tertahan",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tertahan",
+      "tier": 1
+    },
+    {
+      "source": "arep",
+      "reference": "tertarik",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tertarik",
+      "tier": 1
+    },
+    {
+      "source": "untepu'o",
+      "reference": "tetapi",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tetapi",
+      "tier": 1
+    },
+    {
+      "source": "nda",
+      "reference": "tidak",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tidak",
+      "tier": 1
+    },
+    {
+      "source": "lundog",
+      "reference": "tidur",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tidur",
+      "tier": 1
+    },
+    {
+      "source": "telu",
+      "reference": "tiga",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tiga",
+      "tier": 1
+    },
+    {
+      "source": "belabau",
+      "reference": "tikus",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tikus",
+      "tier": 1
+    },
+    {
+      "source": "ngena'k",
+      "reference": "tinggal",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tinggal",
+      "tier": 1
+    },
+    {
+      "source": "tujuk",
+      "reference": "tujuh",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tujuh",
+      "tier": 1
+    },
+    {
+      "source": "ajak",
+      "reference": "tuntun",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "tuntun",
+      "tier": 1
+    },
+    {
+      "source": "tuduk",
+      "reference": "ular",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ular",
+      "tier": 1
+    },
+    {
+      "source": "un",
+      "reference": "untuk",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "untuk",
+      "tier": 1
+    },
+    {
+      "source": "aha",
+      "reference": "ya",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "ya",
+      "tier": 1
+    },
+    {
+      "source": "yak",
+      "reference": "yang",
+      "source_lang": "dyk",
+      "target_lang": "id",
+      "entry": "yang",
+      "tier": 1
+    },
+    {
+      "source": "ada",
+      "reference": "aun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ada",
+      "tier": 1
+    },
+    {
+      "source": "adegan",
+      "reference": "kaa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "adegan",
+      "tier": 1
+    },
+    {
+      "source": "adik",
+      "reference": "ari'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "adik",
+      "tier": 1
+    },
+    {
+      "source": "agar",
+      "reference": "apan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "agar",
+      "tier": 1
+    },
+    {
+      "source": "air",
+      "reference": "sungai",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "air",
+      "tier": 1
+    },
+    {
+      "source": "aku",
+      "reference": "ake",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "aku",
+      "tier": 1
+    },
+    {
+      "source": "alat",
+      "reference": "de'buat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "alat",
+      "tier": 1
+    },
+    {
+      "source": "alkohol",
+      "reference": "jakan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "alkohol",
+      "tier": 1
+    },
+    {
+      "source": "ambil",
+      "reference": "alak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ambil",
+      "tier": 1
+    },
+    {
+      "source": "andai",
+      "reference": "awa'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "andai",
+      "tier": 1
+    },
+    {
+      "source": "aneh",
+      "reference": "bulen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "aneh",
+      "tier": 1
+    },
+    {
+      "source": "angin",
+      "reference": "bayu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "angin",
+      "tier": 1
+    },
+    {
+      "source": "anjing",
+      "reference": "udut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "anjing",
+      "tier": 1
+    },
+    {
+      "source": "antara",
+      "reference": "aang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "antara",
+      "tier": 1
+    },
+    {
+      "source": "apa",
+      "reference": "inu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "apa",
+      "tier": 1
+    },
+    {
+      "source": "aral",
+      "reference": "apat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "aral",
+      "tier": 1
+    },
+    {
+      "source": "arus",
+      "reference": "alo",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "arus",
+      "tier": 1
+    },
+    {
+      "source": "asal",
+      "reference": "asen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "asal",
+      "tier": 1
+    },
+    {
+      "source": "atau",
+      "reference": "ataw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "atau",
+      "tier": 1
+    },
+    {
+      "source": "ayam",
+      "reference": "yap",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ayam",
+      "tier": 1
+    },
+    {
+      "source": "babi",
+      "reference": "babui",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "babi",
+      "tier": 1
+    },
+    {
+      "source": "badan",
+      "reference": "usa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "badan",
+      "tier": 1
+    },
+    {
+      "source": "bagaimana",
+      "reference": "kumpin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bagaimana",
+      "tier": 1
+    },
+    {
+      "source": "bagus",
+      "reference": "tia",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bagus",
+      "tier": 1
+    },
+    {
+      "source": "baik",
+      "reference": "lemeli",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "baik",
+      "tier": 1
+    },
+    {
+      "source": "baju",
+      "reference": "sapai",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "baju",
+      "tier": 1
+    },
+    {
+      "source": "balik",
+      "reference": "liwer",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "balik",
+      "tier": 1
+    },
+    {
+      "source": "banding",
+      "reference": "aliu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "banding",
+      "tier": 1
+    },
+    {
+      "source": "bangun",
+      "reference": "taga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bangun",
+      "tier": 1
+    },
+    {
+      "source": "banjir",
+      "reference": "layap",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "banjir",
+      "tier": 1
+    },
+    {
+      "source": "banteng",
+      "reference": "kalasiau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "banteng",
+      "tier": 1
+    },
+    {
+      "source": "banyak",
+      "reference": "kado",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "banyak",
+      "tier": 1
+    },
+    {
+      "source": "bapak",
+      "reference": "amai",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bapak",
+      "tier": 1
+    },
+    {
+      "source": "baris",
+      "reference": "ajat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "baris",
+      "tier": 1
+    },
+    {
+      "source": "baru",
+      "reference": "mading",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "baru",
+      "tier": 1
+    },
+    {
+      "source": "basa'",
+      "reference": "basah",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "basa'",
+      "tier": 1
+    },
+    {
+      "source": "bayar",
+      "reference": "bayan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bayar",
+      "tier": 1
+    },
+    {
+      "source": "bebek",
+      "reference": "bidik",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bebek",
+      "tier": 1
+    },
+    {
+      "source": "bekerja",
+      "reference": "gayeng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bekerja",
+      "tier": 1
+    },
+    {
+      "source": "belajar",
+      "reference": "pekalai",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "belajar",
+      "tier": 1
+    },
+    {
+      "source": "belalang",
+      "reference": "kade",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "belalang",
+      "tier": 1
+    },
+    {
+      "source": "belas",
+      "reference": "elas",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "belas",
+      "tier": 1
+    },
+    {
+      "source": "belukar",
+      "reference": "ma'ut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "belukar",
+      "tier": 1
+    },
+    {
+      "source": "benar",
+      "reference": "sio",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "benar",
+      "tier": 1
+    },
+    {
+      "source": "bengkak",
+      "reference": "tukuk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bengkak",
+      "tier": 1
+    },
+    {
+      "source": "berak",
+      "reference": "lepin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berak",
+      "tier": 1
+    },
+    {
+      "source": "berani",
+      "reference": "makang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berani",
+      "tier": 1
+    },
+    {
+      "source": "berapa",
+      "reference": "kudak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berapa",
+      "tier": 1
+    },
+    {
+      "source": "berasal",
+      "reference": "cen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berasal",
+      "tier": 1
+    },
+    {
+      "source": "beratus",
+      "reference": "ato",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "beratus",
+      "tier": 1
+    },
+    {
+      "source": "berbagai",
+      "reference": "kado",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berbagai",
+      "tier": 1
+    },
+    {
+      "source": "berbaring",
+      "reference": "meken",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berbaring",
+      "tier": 1
+    },
+    {
+      "source": "berdiri",
+      "reference": "ngrejeng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berdiri",
+      "tier": 1
+    },
+    {
+      "source": "berenang",
+      "reference": "nyatung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berenang",
+      "tier": 1
+    },
+    {
+      "source": "berita",
+      "reference": "denga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berita",
+      "tier": 1
+    },
+    {
+      "source": "berlari",
+      "reference": "kasa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berlari",
+      "tier": 1
+    },
+    {
+      "source": "bermain",
+      "reference": "piat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bermain",
+      "tier": 1
+    },
+    {
+      "source": "berminat",
+      "reference": "arep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berminat",
+      "tier": 1
+    },
+    {
+      "source": "bermusuhan",
+      "reference": "pebunu'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bermusuhan",
+      "tier": 1
+    },
+    {
+      "source": "berpikir",
+      "reference": "pekimet",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berpikir",
+      "tier": 1
+    },
+    {
+      "source": "bersandar",
+      "reference": "nyendei",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bersandar",
+      "tier": 1
+    },
+    {
+      "source": "bersemak",
+      "reference": "ma'ut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bersemak",
+      "tier": 1
+    },
+    {
+      "source": "bersih",
+      "reference": "bui'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bersih",
+      "tier": 1
+    },
+    {
+      "source": "berteduh",
+      "reference": "ngedingan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berteduh",
+      "tier": 1
+    },
+    {
+      "source": "beruang",
+      "reference": "buang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "beruang",
+      "tier": 1
+    },
+    {
+      "source": "berumput",
+      "reference": "ma'ut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "berumput",
+      "tier": 1
+    },
+    {
+      "source": "besar",
+      "reference": "bio",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "besar",
+      "tier": 1
+    },
+    {
+      "source": "besok",
+      "reference": "nembam",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "besok",
+      "tier": 1
+    },
+    {
+      "source": "biawak",
+      "reference": "kabuk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "biawak",
+      "tier": 1
+    },
+    {
+      "source": "bicara",
+      "reference": "petirak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bicara",
+      "tier": 1
+    },
+    {
+      "source": "bikin",
+      "reference": "uyan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bikin",
+      "tier": 1
+    },
+    {
+      "source": "bilang",
+      "reference": "kun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bilang",
+      "tier": 1
+    },
+    {
+      "source": "bintang",
+      "reference": "betuen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bintang",
+      "tier": 1
+    },
+    {
+      "source": "bisa",
+      "reference": "ala'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bisa",
+      "tier": 1
+    },
+    {
+      "source": "bisu",
+      "reference": "ameng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bisu",
+      "tier": 1
+    },
+    {
+      "source": "bocor",
+      "reference": "tudok",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bocor",
+      "tier": 1
+    },
+    {
+      "source": "bodoh",
+      "reference": "ameng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bodoh",
+      "tier": 1
+    },
+    {
+      "source": "bohong",
+      "reference": "pala",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bohong",
+      "tier": 1
+    },
+    {
+      "source": "bola",
+      "reference": "bula",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bola",
+      "tier": 1
+    },
+    {
+      "source": "boleh",
+      "reference": "kong",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "boleh",
+      "tier": 1
+    },
+    {
+      "source": "bom",
+      "reference": "bum",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bom",
+      "tier": 1
+    },
+    {
+      "source": "botol",
+      "reference": "butun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "botol",
+      "tier": 1
+    },
+    {
+      "source": "buah",
+      "reference": "buaq",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "buah",
+      "tier": 1
+    },
+    {
+      "source": "buat",
+      "reference": "uyan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "buat",
+      "tier": 1
+    },
+    {
+      "source": "buaya",
+      "reference": "baya",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "buaya",
+      "tier": 1
+    },
+    {
+      "source": "bukit",
+      "reference": "apaw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "bukit",
+      "tier": 1
+    },
+    {
+      "source": "buku",
+      "reference": "buk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "buku",
+      "tier": 1
+    },
+    {
+      "source": "burung",
+      "reference": "sui",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "burung",
+      "tier": 1
+    },
+    {
+      "source": "cabe",
+      "reference": "lia",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cabe",
+      "tier": 1
+    },
+    {
+      "source": "cacat",
+      "reference": "apet",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cacat",
+      "tier": 1
+    },
+    {
+      "source": "cacing",
+      "reference": "lati",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cacing",
+      "tier": 1
+    },
+    {
+      "source": "celana",
+      "reference": "seluen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "celana",
+      "tier": 1
+    },
+    {
+      "source": "cemas",
+      "reference": "bisaw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cemas",
+      "tier": 1
+    },
+    {
+      "source": "cempedak",
+      "reference": "nakan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cempedak",
+      "tier": 1
+    },
+    {
+      "source": "cenderung",
+      "reference": "arep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cenderung",
+      "tier": 1
+    },
+    {
+      "source": "cepat",
+      "reference": "sangit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cepat",
+      "tier": 1
+    },
+    {
+      "source": "cicak",
+      "reference": "aru",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cicak",
+      "tier": 1
+    },
+    {
+      "source": "cinta",
+      "reference": "uba",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cinta",
+      "tier": 1
+    },
+    {
+      "source": "cupu",
+      "reference": "a'i'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "cupu",
+      "tier": 1
+    },
+    {
+      "source": "dada",
+      "reference": "usuk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dada",
+      "tier": 1
+    },
+    {
+      "source": "daerah",
+      "reference": "dalé",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "daerah",
+      "tier": 1
+    },
+    {
+      "source": "dahulu",
+      "reference": "ading",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dahulu",
+      "tier": 1
+    },
+    {
+      "source": "dan",
+      "reference": "ngan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dan",
+      "tier": 1
+    },
+    {
+      "source": "dapat",
+      "reference": "ala'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dapat",
+      "tier": 1
+    },
+    {
+      "source": "darah",
+      "reference": "daa'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "darah",
+      "tier": 1
+    },
+    {
+      "source": "dari",
+      "reference": "cen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dari",
+      "tier": 1
+    },
+    {
+      "source": "datang",
+      "reference": "nay",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "datang",
+      "tier": 1
+    },
+    {
+      "source": "delapan",
+      "reference": "aya",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "delapan",
+      "tier": 1
+    },
+    {
+      "source": "dermaga",
+      "reference": "tuun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dermaga",
+      "tier": 1
+    },
+    {
+      "source": "desa",
+      "reference": "lepo",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "desa",
+      "tier": 1
+    },
+    {
+      "source": "di",
+      "reference": "ka",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "di",
+      "tier": 1
+    },
+    {
+      "source": "diantara",
+      "reference": "dalau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "diantara",
+      "tier": 1
+    },
+    {
+      "source": "dimakan",
+      "reference": "uman",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dimakan",
+      "tier": 1
+    },
+    {
+      "source": "dimana",
+      "reference": "kenpi",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dimana",
+      "tier": 1
+    },
+    {
+      "source": "dingin",
+      "reference": "nyeng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dingin",
+      "tier": 1
+    },
+    {
+      "source": "disini",
+      "reference": "ki",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "disini",
+      "tier": 1
+    },
+    {
+      "source": "duduk",
+      "reference": "adung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "duduk",
+      "tier": 1
+    },
+    {
+      "source": "dulu",
+      "reference": "ading",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "dulu",
+      "tier": 1
+    },
+    {
+      "source": "empat",
+      "reference": "pat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "empat",
+      "tier": 1
+    },
+    {
+      "source": "enam",
+      "reference": "nem",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "enam",
+      "tier": 1
+    },
+    {
+      "source": "gajah",
+      "reference": "kesun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gajah",
+      "tier": 1
+    },
+    {
+      "source": "garam",
+      "reference": "usen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "garam",
+      "tier": 1
+    },
+    {
+      "source": "gayeng",
+      "reference": "tugas",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gayeng",
+      "tier": 1
+    },
+    {
+      "source": "gelap",
+      "reference": "mendem",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gelap",
+      "tier": 1
+    },
+    {
+      "source": "gemuk",
+      "reference": "lembo",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gemuk",
+      "tier": 1
+    },
+    {
+      "source": "gendong",
+      "reference": "bak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gendong",
+      "tier": 1
+    },
+    {
+      "source": "gigi",
+      "reference": "jipen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gigi",
+      "tier": 1
+    },
+    {
+      "source": "gila",
+      "reference": "buling",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gila",
+      "tier": 1
+    },
+    {
+      "source": "goreng",
+      "reference": "saga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "goreng",
+      "tier": 1
+    },
+    {
+      "source": "gula",
+      "reference": "gula'k",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gula",
+      "tier": 1
+    },
+    {
+      "source": "gundul",
+      "reference": "ulok",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gundul",
+      "tier": 1
+    },
+    {
+      "source": "gunung",
+      "reference": "mudung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "gunung",
+      "tier": 1
+    },
+    {
+      "source": "hal",
+      "reference": "denga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hal",
+      "tier": 1
+    },
+    {
+      "source": "halangan",
+      "reference": "apat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "halangan",
+      "tier": 1
+    },
+    {
+      "source": "hantu",
+      "reference": "bali",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hantu",
+      "tier": 1
+    },
+    {
+      "source": "hari",
+      "reference": "tau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hari",
+      "tier": 1
+    },
+    {
+      "source": "harimau",
+      "reference": "lenjau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "harimau",
+      "tier": 1
+    },
+    {
+      "source": "hemat",
+      "reference": "demun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hemat",
+      "tier": 1
+    },
+    {
+      "source": "hidung",
+      "reference": "ndung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hidung",
+      "tier": 1
+    },
+    {
+      "source": "hidup",
+      "reference": "mudip",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hidup",
+      "tier": 1
+    },
+    {
+      "source": "hilir",
+      "reference": "aba",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hilir",
+      "tier": 1
+    },
+    {
+      "source": "hitam",
+      "reference": "saleng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hitam",
+      "tier": 1
+    },
+    {
+      "source": "hujan",
+      "reference": "ujan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hujan",
+      "tier": 1
+    },
+    {
+      "source": "hutan",
+      "reference": "a'ut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "hutan",
+      "tier": 1
+    },
+    {
+      "source": "ibu",
+      "reference": "uweq",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ibu",
+      "tier": 1
+    },
+    {
+      "source": "ide",
+      "reference": "aken",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ide",
+      "tier": 1
+    },
+    {
+      "source": "ikan",
+      "reference": "atuk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ikan",
+      "tier": 1
+    },
+    {
+      "source": "ingatan",
+      "reference": "kimet",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ingatan",
+      "tier": 1
+    },
+    {
+      "source": "iya",
+      "reference": "aha",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "iya",
+      "tier": 1
+    },
+    {
+      "source": "jalan",
+      "reference": "masat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jalan",
+      "tier": 1
+    },
+    {
+      "source": "jalur",
+      "reference": "ale",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jalur",
+      "tier": 1
+    },
+    {
+      "source": "jangan",
+      "reference": "ain",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jangan",
+      "tier": 1
+    },
+    {
+      "source": "janji",
+      "reference": "daji'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "janji",
+      "tier": 1
+    },
+    {
+      "source": "jantan",
+      "reference": "a'ung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jantan",
+      "tier": 1
+    },
+    {
+      "source": "jatuh",
+      "reference": "labok",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jatuh",
+      "tier": 1
+    },
+    {
+      "source": "jauh",
+      "reference": "cok",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jauh",
+      "tier": 1
+    },
+    {
+      "source": "jelek",
+      "reference": "ja'at",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jelek",
+      "tier": 1
+    },
+    {
+      "source": "jendela",
+      "reference": "sekan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jendela",
+      "tier": 1
+    },
+    {
+      "source": "jernih",
+      "reference": "litut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jernih",
+      "tier": 1
+    },
+    {
+      "source": "juga",
+      "reference": "pe",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "juga",
+      "tier": 1
+    },
+    {
+      "source": "jumat",
+      "reference": "kelema",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jumat",
+      "tier": 1
+    },
+    {
+      "source": "jurang",
+      "reference": "asep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "jurang",
+      "tier": 1
+    },
+    {
+      "source": "kabar",
+      "reference": "denga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kabar",
+      "tier": 1
+    },
+    {
+      "source": "kakak",
+      "reference": "seken",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kakak",
+      "tier": 1
+    },
+    {
+      "source": "kakek",
+      "reference": "pui",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kakek",
+      "tier": 1
+    },
+    {
+      "source": "kaki",
+      "reference": "taket",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kaki",
+      "tier": 1
+    },
+    {
+      "source": "kalau",
+      "reference": "awa'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kalau",
+      "tier": 1
+    },
+    {
+      "source": "kalian",
+      "reference": "ikem",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kalian",
+      "tier": 1
+    },
+    {
+      "source": "kambing",
+      "reference": "kadeng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kambing",
+      "tier": 1
+    },
+    {
+      "source": "kami",
+      "reference": "ame",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kami",
+      "tier": 1
+    },
+    {
+      "source": "kamis",
+      "reference": "tepat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kamis",
+      "tier": 1
+    },
+    {
+      "source": "kamu",
+      "reference": "ikoq",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kamu",
+      "tier": 1
+    },
+    {
+      "source": "kancil",
+      "reference": "pelanuk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kancil",
+      "tier": 1
+    },
+    {
+      "source": "kandang",
+      "reference": "liwang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kandang",
+      "tier": 1
+    },
+    {
+      "source": "kapal",
+      "reference": "akit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kapal",
+      "tier": 1
+    },
+    {
+      "source": "kapan",
+      "reference": "mi'an",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kapan",
+      "tier": 1
+    },
+    {
+      "source": "kapur",
+      "reference": "apo",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kapur",
+      "tier": 1
+    },
+    {
+      "source": "karena",
+      "reference": "uban",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "karena",
+      "tier": 1
+    },
+    {
+      "source": "kasih",
+      "reference": "tawai",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kasih",
+      "tier": 1
+    },
+    {
+      "source": "kau",
+      "reference": "ikoq",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kau",
+      "tier": 1
+    },
+    {
+      "source": "ke",
+      "reference": "koq",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ke",
+      "tier": 1
+    },
+    {
+      "source": "keatas",
+      "reference": "kempou",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "keatas",
+      "tier": 1
+    },
+    {
+      "source": "keberanian",
+      "reference": "akang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "keberanian",
+      "tier": 1
+    },
+    {
+      "source": "kebiasaan",
+      "reference": "alay",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kebiasaan",
+      "tier": 1
+    },
+    {
+      "source": "kebijaksanaan",
+      "reference": "aken",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kebijaksanaan",
+      "tier": 1
+    },
+    {
+      "source": "kecil",
+      "reference": "ang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kecil",
+      "tier": 1
+    },
+    {
+      "source": "kecoa",
+      "reference": "lepa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kecoa",
+      "tier": 1
+    },
+    {
+      "source": "keinginan",
+      "reference": "arep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "keinginan",
+      "tier": 1
+    },
+    {
+      "source": "kejadian",
+      "reference": "denga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kejadian",
+      "tier": 1
+    },
+    {
+      "source": "kekanakkanakan",
+      "reference": "pekanak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kekanakkanakan",
+      "tier": 1
+    },
+    {
+      "source": "kelakuan",
+      "reference": "puyan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kelakuan",
+      "tier": 1
+    },
+    {
+      "source": "keledang",
+      "reference": "ta'ep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "keledang",
+      "tier": 1
+    },
+    {
+      "source": "keluar",
+      "reference": "kawang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "keluar",
+      "tier": 1
+    },
+    {
+      "source": "keluarga",
+      "reference": "amit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "keluarga",
+      "tier": 1
+    },
+    {
+      "source": "kemana",
+      "reference": "kenpi",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kemana",
+      "tier": 1
+    },
+    {
+      "source": "kemarau",
+      "reference": "tagak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kemarau",
+      "tier": 1
+    },
+    {
+      "source": "kembali",
+      "reference": "ulek",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kembali",
+      "tier": 1
+    },
+    {
+      "source": "kembar",
+      "reference": "pit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kembar",
+      "tier": 1
+    },
+    {
+      "source": "kenapa",
+      "reference": "adi",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kenapa",
+      "tier": 1
+    },
+    {
+      "source": "kencing",
+      "reference": "nyengit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kencing",
+      "tier": 1
+    },
+    {
+      "source": "kenyang",
+      "reference": "beso",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kenyang",
+      "tier": 1
+    },
+    {
+      "source": "kepala",
+      "reference": "ulu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kepala",
+      "tier": 1
+    },
+    {
+      "source": "kepiting",
+      "reference": "yu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kepiting",
+      "tier": 1
+    },
+    {
+      "source": "kerja",
+      "reference": "gayeng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kerja",
+      "tier": 1
+    },
+    {
+      "source": "kerjakan",
+      "reference": "gayeng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kerjakan",
+      "tier": 1
+    },
+    {
+      "source": "kesatu",
+      "reference": "ading",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kesatu",
+      "tier": 1
+    },
+    {
+      "source": "ketahui",
+      "reference": "tisen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ketahui",
+      "tier": 1
+    },
+    {
+      "source": "ketika",
+      "reference": "dalaw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ketika",
+      "tier": 1
+    },
+    {
+      "source": "kijang",
+      "reference": "payak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kijang",
+      "tier": 1
+    },
+    {
+      "source": "kita",
+      "reference": "ilu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kita",
+      "tier": 1
+    },
+    {
+      "source": "kodok",
+      "reference": "sui",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kodok",
+      "tier": 1
+    },
+    {
+      "source": "ku",
+      "reference": "keq",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ku",
+      "tier": 1
+    },
+    {
+      "source": "kuat",
+      "reference": "denggep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kuat",
+      "tier": 1
+    },
+    {
+      "source": "kucing",
+      "reference": "sing",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kucing",
+      "tier": 1
+    },
+    {
+      "source": "kulit",
+      "reference": "anit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kulit",
+      "tier": 1
+    },
+    {
+      "source": "kuning",
+      "reference": "bila'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kuning",
+      "tier": 1
+    },
+    {
+      "source": "kursi",
+      "reference": "adan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kursi",
+      "tier": 1
+    },
+    {
+      "source": "kurus",
+      "reference": "mae",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "kurus",
+      "tier": 1
+    },
+    {
+      "source": "lahap",
+      "reference": "asam",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lahap",
+      "tier": 1
+    },
+    {
+      "source": "lain",
+      "reference": "cena'an",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lain",
+      "tier": 1
+    },
+    {
+      "source": "lalang",
+      "reference": "ai'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lalang",
+      "tier": 1
+    },
+    {
+      "source": "lalat",
+      "reference": "langau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lalat",
+      "tier": 1
+    },
+    {
+      "source": "lambat",
+      "reference": "dena'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lambat",
+      "tier": 1
+    },
+    {
+      "source": "lampu",
+      "reference": "titiw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lampu",
+      "tier": 1
+    },
+    {
+      "source": "langsung",
+      "reference": "umba",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "langsung",
+      "tier": 1
+    },
+    {
+      "source": "lapar",
+      "reference": "lau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lapar",
+      "tier": 1
+    },
+    {
+      "source": "lay",
+      "reference": "pakit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lay",
+      "tier": 1
+    },
+    {
+      "source": "lazim",
+      "reference": "alay",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lazim",
+      "tier": 1
+    },
+    {
+      "source": "lele",
+      "reference": "kati",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lele",
+      "tier": 1
+    },
+    {
+      "source": "lemari",
+      "reference": "buan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lemari",
+      "tier": 1
+    },
+    {
+      "source": "lembah",
+      "reference": "asep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lembah",
+      "tier": 1
+    },
+    {
+      "source": "lidah",
+      "reference": "uma",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lidah",
+      "tier": 1
+    },
+    {
+      "source": "lihat",
+      "reference": "maat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lihat",
+      "tier": 1
+    },
+    {
+      "source": "likut",
+      "reference": "mundur",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "likut",
+      "tier": 1
+    },
+    {
+      "source": "lima",
+      "reference": "lema",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lima",
+      "tier": 1
+    },
+    {
+      "source": "lupa",
+      "reference": "turan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "lupa",
+      "tier": 1
+    },
+    {
+      "source": "mabok",
+      "reference": "meduk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mabok",
+      "tier": 1
+    },
+    {
+      "source": "macan",
+      "reference": "kule",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "macan",
+      "tier": 1
+    },
+    {
+      "source": "madu",
+      "reference": "layuk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "madu",
+      "tier": 1
+    },
+    {
+      "source": "main",
+      "reference": "piat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "main",
+      "tier": 1
+    },
+    {
+      "source": "makan",
+      "reference": "uman",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "makan",
+      "tier": 1
+    },
+    {
+      "source": "makanan",
+      "reference": "penguman",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "makanan",
+      "tier": 1
+    },
+    {
+      "source": "malam",
+      "reference": "nataup",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "malam",
+      "tier": 1
+    },
+    {
+      "source": "malas",
+      "reference": "malat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "malas",
+      "tier": 1
+    },
+    {
+      "source": "malu",
+      "reference": "sa'e",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "malu",
+      "tier": 1
+    },
+    {
+      "source": "mamak",
+      "reference": "tinam",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mamak",
+      "tier": 1
+    },
+    {
+      "source": "mana",
+      "reference": "mpi",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mana",
+      "tier": 1
+    },
+    {
+      "source": "mandi",
+      "reference": "ndu'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mandi",
+      "tier": 1
+    },
+    {
+      "source": "marah",
+      "reference": "busi'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "marah",
+      "tier": 1
+    },
+    {
+      "source": "masak",
+      "reference": "pesak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "masak",
+      "tier": 1
+    },
+    {
+      "source": "masing",
+      "reference": "tengen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "masing",
+      "tier": 1
+    },
+    {
+      "source": "mati",
+      "reference": "matae",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mati",
+      "tier": 1
+    },
+    {
+      "source": "mau",
+      "reference": "obak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mau",
+      "tier": 1
+    },
+    {
+      "source": "meja",
+      "reference": "mejak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "meja",
+      "tier": 1
+    },
+    {
+      "source": "meletakkan",
+      "reference": "maung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "meletakkan",
+      "tier": 1
+    },
+    {
+      "source": "melewati",
+      "reference": "lapa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "melewati",
+      "tier": 1
+    },
+    {
+      "source": "melihat",
+      "reference": "ngeneng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "melihat",
+      "tier": 1
+    },
+    {
+      "source": "memakan",
+      "reference": "uman",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "memakan",
+      "tier": 1
+    },
+    {
+      "source": "memang",
+      "reference": "adang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "memang",
+      "tier": 1
+    },
+    {
+      "source": "memanjat",
+      "reference": "lemaket",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "memanjat",
+      "tier": 1
+    },
+    {
+      "source": "memar",
+      "reference": "buok",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "memar",
+      "tier": 1
+    },
+    {
+      "source": "membeli",
+      "reference": "meli",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "membeli",
+      "tier": 1
+    },
+    {
+      "source": "memberanikan",
+      "reference": "ngakang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "memberanikan",
+      "tier": 1
+    },
+    {
+      "source": "membuat",
+      "reference": "uyan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "membuat",
+      "tier": 1
+    },
+    {
+      "source": "memegang",
+      "reference": "mambin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "memegang",
+      "tier": 1
+    },
+    {
+      "source": "memelihara",
+      "reference": "mambim",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "memelihara",
+      "tier": 1
+    },
+    {
+      "source": "menanam",
+      "reference": "mula",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menanam",
+      "tier": 1
+    },
+    {
+      "source": "menangis",
+      "reference": "menange",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menangis",
+      "tier": 1
+    },
+    {
+      "source": "menara",
+      "reference": "apaw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menara",
+      "tier": 1
+    },
+    {
+      "source": "menari",
+      "reference": "kanjet",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menari",
+      "tier": 1
+    },
+    {
+      "source": "menaruh",
+      "reference": "maung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menaruh",
+      "tier": 1
+    },
+    {
+      "source": "menatap",
+      "reference": "aneng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menatap",
+      "tier": 1
+    },
+    {
+      "source": "mencari",
+      "reference": "mita",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mencari",
+      "tier": 1
+    },
+    {
+      "source": "mencuri",
+      "reference": "mengelau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mencuri",
+      "tier": 1
+    },
+    {
+      "source": "mendapatkan",
+      "reference": "ala'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mendapatkan",
+      "tier": 1
+    },
+    {
+      "source": "mendengar",
+      "reference": "ngeninga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mendengar",
+      "tier": 1
+    },
+    {
+      "source": "menempatkan",
+      "reference": "maung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menempatkan",
+      "tier": 1
+    },
+    {
+      "source": "mengapa",
+      "reference": "adi",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mengapa",
+      "tier": 1
+    },
+    {
+      "source": "mengukur",
+      "reference": "alut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mengukur",
+      "tier": 1
+    },
+    {
+      "source": "menyanyi",
+      "reference": "ngendau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menyanyi",
+      "tier": 1
+    },
+    {
+      "source": "menyeberang",
+      "reference": "pelawat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menyeberang",
+      "tier": 1
+    },
+    {
+      "source": "menyelam",
+      "reference": "lemeset",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menyelam",
+      "tier": 1
+    },
+    {
+      "source": "menyimpan",
+      "reference": "mambin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "menyimpan",
+      "tier": 1
+    },
+    {
+      "source": "merah",
+      "reference": "bala",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "merah",
+      "tier": 1
+    },
+    {
+      "source": "meraup",
+      "reference": "makup",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "meraup",
+      "tier": 1
+    },
+    {
+      "source": "mereka",
+      "reference": "ida",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mereka",
+      "tier": 1
+    },
+    {
+      "source": "milik",
+      "reference": "anun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "milik",
+      "tier": 1
+    },
+    {
+      "source": "mimpi",
+      "reference": "ngenupi",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mimpi",
+      "tier": 1
+    },
+    {
+      "source": "minum",
+      "reference": "nisep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "minum",
+      "tier": 1
+    },
+    {
+      "source": "minyak",
+      "reference": "lenya",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "minyak",
+      "tier": 1
+    },
+    {
+      "source": "mobil",
+      "reference": "oto",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mobil",
+      "tier": 1
+    },
+    {
+      "source": "monyet",
+      "reference": "kuyata",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "monyet",
+      "tier": 1
+    },
+    {
+      "source": "mungkin",
+      "reference": "amu'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "mungkin",
+      "tier": 1
+    },
+    {
+      "source": "muntah",
+      "reference": "tuta'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "muntah",
+      "tier": 1
+    },
+    {
+      "source": "naik",
+      "reference": "kempou",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "naik",
+      "tier": 1
+    },
+    {
+      "source": "nama",
+      "reference": "ngadan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nama",
+      "tier": 1
+    },
+    {
+      "source": "nangis",
+      "reference": "nange",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nangis",
+      "tier": 1
+    },
+    {
+      "source": "nasi",
+      "reference": "kenan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nasi",
+      "tier": 1
+    },
+    {
+      "source": "nenek",
+      "reference": "pui",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nenek",
+      "tier": 1
+    },
+    {
+      "source": "nya",
+      "reference": "la",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nya",
+      "tier": 1
+    },
+    {
+      "source": "nyamuk",
+      "reference": "jamok",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nyamuk",
+      "tier": 1
+    },
+    {
+      "source": "nyaring",
+      "reference": "bia",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nyaring",
+      "tier": 1
+    },
+    {
+      "source": "nyata",
+      "reference": "lan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "nyata",
+      "tier": 1
+    },
+    {
+      "source": "oke",
+      "reference": "aha",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "oke",
+      "tier": 1
+    },
+    {
+      "source": "orang",
+      "reference": "lakeng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "orang",
+      "tier": 1
+    },
+    {
+      "source": "otak",
+      "reference": "utek",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "otak",
+      "tier": 1
+    },
+    {
+      "source": "pahit",
+      "reference": "pait",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pahit",
+      "tier": 1
+    },
+    {
+      "source": "pakaian",
+      "reference": "sapai",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pakaian",
+      "tier": 1
+    },
+    {
+      "source": "pandai",
+      "reference": "encam",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pandai",
+      "tier": 1
+    },
+    {
+      "source": "panen",
+      "reference": "maju",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "panen",
+      "tier": 1
+    },
+    {
+      "source": "panjang",
+      "reference": "dadok",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "panjang",
+      "tier": 1
+    },
+    {
+      "source": "parang",
+      "reference": "mandau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "parang",
+      "tier": 1
+    },
+    {
+      "source": "pasar",
+      "reference": "pasen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pasar",
+      "tier": 1
+    },
+    {
+      "source": "pasir",
+      "reference": "ait",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pasir",
+      "tier": 1
+    },
+    {
+      "source": "patin",
+      "reference": "selareng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "patin",
+      "tier": 1
+    },
+    {
+      "source": "pedagang",
+      "reference": "toke",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pedagang",
+      "tier": 1
+    },
+    {
+      "source": "pedas",
+      "reference": "sanit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pedas",
+      "tier": 1
+    },
+    {
+      "source": "pegang",
+      "reference": "mambin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pegang",
+      "tier": 1
+    },
+    {
+      "source": "pelit",
+      "reference": "ma'em",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pelit",
+      "tier": 1
+    },
+    {
+      "source": "peluk",
+      "reference": "nyekapu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "peluk",
+      "tier": 1
+    },
+    {
+      "source": "penara",
+      "reference": "apaw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "penara",
+      "tier": 1
+    },
+    {
+      "source": "pendek",
+      "reference": "bu'et",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pendek",
+      "tier": 1
+    },
+    {
+      "source": "perahu",
+      "reference": "alut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "perahu",
+      "tier": 1
+    },
+    {
+      "source": "peraturan",
+      "reference": "adet",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "peraturan",
+      "tier": 1
+    },
+    {
+      "source": "pergi",
+      "reference": "tei",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pergi",
+      "tier": 1
+    },
+    {
+      "source": "perut",
+      "reference": "batek",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "perut",
+      "tier": 1
+    },
+    {
+      "source": "pesawat",
+      "reference": "bilun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pesawat",
+      "tier": 1
+    },
+    {
+      "source": "petubo",
+      "reference": "pelihara",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "petubo",
+      "tier": 1
+    },
+    {
+      "source": "pikiran",
+      "reference": "aken",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pikiran",
+      "tier": 1
+    },
+    {
+      "source": "pindah",
+      "reference": "buaw",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pindah",
+      "tier": 1
+    },
+    {
+      "source": "pinggang",
+      "reference": "aking",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pinggang",
+      "tier": 1
+    },
+    {
+      "source": "pintu",
+      "reference": "pamen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pintu",
+      "tier": 1
+    },
+    {
+      "source": "piring",
+      "reference": "kiyat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "piring",
+      "tier": 1
+    },
+    {
+      "source": "pohon",
+      "reference": "puun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pohon",
+      "tier": 1
+    },
+    {
+      "source": "pondok",
+      "reference": "lepau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pondok",
+      "tier": 1
+    },
+    {
+      "source": "pulang",
+      "reference": "ula",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "pulang",
+      "tier": 1
+    },
+    {
+      "source": "punya",
+      "reference": "anun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "punya",
+      "tier": 1
+    },
+    {
+      "source": "putih",
+      "reference": "putek",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "putih",
+      "tier": 1
+    },
+    {
+      "source": "rabu",
+      "reference": "ketelu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rabu",
+      "tier": 1
+    },
+    {
+      "source": "racun",
+      "reference": "bisa'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "racun",
+      "tier": 1
+    },
+    {
+      "source": "rakit",
+      "reference": "akit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rakit",
+      "tier": 1
+    },
+    {
+      "source": "rakus",
+      "reference": "asam",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rakus",
+      "tier": 1
+    },
+    {
+      "source": "rambutan",
+      "reference": "sangit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rambutan",
+      "tier": 1
+    },
+    {
+      "source": "rantai",
+      "reference": "ambit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rantai",
+      "tier": 1
+    },
+    {
+      "source": "ranting",
+      "reference": "alan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ranting",
+      "tier": 1
+    },
+    {
+      "source": "ratus",
+      "reference": "ato",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ratus",
+      "tier": 1
+    },
+    {
+      "source": "ribu",
+      "reference": "ibu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ribu",
+      "tier": 1
+    },
+    {
+      "source": "ringan",
+      "reference": "nyian",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ringan",
+      "tier": 1
+    },
+    {
+      "source": "rintangan",
+      "reference": "apat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rintangan",
+      "tier": 1
+    },
+    {
+      "source": "rumah",
+      "reference": "amin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rumah",
+      "tier": 1
+    },
+    {
+      "source": "rumput",
+      "reference": "ma'ut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rumput",
+      "tier": 1
+    },
+    {
+      "source": "rusa",
+      "reference": "uca",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "rusa",
+      "tier": 1
+    },
+    {
+      "source": "sabtu",
+      "reference": "kenem",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sabtu",
+      "tier": 1
+    },
+    {
+      "source": "saja",
+      "reference": "na",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "saja",
+      "tier": 1
+    },
+    {
+      "source": "salah",
+      "reference": "bep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "salah",
+      "tier": 1
+    },
+    {
+      "source": "sama",
+      "reference": "kuwa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sama",
+      "tier": 1
+    },
+    {
+      "source": "sampai",
+      "reference": "pa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sampai",
+      "tier": 1
+    },
+    {
+      "source": "sampaikan",
+      "reference": "kun",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sampaikan",
+      "tier": 1
+    },
+    {
+      "source": "sana",
+      "reference": "ina",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sana",
+      "tier": 1
+    },
+    {
+      "source": "sangat",
+      "reference": "ali'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sangat",
+      "tier": 1
+    },
+    {
+      "source": "satu",
+      "reference": "ca'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "satu",
+      "tier": 1
+    },
+    {
+      "source": "saudara",
+      "reference": "aung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "saudara",
+      "tier": 1
+    },
+    {
+      "source": "saudari",
+      "reference": "aung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "saudari",
+      "tier": 1
+    },
+    {
+      "source": "saya",
+      "reference": "ake",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "saya",
+      "tier": 1
+    },
+    {
+      "source": "sayang",
+      "reference": "uba",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sayang",
+      "tier": 1
+    },
+    {
+      "source": "sayur",
+      "reference": "lekey",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sayur",
+      "tier": 1
+    },
+    {
+      "source": "sebelum",
+      "reference": "ken'a",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sebelum",
+      "tier": 1
+    },
+    {
+      "source": "sehat",
+      "reference": "agat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sehat",
+      "tier": 1
+    },
+    {
+      "source": "sekali",
+      "reference": "ale",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sekali",
+      "tier": 1
+    },
+    {
+      "source": "sekolah",
+      "reference": "sekula",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sekolah",
+      "tier": 1
+    },
+    {
+      "source": "selamat",
+      "reference": "bunut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "selamat",
+      "tier": 1
+    },
+    {
+      "source": "selasa",
+      "reference": "kedua",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "selasa",
+      "tier": 1
+    },
+    {
+      "source": "selimut",
+      "reference": "kelumah",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "selimut",
+      "tier": 1
+    },
+    {
+      "source": "semak",
+      "reference": "ma'ut",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "semak",
+      "tier": 1
+    },
+    {
+      "source": "sembilan",
+      "reference": "pe'en",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sembilan",
+      "tier": 1
+    },
+    {
+      "source": "semua",
+      "reference": "mung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "semua",
+      "tier": 1
+    },
+    {
+      "source": "senin",
+      "reference": "keca",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "senin",
+      "tier": 1
+    },
+    {
+      "source": "seperti",
+      "reference": "kuaq",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "seperti",
+      "tier": 1
+    },
+    {
+      "source": "sepuluh",
+      "reference": "puluk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sepuluh",
+      "tier": 1
+    },
+    {
+      "source": "sesat",
+      "reference": "daru",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sesat",
+      "tier": 1
+    },
+    {
+      "source": "setengah",
+      "reference": "alang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "setengah",
+      "tier": 1
+    },
+    {
+      "source": "setuju",
+      "reference": "aha",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "setuju",
+      "tier": 1
+    },
+    {
+      "source": "siang",
+      "reference": "naktau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "siang",
+      "tier": 1
+    },
+    {
+      "source": "siapa",
+      "reference": "ahe",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "siapa",
+      "tier": 1
+    },
+    {
+      "source": "sibuk",
+      "reference": "lamak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sibuk",
+      "tier": 1
+    },
+    {
+      "source": "simpan",
+      "reference": "mambin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "simpan",
+      "tier": 1
+    },
+    {
+      "source": "singgah",
+      "reference": "ngena'k",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "singgah",
+      "tier": 1
+    },
+    {
+      "source": "sini",
+      "reference": "ini",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sini",
+      "tier": 1
+    },
+    {
+      "source": "sisir",
+      "reference": "bit",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sisir",
+      "tier": 1
+    },
+    {
+      "source": "situ",
+      "reference": "ina",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "situ",
+      "tier": 1
+    },
+    {
+      "source": "suaranya",
+      "reference": "isu'a",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "suaranya",
+      "tier": 1
+    },
+    {
+      "source": "sudah",
+      "reference": "lepa",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sudah",
+      "tier": 1
+    },
+    {
+      "source": "suka",
+      "reference": "uba",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "suka",
+      "tier": 1
+    },
+    {
+      "source": "sungai",
+      "reference": "alo",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "sungai",
+      "tier": 1
+    },
+    {
+      "source": "supaya",
+      "reference": "apan",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "supaya",
+      "tier": 1
+    },
+    {
+      "source": "susu",
+      "reference": "tusu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "susu",
+      "tier": 1
+    },
+    {
+      "source": "tahu",
+      "reference": "tisen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tahu",
+      "tier": 1
+    },
+    {
+      "source": "tali",
+      "reference": "apay",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tali",
+      "tier": 1
+    },
+    {
+      "source": "tangan",
+      "reference": "uju'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tangan",
+      "tier": 1
+    },
+    {
+      "source": "tangkap",
+      "reference": "dakep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tangkap",
+      "tier": 1
+    },
+    {
+      "source": "tapi",
+      "reference": "untepu'o",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tapi",
+      "tier": 1
+    },
+    {
+      "source": "tas",
+      "reference": "bek",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tas",
+      "tier": 1
+    },
+    {
+      "source": "tatap",
+      "reference": "aneng",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tatap",
+      "tier": 1
+    },
+    {
+      "source": "tau",
+      "reference": "tisen",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tau",
+      "tier": 1
+    },
+    {
+      "source": "telur",
+      "reference": "telo",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "telur",
+      "tier": 1
+    },
+    {
+      "source": "teman",
+      "reference": "tuyang",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "teman",
+      "tier": 1
+    },
+    {
+      "source": "tentu",
+      "reference": "ina",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tentu",
+      "tier": 1
+    },
+    {
+      "source": "terang",
+      "reference": "dema",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "terang",
+      "tier": 1
+    },
+    {
+      "source": "terdahulu",
+      "reference": "ading",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "terdahulu",
+      "tier": 1
+    },
+    {
+      "source": "terhalang",
+      "reference": "papat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "terhalang",
+      "tier": 1
+    },
+    {
+      "source": "teriak",
+      "reference": "bika'",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "teriak",
+      "tier": 1
+    },
+    {
+      "source": "terima",
+      "reference": "tiga",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "terima",
+      "tier": 1
+    },
+    {
+      "source": "terlintang",
+      "reference": "papat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "terlintang",
+      "tier": 1
+    },
+    {
+      "source": "tersimpan",
+      "reference": "pambin",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tersimpan",
+      "tier": 1
+    },
+    {
+      "source": "tersisa",
+      "reference": "naung",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tersisa",
+      "tier": 1
+    },
+    {
+      "source": "tertahan",
+      "reference": "papat",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tertahan",
+      "tier": 1
+    },
+    {
+      "source": "tertarik",
+      "reference": "arep",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tertarik",
+      "tier": 1
+    },
+    {
+      "source": "tetapi",
+      "reference": "untepu'o",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tetapi",
+      "tier": 1
+    },
+    {
+      "source": "tidak",
+      "reference": "nda",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tidak",
+      "tier": 1
+    },
+    {
+      "source": "tidur",
+      "reference": "lundog",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tidur",
+      "tier": 1
+    },
+    {
+      "source": "tiga",
+      "reference": "telu",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tiga",
+      "tier": 1
+    },
+    {
+      "source": "tikus",
+      "reference": "belabau",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tikus",
+      "tier": 1
+    },
+    {
+      "source": "tinggal",
+      "reference": "ngena'k",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tinggal",
+      "tier": 1
+    },
+    {
+      "source": "tujuh",
+      "reference": "tujuk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tujuh",
+      "tier": 1
+    },
+    {
+      "source": "tuntun",
+      "reference": "ajak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "tuntun",
+      "tier": 1
+    },
+    {
+      "source": "ular",
+      "reference": "tuduk",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ular",
+      "tier": 1
+    },
+    {
+      "source": "untuk",
+      "reference": "un",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "untuk",
+      "tier": 1
+    },
+    {
+      "source": "ya",
+      "reference": "aha",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "ya",
+      "tier": 1
+    },
+    {
+      "source": "yang",
+      "reference": "yak",
+      "source_lang": "id",
+      "target_lang": "dyk",
+      "entry": "yang",
+      "tier": 1
+    }
+  ]
+}

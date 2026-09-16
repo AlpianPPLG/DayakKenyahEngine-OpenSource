@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Freebuff workspace metadata
+.freebuff/
+
+# ILTE-Bench run outputs (regenerable; commit only golden_set fixtures)
+**/benchmark/results/
